@@ -1,0 +1,22 @@
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+
+.row-text{
+    font-family: "Helvetica Neue";
+    color: black;
+}
+
+.hover{
+    background-color: dimgrey;
+    opacity: 0.5;
+}
+
+.off-hover{
+    opacity: 1;
+}
+
+.no-border{
+    border: none;
+}
