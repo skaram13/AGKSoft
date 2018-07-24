@@ -14,3 +14,41 @@
 .home{
     margin-bottom: 35px;
 }
+
+
+@media only screen and (max-width: 767px) {
+    .solutions .solution {
+        height: auto;
+    }
+}
+
+    @media only screen and (max-width: 1024px) {
+        .solutions .solution {
+            float: none;
+            margin: 30px auto;
+            width: 90%;
+        }
+    }
+        @media only screen and (max-width: 1024px) {
+            .solutions .solution {
+                height: auto;
+            }
+        }
+    .solutions .solution {
+        margin: 20px 30px 20px 0;
+    }
+
+    .solutions .solution {
+        display: block;
+        float: left;
+        width: 22%;
+        text-align: center;
+        margin: 20px 36px 20px 0;
+        padding: 25px;
+        background: #fff;
+        border: 1px solid #C8C8C8;
+    }
+
+
+
+

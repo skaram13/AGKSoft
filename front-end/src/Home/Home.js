@@ -13,8 +13,37 @@ class Home extends Component {
                 <Header/>
                 <SlideShow/>
                 <div className="home">
-                    <Link to="/portfolio"><Row title="PRODUCT 1"/></Link>
-                    <Link to="/cv"><Row title="PRODUCT 2"/></Link>
+                    <Row title="OUR PRODUCTS"/>
+                    <div className="solutions">
+                        <div className="solution">
+                            <a href="">
+                                <h2>Home Office</h2>
+                                <div className="solution-image"><img src="https://www.plumvoice.com/wp-content/uploads/2017/11/Website-Line-SVGs_Home-ScalabilitySecurity.svgz" alt="Scale With Confidence" width="150px" height="100px"/></div>
+                                <p>meow emow eow ewoemowpqmrfoebfkjds</p>
+                            </a>
+                        </div>
+                        <div className="solution">
+                            <a href="">
+                                <h2>Conversion Tool</h2>
+                                <div className="solution-image"><img src="https://www.plumvoice.com/wp-content/uploads/2017/11/Website-Line-SVGs_Home-ScalabilitySecurity.svgz" alt="Scale With Confidence" width="150px" height="100px"/></div>
+                                <p>meow emow eow ewoemowpqmrfoebfkjds</p>
+                            </a>
+                        </div>
+                        <div className="solution">
+                            <a href="">
+                                <h2>POS</h2>
+                                <div className="solution-image"><img src="https://www.plumvoice.com/wp-content/uploads/2017/11/Website-Line-SVGs_Home-ScalabilitySecurity.svgz" alt="Scale With Confidence" width="150px" height="100px"/></div>
+                                <p>meow emow eow ewoemowpqmrfoebfkjds</p>
+                            </a>
+                        </div>
+                        <div className="solution">
+                            <a href="">
+                                <h2>Data Entry</h2>
+                                <div className="solution-image"><img src="https://www.plumvoice.com/wp-content/uploads/2017/11/Website-Line-SVGs_Home-ScalabilitySecurity.svgz" alt="Scale With Confidence" width="150px" height="100px"/></div>
+                                <p>meow emow eow ewoemowpqmrfoebfkjds</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <Footer/>
             </div>
