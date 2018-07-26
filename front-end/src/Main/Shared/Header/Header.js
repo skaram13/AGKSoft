@@ -31,6 +31,8 @@ class Header extends Component {
                         </NavItem>
                     </Nav>
                     <Nav pullRight>
+                        <NavItem>1-800-320-9519</NavItem>
+                        <NavItem>|</NavItem>
                         <NavItem eventKey={6} href="#">
                             Contact
                         </NavItem>

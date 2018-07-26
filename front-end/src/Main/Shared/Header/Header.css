@@ -1,8 +1,4 @@
 
-.navbar.navbar-default div.container{
-    margin: 0px;
-    padding: 0px;
-}
 
 .nav-logo{
     height: 50px;
@@ -36,6 +32,10 @@
     text-transform: uppercase;
     font-size: 14px;
     vertical-align: middle;
+}
+
+.navbar{
+    margin-bottom: 0px !important;
 }
 
 a:link, a:visited {

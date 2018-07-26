@@ -1,25 +1,16 @@
 import React, { Component } from 'react';
 import './SlideShow.css';
-import {Carousel} from 'react-bootstrap';
-import axios from 'axios';
 
 class SlideShow extends Component {
-    constructor(props){
-        super(props);
-        this.state = {photos: [{},{},{}]};
-    }
-
     render() {
-        const slides =  this.state.photos.map((photo, index) =>
-            <Carousel.Item className ="slide-container">
-                <div className="home-img">MEOW MEOW MEOW</div>
-            </Carousel.Item>);
-
         return(
-            <Carousel className="carousel" interval={3000} carousel="true" slide>
-                {slides}
-            </Carousel>
-
+            <div className="home-container-background">
+                <div className="home-container">
+                    <h1 className="heading-text">AGKSoft</h1>
+                    <div className="description-text">AGKSoft offers the C-Store industry a product that is able to cater to every stage of running a C-Store.</div>
+                    <button className="sales-button">CHAT WITH A SALES REP</button>
+                </div>
+            </div>
         );
     }
 }

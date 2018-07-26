@@ -4,7 +4,15 @@ import "./Home.css";
 import SlideShow from "./SlideShow/SlideShow";
 import Footer from "../Main/Shared/Footer/Footer";
 import Header from "../Main/Shared/Header/Header";
-import {Link} from 'react-router-dom';
+import home from "../assets/home.png";
+import POS from "../assets/POS.png";
+import conversion from "../assets/conversion.png";
+import data from "../assets/data.png";
+import gilbarco from "../assets/gilbarco.jpg";
+import verifone from "../assets/verifone.png";
+import comdata from "../assets/comdata.png";
+import backoffice from "../assets/backoffice.png";
+import wayne from "../assets/wayne.png";
 
 class Home extends Component {
     render() {
@@ -12,35 +20,50 @@ class Home extends Component {
             <div>
                 <Header/>
                 <SlideShow/>
+                <div className="partners-background">
+                    <div className="partners row-centered">
+                        <img className="logos" src={gilbarco} alt="Scale With Confidence"/>
+                        <img className="logos" src={verifone} alt="Scale With Confidence"/>
+                        <img className="logos" src={comdata} alt="Scale With Confidence"/>
+                        <img className="logos" src={wayne} alt="Scale With Confidence"/>
+                    </div>
+                </div>
                 <div className="home">
                     <Row title="OUR PRODUCTS"/>
                     <div className="solutions">
-                        <div className="solution">
+                        <div className="solution-large row-centered">
                             <a href="">
-                                <h2>Home Office</h2>
-                                <div className="solution-image"><img src="https://www.plumvoice.com/wp-content/uploads/2017/11/Website-Line-SVGs_Home-ScalabilitySecurity.svgz" alt="Scale With Confidence" width="150px" height="100px"/></div>
-                                <p>meow emow eow ewoemowpqmrfoebfkjds</p>
+                                <h3>Back Office</h3>
+                                <img className="solution-image" src={backoffice} alt="Scale With Confidence"/>
+                                <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
                             </a>
                         </div>
                         <div className="solution">
                             <a href="">
-                                <h2>Conversion Tool</h2>
-                                <div className="solution-image"><img src="https://www.plumvoice.com/wp-content/uploads/2017/11/Website-Line-SVGs_Home-ScalabilitySecurity.svgz" alt="Scale With Confidence" width="150px" height="100px"/></div>
-                                <p>meow emow eow ewoemowpqmrfoebfkjds</p>
+                                <h3>Home Office</h3>
+                                <img className="solution-image" src={home} alt="Scale With Confidence"/>
+                                <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
                             </a>
                         </div>
                         <div className="solution">
                             <a href="">
-                                <h2>POS</h2>
-                                <div className="solution-image"><img src="https://www.plumvoice.com/wp-content/uploads/2017/11/Website-Line-SVGs_Home-ScalabilitySecurity.svgz" alt="Scale With Confidence" width="150px" height="100px"/></div>
-                                <p>meow emow eow ewoemowpqmrfoebfkjds</p>
+                                <h3>Conversion Tool</h3>
+                                <img className="solution-image" src={conversion} alt="Scale With Confidence"/>
+                                <p>Used to convert registers such as a Gilbarco G-Site, Ruby VeriFone, Sapphire, Topaz, the AGKSoft POS System and more.</p>
                             </a>
                         </div>
                         <div className="solution">
                             <a href="">
-                                <h2>Data Entry</h2>
-                                <div className="solution-image"><img src="https://www.plumvoice.com/wp-content/uploads/2017/11/Website-Line-SVGs_Home-ScalabilitySecurity.svgz" alt="Scale With Confidence" width="150px" height="100px"/></div>
-                                <p>meow emow eow ewoemowpqmrfoebfkjds</p>
+                                <h3>POS</h3>
+                                <img className="solution-image" src={POS} alt="Scale With Confidence"/>
+                                <p>For C-Stores, Liquor Stores, Grocery Stores, General Stores, Hardware Stores, Flower shops or any store that requires scanning.</p>
+                            </a>
+                        </div>
+                        <div className="solution">
+                            <a href="">
+                                <h3>Data Entry</h3>
+                                <img className="solution-image" src={data} alt="Scale With Confidence"/>
+                                <p>Services for maintaining your price book or your complete Sales Download, Shift Balancing, Accounting and Inventory.</p>
                             </a>
                         </div>
                     </div>

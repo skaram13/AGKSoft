@@ -6,12 +6,33 @@
   margin: 0 auto;
 }
 
-.slide-container{
-  height: 400px;
-  width: auto;
+.home-container-background {
+ background-color: #fc6100;
+  color: white;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.home-container{
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
-.carousel{
+.heading-text{
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.sales-button{
+  margin-top: 70px;
+  border-width: medium;
+  border-style: solid;
+  border-color: white;
+  background-color: #fc6100;
+  height: 50px;
+}
+
+.description-text{
+  font-size: 20px;
 }
 
 @keyframes cf3FadeInOut {
