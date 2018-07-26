@@ -31,13 +31,16 @@ class Header extends Component {
                         </NavItem>
                     </Nav>
                     <Nav pullRight>
-                        <NavItem>1-800-320-9519</NavItem>
-                        <NavItem>|</NavItem>
                         <NavItem eventKey={6} href="#">
                             Contact
                         </NavItem>
                     </Nav>
+                    <Navbar.Text className="hidden-xs" pullRight>|</Navbar.Text>
+                    <Navbar.Text className="hidden-xs" pullRight>1-800-000-0000</Navbar.Text>
                 </Navbar.Collapse>
+
+
+
             </Navbar>
         )
     }

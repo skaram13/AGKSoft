@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Row from "./Row/Row";
 import "./Home.css";
-import SlideShow from "./SlideShow/SlideShow";
+import Introduction from "./SlideShow/Introduction";
 import Footer from "../Main/Shared/Footer/Footer";
 import Header from "../Main/Shared/Header/Header";
 import home from "../assets/home.png";
@@ -19,7 +19,7 @@ class Home extends Component {
         return(
             <div>
                 <Header/>
-                <SlideShow/>
+                <Introduction/>
                 <div className="partners-background">
                     <div className="partners row-centered">
                         <img className="logos" src={gilbarco} alt="Scale With Confidence"/>

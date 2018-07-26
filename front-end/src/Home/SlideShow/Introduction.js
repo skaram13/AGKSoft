@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './SlideShow.css';
+import './Introduction.css';
 
-class SlideShow extends Component {
+class Introduction extends Component {
     render() {
         return(
             <div className="home-container-background">
@@ -15,4 +15,4 @@ class SlideShow extends Component {
     }
 }
 
-export default SlideShow;
+export default Introduction;
