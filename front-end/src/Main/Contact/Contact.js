@@ -1,0 +1,50 @@
+import React, { Component } from 'react';
+import Row from "../../Home/Row/Row";
+import "./Contact.css";
+import Footer from "../Shared/Footer/Footer";
+import Header from "../Shared/Header/Header";
+
+class Contact extends Component {
+    render() {
+        return(
+            <div>
+                <Header/>
+                <div className="home">
+                    <h1 className="row">GET IN TOUCH</h1>
+                    <table className="table-one">
+                        <div className="contact-form">
+                            <h4 className="row">AGKSoft is here ready to serve you with all your software needs, so feel free to call us or email us any time.</h4>
+                            <form method="POST" action="" accept-charset="UTF-8">
+                                <div className="row"><input type="text" required="" placeholder="Name" name="name" className="input-boxes"/></div>
+                                <div className="row"><input type="email" required="" placeholder="Email address" className="input-boxes" name="email"/></div>
+                                <div className="row"><input type="tel" required="" placeholder="Phone number" className="input-boxes" name="tel"/></div>
+                                <div className="row"><textarea required="" placeholder="Message" id="comments" className="message-box input-boxes" name="comments"/></div>
+                                <div className="row"><input type="submit" value="SEND MAIL" className="submit-btn"/></div>
+                            </form>
+                        </div>
+                    </table>
+                    <table className="table-two">
+                        <h4 className="row">When you call, your call is never routed to another country, all provided numbers are in the United States</h4>
+                        <div>
+                            <h4>Phone:</h4>
+                            <div className="phone-text">
+                                <div>+1(508) 995-4934</div>
+                                <div>+1(401) 466-4213</div>
+                                <div>+1(508) 644-0192</div>
+                                <div>+1(800) 320-9519</div>
+                            </div>
+                        </div>
+                        <div className="fax">
+                            <h4>Fax:</h4>
+                            <div className="phone-text">401-466-4212</div>
+                        </div>
+                    </table>
+                </div>
+                <Footer/>
+            </div>
+
+        );
+    }
+}
+
+export default Contact;

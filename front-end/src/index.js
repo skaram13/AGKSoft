@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './Home/Home';
 import Products from './Main/Products/Products';
-import Contact from './Home/Home';
+import Contact from './Main/Contact/Contact';
 import Download from './Home/Home';
 import Demos from './Home/Home';
 import Reports from './Home/Home';
