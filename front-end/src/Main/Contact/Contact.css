@@ -47,7 +47,7 @@
 .fax{
     margin-top: 10px;
 }
-@media (min-width: 0px) and (max-width: 750px) {
+@media (min-width: 0px) and (max-width: 890px) {
     .input-boxes{
         width: 100%;
         margin-right: 10px;

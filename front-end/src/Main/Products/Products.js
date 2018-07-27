@@ -41,22 +41,21 @@ class Products extends Component {
                         </div>
                         <div className="software row-centered">
                             <a href="">
-                                <h3>POS</h3>
-                                <img className="solution-image" src={POS} alt="Scale With Confidence"/>
-                                <p>For C-Stores, Liquor Stores, Grocery Stores, General Stores, Hardware Stores, Flower shops or any store that requires scanning.</p>
-                            </a>
-                        </div>
-                        <div className="software row-centered">
-                            <a href="">
                                 <h3>Data Entry</h3>
                                 <img className="solution-image" src={data} alt="Scale With Confidence"/>
                                 <p>Services for maintaining your price book or your complete Sales Download, Shift Balancing, Accounting and Inventory.</p>
                             </a>
                         </div>
-
-                    <Row title="ACCESSORIES"/>
-                    </div>
-                    <Footer/>
+                    <Row title="POINT OF SALE"/>
+                    <div className="software row-centered">
+                            <a href="">
+                                <h3>POS</h3>
+                                <img className="solution-image" src={POS} alt="Scale With Confidence"/>
+                                <p>For C-Stores, Liquor Stores, Grocery Stores, General Stores, Hardware Stores, Flower shops or any store that requires scanning.</p>
+                            </a>
+                        </div>
+                </div>
+                <Footer/>
                 </div>
 
         );

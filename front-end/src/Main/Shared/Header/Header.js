@@ -15,8 +15,8 @@ class Header extends Component {
                 <Navbar.Collapse>
                     <Nav>
                         <NavDropdown eventKey={1} title="Products">
-                            <MenuItem eventKey={1.1} href="\products\software">Software</MenuItem>
-                            <MenuItem eventKey={1.2} href="\products\accessories">Accessories</MenuItem>
+                            <MenuItem eventKey={1.1} href="\products\software">Software & POS</MenuItem>
+                            <MenuItem eventKey={1.2} href="\products\accessories">PCs & Accessories</MenuItem>
                         </NavDropdown>
                         <NavItem eventKey={2} href="\reports">
                             Reports
