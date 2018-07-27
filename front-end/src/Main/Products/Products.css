@@ -1,0 +1,38 @@
+.software{
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 20px 36px 20px 0;
+    padding: 25px;
+    background: #fff;
+    border: 1px solid #C8C8C8;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 750px) {
+    .partners{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .solutions .solution {
+        margin: 20px 36px 20px 0;
+        display: block;
+        float: left;
+        width: 100%;
+        text-align: center;
+        padding: 25px;
+        background: #fff;
+        border: 1px solid #C8C8C8;
+    }
+
+    .home{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}

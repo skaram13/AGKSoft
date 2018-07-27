@@ -8,30 +8,31 @@ class Header extends Component {
             <Navbar inverse collapseOnSelect>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="#brand">AGKSoft</a>
+                        <a href="\">AGKSoft</a>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav>
-                        <NavItem eventKey={1} href="#">
-                            Products
-                        </NavItem>
-                        <NavItem eventKey={2} href="#">
+                        <NavDropdown eventKey={1} title="Products">
+                            <MenuItem eventKey={1.1} href="\products\software">Software</MenuItem>
+                            <MenuItem eventKey={1.2} href="\products\accessories">Accessories</MenuItem>
+                        </NavDropdown>
+                        <NavItem eventKey={2} href="\reports">
                             Reports
                         </NavItem>
-                        <NavItem eventKey={3} href="#">
+                        <NavItem eventKey={3} href="\support">
                             Support
                         </NavItem>
-                        <NavItem eventKey={4} href="#">
+                        <NavItem eventKey={4} href="\downloads">
                             Downloads
                         </NavItem>
-                        <NavItem eventKey={5} href="#">
+                        <NavItem eventKey={5} href="\demos">
                             Demos
                         </NavItem>
                     </Nav>
                     <Nav pullRight>
-                        <NavItem eventKey={6} href="#">
+                        <NavItem eventKey={6} href="\contact">
                             Contact
                         </NavItem>
                     </Nav>
