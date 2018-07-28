@@ -8,7 +8,6 @@ import MiniPC from "../../../assets/AGKMiniPC.jpg";
 import NanoPC from "../../../assets/AGKNanoPC.jpg";
 import MiniHP from "../../../assets/AGKMiniHP.jpg";
 import BarcodePrinter from "../../../assets/BarCodePrinter.jpg";
-import WirelessScanner from "../../../assets/AGKMiniHP.jpg";
 import PortableScanner from "../../../assets/Scanner.jpg";
 import OrbitScanner from "../../../assets/OrbitScan.jpg";
 import USBScanner from "../../../assets/USBScanner.jpg";

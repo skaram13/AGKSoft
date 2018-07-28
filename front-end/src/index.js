@@ -7,7 +7,7 @@ import ProductAccessories from './Main/Products/Hardware/Hardware';
 import Contact from './Main/Contact/Contact';
 import Download from './Home/Home';
 import Demos from './Home/Home';
-import Reports from './Home/Home';
+import Reports from './Main/Reports/Reports';
 
 
 
