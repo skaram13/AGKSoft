@@ -19,7 +19,7 @@ class Hardware extends Component {
         return(
             <div>
                 <Header/>
-                <div className="home">
+                <div className="hardware-container">
                     <Row title="PCs"/>
                         <div>
                             <div className="product-entry">

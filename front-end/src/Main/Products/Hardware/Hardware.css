@@ -22,3 +22,22 @@
     border: 1px solid #C8C8C8;
 
 }
+
+.hardware-container{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+@media (min-width: 0px) and (max-width: 750px) {
+    .product-entry{
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+}
