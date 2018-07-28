@@ -15,48 +15,50 @@ class Products extends Component {
             <div>
                 <Header/>
                 <div className="home">
-                    <Row title="SOFTWARE"/>
-                    <div className="software row-centered">
-                        <a href="">
-                            <h3>Back Office</h3>
-                            <img className="solution-image" src={backoffice} alt="Scale With Confidence"/>
-                            <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
-                        </a>
-                    </div>
-
-                    <div className="software row-centered">
-                        <a href="">
-                            <h3>Home Office</h3>
-                            <img className="solution-image" src={home} alt="Scale With Confidence"/>
-                            <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
-                        </a>
-                    </div>
-
-                        <div className="software row-centered">
+                    <Row title="Software"/>
+                    <div className="solutions">
+                        <div className="product-entry-software">
+                            <a href="">
+                                <h3>Back Office</h3>
+                                <img className="solution-image" src={backoffice} alt="Scale With Confidence"/>
+                                <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
+                            </a>
+                        </div>
+                        <div className="product-entry-software">
+                            <a href="">
+                                <h3>Home Office</h3>
+                                <img className="solution-image" src={home} alt="Scale With Confidence"/>
+                                <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
+                            </a>
+                        </div>
+                        <div className="product-entry-software">
                             <a href="">
                                 <h3>Conversion Tool</h3>
                                 <img className="solution-image" src={conversion} alt="Scale With Confidence"/>
                                 <p>Used to convert registers such as a Gilbarco G-Site, Ruby VeriFone, Sapphire, Topaz, the AGKSoft POS System and more.</p>
                             </a>
                         </div>
-                        <div className="software row-centered">
+                        <div className="product-entry-software">
                             <a href="">
                                 <h3>Data Entry</h3>
                                 <img className="solution-image" src={data} alt="Scale With Confidence"/>
                                 <p>Services for maintaining your price book or your complete Sales Download, Shift Balancing, Accounting and Inventory.</p>
                             </a>
                         </div>
-                    <Row title="POINT OF SALE"/>
-                    <div className="software row-centered">
+                    </div>
+                    <Row title="Point of Sales"/>
+                    <div className="solutions">
+                        <div className="product-entry-pos">
                             <a href="">
                                 <h3>POS</h3>
                                 <img className="solution-image" src={POS} alt="Scale With Confidence"/>
                                 <p>For C-Stores, Liquor Stores, Grocery Stores, General Stores, Hardware Stores, Flower shops or any store that requires scanning.</p>
                             </a>
                         </div>
+                    </div>
                 </div>
                 <Footer/>
-                </div>
+            </div>
 
         );
     }

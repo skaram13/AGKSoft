@@ -3,13 +3,48 @@
     float: left;
     width: 100%;
     text-align: center;
-    margin: 20px 36px 20px 0;
     padding: 25px;
     background: #fff;
     border: 1px solid #C8C8C8;
 }
 
+.heading{
+    width: 100%;
+    background-color: #fc6100;
+    color: white;
+    height: 70px;
+    font-size: xx-large;
+    padding-left: 60px;
+    margin-bottom: 0px;
+}
 
+.product-entry-software{
+    display: inline-block;
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #C8C8C8;
+
+}
+
+.product-entry-pos{
+    display: inline-block;
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #C8C8C8;
+
+}
 
 @media (min-width: 0px) and (max-width: 750px) {
     .partners{
@@ -31,8 +66,6 @@
     .home{
         margin-left: 20px;
         margin-right: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
     }
 
 }
