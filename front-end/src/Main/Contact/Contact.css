@@ -5,6 +5,7 @@
     background-color: #fc6100;
     border-style: none;
     border-radius: 5px;
+    margin-bottom: 50px;
 }
 
 .input-boxes{
@@ -39,7 +40,7 @@
 }
 
 
-.phone-text{
+.contact-text{
     font-size: medium;
     font-weight: bold;
 }
@@ -61,5 +62,9 @@
 
     .table-one{
         width: 100%;
+    }
+
+    .submit-btn{
+        margin-bottom: 20px;
     }
 }

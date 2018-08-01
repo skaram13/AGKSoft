@@ -47,8 +47,10 @@ class Hardware extends Component {
                         </div>
 
                         <div className="product-entry">
-                            <img className="product-icon" src={PortableScanner}></img>
-                            <div className="product-text">AGKSoft Portable Wireless Scanners</div>
+                            <a href="\products\accessories\portable">
+                                <img className="product-icon" src={PortableScanner}></img>
+                                <div className="product-text">AGKSoft Portable Wireless Scanners</div>
+                            </a>
                         </div>
                         <div className="product-entry">
                             <img className="product-icon" src={OrbitScanner}></img>

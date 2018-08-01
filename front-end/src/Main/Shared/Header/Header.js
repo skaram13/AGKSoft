@@ -27,9 +27,10 @@ class Header extends Component {
                         <NavItem eventKey={4} href="\downloads">
                             Downloads
                         </NavItem>
-                        <NavItem eventKey={5} href="\demos">
-                            Demos
-                        </NavItem>
+                        <NavDropdown eventKey={5} title="Demos">
+                            <MenuItem eventKey={5.1} href="http://agksoft.com/demos/POSDemo/POSDemo.html">POS Demo</MenuItem>
+                            <MenuItem eventKey={5.2} href="http://agksoft.com/demos/AGKDemo/AGKDemo.html">AGKSoft Demo</MenuItem>
+                        </NavDropdown>
                     </Nav>
                     <Nav pullRight>
                         <NavItem eventKey={6} href="\contact">
