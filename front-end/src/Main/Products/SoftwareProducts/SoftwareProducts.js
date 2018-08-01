@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import Row from "../../Home/Row/Row";
-import "./Products.css";
-import Footer from "../Shared/Footer/Footer";
-import Header from "../Shared/Header/Header";
-import home from "../../assets/home.png";
-import POS from "../../assets/POS.png";
-import conversion from "../../assets/conversion.png";
-import data from "../../assets/data.png";
-import backoffice from "../../assets/backoffice.png";
+import Row from "../../../Home/Row/Row";
+import "./SoftwareProducts.css";
+import Footer from "../../Shared/Footer/Footer";
+import Header from "../../Shared/Header/Header";
+import home from "../../../assets/home.png";
+import POS from "../../../assets/POS.png";
+import conversion from "../../../assets/conversion.png";
+import data from "../../../assets/data.png";
+import backoffice from "../../../assets/backoffice.png";
 
-class Products extends Component {
+class SoftwareProducts extends Component {
     render() {
         return(
             <div>
@@ -64,4 +64,4 @@ class Products extends Component {
     }
 }
 
-export default Products;
+export default SoftwareProducts;

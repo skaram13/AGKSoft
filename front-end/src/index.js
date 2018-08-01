@@ -2,16 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './Home/Home';
-import Products from './Main/Products/Products';
-import ProductAccessories from './Main/Products/Hardware/Hardware';
+import SoftwareProducts from './Main/Products/SoftwareProducts/SoftwareProducts';
+import ProductAccessories from './Main/Products/Accessories/Accessories';
 import Contact from './Main/Contact/Contact';
 import Download from './Home/Home';
 import Support from './Main/Support/Support';
 import Reports from './Main/Reports/Reports';
-import Portable from  './Main/Product/Portable/Portable';
-
-
-
+import Portable from './Main/Product/Accessory/Portable/Portable';
+import MiniPC from './Main/Product/PCs/MiniPC/MiniPC';
+import MiniHP from './Main/Product/PCs/MiniHP/MiniHP';
+import NanoPC from './Main/Product/PCs/NanoPC/NanoPC';
+import MicroPC from './Main/Product/PCs/MicroPC/MicroPC';
+import USBScanner from './Main/Product/Accessory/USBScanner/USBScanner';
+import BarcodePrinter from './Main/Product/Accessory/BarcodePrinter/BarcodePrinter';
+import RegisterScanner from './Main/Product/Accessory/RegisterScanner/RegisterScanner';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import registerServiceWorker from './registerServiceWorker';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
@@ -20,8 +24,15 @@ ReactDOM.render((
     <BrowserRouter>
         <Switch>
             <Route exact path="/" component={Home}/>
-            <Route exact path="/products/software" component={Products}/>
+            <Route exact path="/products/software" component={SoftwareProducts}/>
             <Route exact path="/products/accessories/portable" component={Portable}/>
+            <Route exact path="/products/accessories/miniPC" component={MiniPC}/>
+            <Route exact path="/products/accessories/miniHP" component={MiniHP}/>
+            <Route exact path="/products/accessories/microPC" component={MicroPC}/>
+            <Route exact path="/products/accessories/nanoPC" component={NanoPC}/>
+            <Route exact path="/products/accessories/usbScanner" component={USBScanner}/>
+            <Route exact path="/products/accessories/barcodePrinter" component={BarcodePrinter}/>
+            <Route exact path="/products/accessories/registerScanner" component={RegisterScanner}/>
             <Route exact path="/products/accessories" component={ProductAccessories}/>
             <Route exact path="/contact" component={Contact}/>
             <Route exact path="/support" component={Support}/>

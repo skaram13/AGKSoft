@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
-import '../Product.css';
-import Footer from "../../Shared/Footer/Footer";
-import Header from "../../Shared/Header/Header";
-import figure1 from "../../../assets/portable/firgure1.jpg";
-import figure2 from "../../../assets/portable/figure2.jpg";
-import figure3 from "../../../assets/portable/figure3.gif";
-import figure4 from "../../../assets/portable/figure4.gif";
-import figure5 from "../../../assets/portable/figure5.gif";
-import figure6 from "../../../assets/portable/figure6.gif";
-import figure7 from "../../../assets/portable/figure7.gif";
-import figure81 from "../../../assets/portable/figure8-1.jpg";
-import figure82 from "../../../assets/portable/figure8-2.jpg";
-import figure9 from "../../../assets/portable/figure9.jpg";
+import '../../Product.css';
+import Footer from "../../../Shared/Footer/Footer";
+import Header from "../../../Shared/Header/Header";
+import figure1 from "../../../../assets/portable/firgure1.jpg";
+import figure2 from "../../../../assets/portable/figure2.jpg";
+import figure3 from "../../../../assets/portable/figure3.gif";
+import figure4 from "../../../../assets/portable/figure4.gif";
+import figure5 from "../../../../assets/portable/figure5.gif";
+import figure6 from "../../../../assets/portable/figure6.gif";
+import figure7 from "../../../../assets/portable/figure7.gif";
 
 class Portable extends Component {
     render() {
