@@ -14,7 +14,7 @@ class Products extends Component {
         return(
             <div>
                 <Header/>
-                <div className="product-container">
+                <div className="products-container">
                     <Row title="Software"/>
                     <div className="solutions">
                         <div className="product-entry-software">
