@@ -1,12 +1,7 @@
-.heading{
-    width: 100%;
-    background-color: #fc6100;
-    color: white;
-    height: 70px;
-    font-size: xx-large;
-    padding-left: 60px;
-    margin-bottom: 0px;
+.support-heading {
     font-weight: bolder;
+    font-size: 50px;
+    color: #fc6100;
 }
 
 .support-table{

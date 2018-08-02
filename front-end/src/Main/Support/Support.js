@@ -9,8 +9,8 @@ class Support extends Component {
         return(
             <div>
                 <Header/>
-                <div className="heading">SUPPORT</div>
                 <div className="home">
+                    <div className="support-heading row-centered">Support</div>
                     <h3 className="row"><a>AGKSOFT DOWNLOAD</a></h3>
                     <h3 className="row">REMOTE DESKTOP SUPPORT</h3>
                     <h5><a>TeamViewer Quick Support</a></h5>

@@ -8,7 +8,7 @@ class Contact extends Component {
         return(
             <div>
                 <Header/>
-                <div className="heading">GET IN TOUCH</div>
+                <div className="contact-heading row-centered">Contact</div>
                 <div className="home">
                     <table className="table-one">
                         <div className="contact-form">

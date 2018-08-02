@@ -7,7 +7,7 @@
 }
 
 .home-container-background {
- background-color: #fc6100;
+  background-color: #fc6100;
   color: white;
   padding-bottom: 30px;
   padding-top: 30px;
@@ -17,7 +17,7 @@
   margin-right: 100px;
 }
 
-.heading-text{
+.home-heading-text{
   font-weight: bolder;
   font-size: 50px;
 }

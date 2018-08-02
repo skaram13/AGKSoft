@@ -5,8 +5,10 @@
     margin-bottom: 20px;
 }
 
-.reports{
-
+.reports-heading{
+    font-weight: bolder;
+    font-size: 50px;
+    color: #fc6100;
 }
 
 .reports-entry{

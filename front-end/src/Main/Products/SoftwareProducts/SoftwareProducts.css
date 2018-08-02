@@ -20,6 +20,11 @@
     border: 1px solid #C8C8C8;
 
 }
+.product-page-heading{
+    font-weight: bolder;
+    font-size: 50px;
+    color: #fc6100;
+}
 
 .product-entry-pos{
     display: inline-block;

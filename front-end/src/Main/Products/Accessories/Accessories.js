@@ -19,7 +19,7 @@ class Accessories extends Component {
             <div>
                 <Header/>
                 <div className="hardware-container">
-                    <Row title="PCs"/>
+                    <div className="product-page-heading row-centered">PCs</div>
                     <div>
                         <div className="product-entry">
                             <a href="/products/accessories/miniPC">
@@ -48,7 +48,8 @@ class Accessories extends Component {
                             <div className="product-text">AGKSoft Windows 10 MiniHP-PC</div>
                         </a>
                     </div>
-                    <Row title="ACCESSORIES"/>
+
+                    <div className="product-page-heading row-centered">Accessories</div>
                     <div className="product-entry">
                         <a href="\products\accessories\barcodePrinter">
                             <img className="product-icon" src={BarcodePrinter}></img>

@@ -29,8 +29,8 @@ class Reports extends Component {
         return(
             <div>
                 <Header/>
-                <div className="heading">REPORTS</div>
                 <div className="reports-container">
+                    <div className="reports-heading row-centered">Reports</div>
                     <div className="reports">
                         <div className="reports-entry">
                             <a href="">

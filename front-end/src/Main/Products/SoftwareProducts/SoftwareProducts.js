@@ -15,7 +15,7 @@ class SoftwareProducts extends Component {
             <div>
                 <Header/>
                 <div className="products-container">
-                    <Row title="Software"/>
+                    <div className="product-page-heading row-centered">Software</div>
                     <div className="solutions">
                         <div className="product-entry-software">
                             <a href="">
@@ -46,7 +46,7 @@ class SoftwareProducts extends Component {
                             </a>
                         </div>
                     </div>
-                    <Row title="Point of Sales"/>
+                    <div className="product-page-heading row-centered">Point of Sales</div>
                     <div className="solutions">
                         <div className="product-entry-pos">
                             <a href="">
