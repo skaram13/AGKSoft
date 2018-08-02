@@ -17,9 +17,18 @@ class RegisterScanner extends Component {
                         The  (USB style) can be used for the AGKSoft Point Of Sale system.
                     </div>
                     <div className="description-text">This scanner scans automatically using a "20 scan line Omni directional pattern".</div>
-                    <img src={scanner1}></img>
-                    <img src={scanner2}></img>
-                    <img src={scanner3}></img>
+
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="center-header"></th>
+                        <tr className="center-images">
+                            <div>
+                                <img className="" src={scanner3}></img>
+                                <img className="" src={scanner2}></img>
+                                <img className="" src={scanner1}></img>
+                            </div>
+                        </tr>
+                    </table>
+
                     <h4 className="sub-heading-product">SCANNER BENEFITS</h4>
                     <div className="description-text">Cashier guessing</div>
                     <ul>

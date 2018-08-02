@@ -23,19 +23,19 @@ class Portable extends Component {
 
                         <table className="portable-inline">
                             <th className="portable-table row-centered">AGKSoft Inventory Software</th>
-                            <tr className="row-centered"><img className="table-img" src={figure1}></img></tr>
+                            <tr className="row-centered"><img className="table-img image-border" src={figure1}></img></tr>
                         </table>
                         <table className="portable-inline">
                             <th className="portable-table row-centered">PPT8820 (No Trigger)</th>
-                            <tr className="row-centered"><img className="table-img" src={figure2}></img></tr>
+                            <tr className="row-centered"><img className="table-img image-border" src={figure2}></img></tr>
                         </table>
                         <table className="portable-inline">
                             <th className="portable-table row-centered">PPT8820 (with Trigger)</th>
-                            <tr className="row-centered"><img className="table-img" src={figure3}></img></tr>
+                            <tr className="row-centered"><img className="table-img image-border" src={figure3}></img></tr>
                         </table>
                         <table className="portable-inline">
                             <th className="portable-table row-centered">PPT8820 (with Trigger & Dock)</th>
-                            <tr className="row-centered"><img className="table-img" src={figure4}></img></tr>
+                            <tr className="row-centered"><img className="table-img image-border" src={figure4}></img></tr>
                         </table>
 
                         <h4 className="sub-heading-product">HOW TO USE</h4>
@@ -48,19 +48,30 @@ class Portable extends Component {
                             <li>Click <b>"Update"</b> to process the downloaded data.</li>
                             <li>Click <b>"Send To Register"</b> to send all the new items to your Cash Register.</li>
                         </ol>
-                        <img className="instruction-image" src={figure5}></img>
+
+                        <table className="product-entry-spacing row-centered center-block">
+                            <tr className="center-images"><img className="product-images image-border" src={figure5}></img></tr>
+                        </table>
+
                         <div className="description-text">If you are scanning a shipment that you received from you vendor, you would do the following:</div>
                         <ol>
                             <li>Select <b>"Invoice"</b> under "Download Type"</li>
                             <li>Click <b>"Download"</b> to download the data from your portable.</li>
                             <li>Click <b>"Update"</b> to see the following Vendor Invoice Window.</li>
                         </ol>
-                        <img className="instruction-image" src={figure6}></img>
+
+                        <table className="product-entry-spacing row-centered center-block">
+                            <tr className="center-images"><img className="product-images image-border" src={figure6}></img></tr>
+                        </table>
+
                         <div className="description-text">As you can see, the Vendor Invoice is automatically generated for you.  Make sure it's all OK and your total amount matches and hit "Save".</div>
                         <div className="description-text">Also note the <div className="red-text">"red"</div> lines indicate a price increase and the <div className="blue-text">"blue"</div> lines are price decrease.</div>
                         <div className="description-text">If your Vendor is not able to send you the proper EDI (Electronic Invoice), we can map any spreadsheet file.</div>
                         <div className="description-text">Shown below is the "Vendor Mappings Window" which can map the columns in your spreadsheet to what we need.</div>
-                        <img className="instruction-image" src={figure7}></img>
+
+                        <table className="product-entry-spacing row-centered center-block">
+                            <tr className="center-images"><img className="product-images image-border" src={figure7}></img></tr>
+                        </table>
 
                         <div className="sub-heading-product">SETUP VIDEOS</div>
                         <ul className="last-element">

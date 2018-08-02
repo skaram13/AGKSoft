@@ -13,22 +13,27 @@ class USBScanner extends Component {
                 <Header/>
                 <div className="product-container">
                     <h1 className="heading-text">USB Scanners</h1>
-                    <div className="description-text">All the scanner shown here can be used with the AGKSoft Point Of Sale or for the Back Office PC.
-                        You simply plug these scanners to your USB port and start scanning. </div>
-                    <table className="product-entry-spacing">
-                        <th className="sub-heading-product">Wireless USB Single Line Scanner</th>
-                        <tr>This is a single line trigger scanner which you must hold and press the trigger to scan.</tr>
-                        <tr><img className="table-img" src={wireless}></img></tr>
+                    <div className="description-text">
+                        All the scanner shown here can be used with the AGKSoft Point Of Sale or for the Back Office PC.
+                        You simply plug these scanners to your USB port and start scanning.
+                    </div>
+
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="sub-heading-product center-header">Wireless USB Single Line Scanner</th>
+                        <tr className="center-header">This is a single line trigger scanner which you must hold and press the trigger to scan.</tr>
+                        <tr className="center-images"><img className="product-images image-border" src={wireless}></img></tr>
                     </table>
-                    <table className="product-entry-spacing">
-                        <th className="sub-heading-product">Multi Line USB Scanner</th>
-                        <tr>This is a multi line 1-D omni-directional scanner that will scan multiple lines without having to hold it.</tr>
-                        <tr><img className="table-img" src={multiline}></img></tr>
+
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="sub-heading-product center-header">Multi Line USB Scanner</th>
+                        <tr className="center-header">This is a multi line 1-D omni-directional scanner that will scan multiple lines without having to hold it.</tr>
+                        <tr className="center-images"><img className="product-images image-border" src={multiline}></img></tr>
                     </table>
-                    <table className="product-entry-spacing last-element">
-                        <th className="sub-heading-product">Single Line USB Scanner</th>
-                        <tr>This is a single line trigger scanner which you must hold and press the trigger to scan.</tr>
-                        <tr><img className="table-img" src={singleline}></img></tr>
+
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="sub-heading-product center-header">Single Line USB Scanner</th>
+                        <tr className="center-header">This is a single line trigger scanner which you must hold and press the trigger to scan.</tr>
+                        <tr className="center-images"><img className="product-images image-border" src={singleline}></img></tr>
                     </table>
                 </div>
                 <Footer/>

@@ -14,9 +14,23 @@ class MiniHP extends Component {
                 <div className="product-container">
                     <h1 className="heading-text">AGKSoft Mini-RAID-PC (Windows 10)</h1>
                     <div className="description-text">Shown below is the Mini-RAID-PC AGKSoft offers with 2-250GB SSD RAID 1 Drives (7" x 7" in size).</div>
-                    <img className="instruction-image" src={figure1}></img>
-                    <img className="instruction-image" src={figure2}></img>
-                    <img className="instruction-image" src={figure3}></img>
+
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="center-header">Figure 1 (Front)</th>
+                        <tr className="center-images"><img className="image-border" src={figure1}></img></tr>
+                    </table>
+
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="center-header">Figure 2 (Optional:  USB2Serial Converter)</th>
+                        <tr className="center-images"><img className="image-border" src={figure2}></img>
+                        </tr>
+                    </table>
+
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="center-header">Figure 3 (Optional:  VeriFone Ruby Adapter)</th>
+                        <tr className="center-images"><img className="image-border" src={figure3}></img></tr>
+                    </table>
+
                     <div className="sub-heading-product">FEATURES</div>
                     <ul>
                         <li>1 VGA + 1 HDMI Port</li>

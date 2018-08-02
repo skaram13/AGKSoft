@@ -15,15 +15,27 @@ class MiniHP extends Component {
                 <div className="product-container">
                     <h1 className="heading-text">AGKSoft Nano PC (Windows 10)</h1>
                     <div className="description-text">Shown below are the Nano PCs AGKSoft offers with SSD, the measure 5" x 5" in size and the unit boots in less than 5 seconds. </div>
-                    <div className="nano-pc-inline">
-                        <img className="nano-pc-inline instruction-image" src={figure11}></img>
-                        <img className="nano-pc-inline instruction-image" src={figure12}></img>
-                    </div>
-                    <div className="nano-pc-inline">
 
-                        <img className="nano-pc-inline instruction-image" src={figure21}></img>
-                        <img className="nano-pc-inline  instruction-image" src={figure22}></img>
-                    </div>
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="center-header">Nano PC One(Front and Back)</th>
+                        <tr className="center-images">
+                            <div>
+                                <img className="nano-image-size image-border" src={figure11}></img>
+                                <img className="nano-image-size image-border" src={figure12}></img>
+                            </div>
+                        </tr>
+                    </table>
+
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="center-header">Nano PC Two(Front and Back)</th>
+                        <tr className="center-images">
+                            <div>
+                                <img className="nano-image-size image-border" src={figure21}></img>
+                                <img className="nano-image-size image-border" src={figure22}></img>
+                            </div>
+                        </tr>
+                    </table>
+
                     <div className="sub-heading-product">FEATURES</div>
                     <div>NANO ONE</div>
                     <ul>

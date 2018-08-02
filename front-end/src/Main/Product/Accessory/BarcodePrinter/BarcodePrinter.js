@@ -17,23 +17,22 @@ class BarcodePrinter extends Component {
                     <div className="description-text">Shown below are some barcode samples that you can print.  You can print on [2" X 0.75"]  or  [3.5" X 1.1"] or  [4" X 2.31"] or any other custom size you want</div>
                     <div className="description-text">The portable can be used to create your price book, scan your Inventory or Invoices as well as take your orders if needed.</div>
 
-                    <table className="product-entry-spacing row-centered">
-                        <th className="portable-table row-centered">Figure 1 (4" X 2.31")</th>
-                        <tr><img className="image-border" src={barcode1}></img></tr>
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="center-header">Figure 1 (4" X 2.31")</th>
+                        <tr className="center-images"><img className="image-border" src={barcode1}></img></tr>
                     </table>
-                    <table className="product-entry-spacing row-centered">
-                        <th className="portable-table row-centered">Figure 2 (4" X 2.31")</th>
-                        <tr><img className="image-border" src={barcode2}></img></tr>
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="center-header">Figure 2 (4" X 2.31")</th>
+                        <tr className="center-images"><img className="image-border" src={barcode2}></img></tr>
                     </table>
-                    <table className="product-entry-spacing row-centered">
-                        <th className="portable-table row-centered">Figure 3 (3.5" X 1.1")</th>
-                        <tr><img className="image-border" src={barcode3}></img></tr>
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="center-header">Figure 3 (3.5" X 1.1")</th>
+                        <tr className="center-images"><img className="image-border" src={barcode3}></img></tr>
                     </table>
-                    <table className="product-entry-spacing row-centered">
-                        <th className="portable-table row-centered">Figure 4 (2" X 0.75")</th>
-                        <tr><img className="image-border" src={barcode4}></img></tr>
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="center-header">Figure 4 (2" X 0.75")</th>
+                        <tr className="center-images"><img className="image-border" src={barcode4}></img></tr>
                     </table>
-
                 </div>
                 <Footer/>
             </div>
