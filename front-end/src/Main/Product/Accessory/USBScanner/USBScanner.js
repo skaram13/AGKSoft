@@ -21,19 +21,19 @@ class USBScanner extends Component {
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="sub-heading-product center-header">Wireless USB Single Line Scanner</th>
                         <tr className="center-header">This is a single line trigger scanner which you must hold and press the trigger to scan.</tr>
-                        <tr className="center-images"><img className="product-images image-border" src={wireless}></img></tr>
+                        <tr className="center-images"><img alt="wireless" className="product-images image-border" src={wireless}/></tr>
                     </table>
 
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="sub-heading-product center-header">Multi Line USB Scanner</th>
                         <tr className="center-header">This is a multi line 1-D omni-directional scanner that will scan multiple lines without having to hold it.</tr>
-                        <tr className="center-images"><img className="product-images image-border" src={multiline}></img></tr>
+                        <tr className="center-images"><img alt="multiline" className="product-images image-border" src={multiline}/></tr>
                     </table>
 
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="sub-heading-product center-header">Single Line USB Scanner</th>
                         <tr className="center-header">This is a single line trigger scanner which you must hold and press the trigger to scan.</tr>
-                        <tr className="center-images"><img className="product-images image-border" src={singleline}></img></tr>
+                        <tr className="center-images"><img alt="singleline" className="product-images image-border" src={singleline}/></tr>
                     </table>
                 </div>
                 <Footer/>

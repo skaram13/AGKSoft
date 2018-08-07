@@ -20,8 +20,8 @@ class MiniHP extends Component {
                         <th className="center-header">Nano PC One(Front and Back)</th>
                         <tr className="center-images">
                             <div>
-                                <img className="nano-image-size image-border" src={figure11}></img>
-                                <img className="nano-image-size image-border" src={figure12}></img>
+                                <img alt="nano11" className="nano-image-size image-border" src={figure11}/>
+                                <img alt="nano12" className="nano-image-size image-border" src={figure12}/>
                             </div>
                         </tr>
                     </table>
@@ -30,8 +30,8 @@ class MiniHP extends Component {
                         <th className="center-header">Nano PC Two(Front and Back)</th>
                         <tr className="center-images">
                             <div>
-                                <img className="nano-image-size image-border" src={figure21}></img>
-                                <img className="nano-image-size image-border" src={figure22}></img>
+                                <img alt="nano21" className="nano-image-size image-border" src={figure21}/>
+                                <img alt="nano22" className="nano-image-size image-border" src={figure22}/>
                             </div>
                         </tr>
                     </table>

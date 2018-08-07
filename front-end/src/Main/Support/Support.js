@@ -34,7 +34,7 @@ class Support extends Component {
                     <h3 className="row">GILBARCO</h3>
                     <h5><a>DMZ Port</a></h5>
                     <h3 className="row">UPC Code Guide</h3>
-                    <img className="upc-image" src={UPC}></img>
+                    <img className="upc-image" alt="UPC" src={UPC}/>
                 </div>
                 <Footer/>
             </div>

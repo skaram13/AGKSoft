@@ -103,7 +103,6 @@ td{
     display: inline;
 }
 
-
 @media (min-width: 0px) and (max-width: 750px) {
     .product-container {
         margin-left: 20px;

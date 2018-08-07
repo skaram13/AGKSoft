@@ -23,19 +23,19 @@ class Portable extends Component {
 
                         <table className="portable-inline">
                             <th className="portable-table row-centered">AGKSoft Inventory Software</th>
-                            <tr className="row-centered"><img className="table-img image-border" src={figure1}></img></tr>
+                            <tr className="row-centered"><img alt="portable" className="table-img image-border" src={figure1}/></tr>
                         </table>
                         <table className="portable-inline">
                             <th className="portable-table row-centered">PPT8820 (No Trigger)</th>
-                            <tr className="row-centered"><img className="table-img image-border" src={figure2}></img></tr>
+                            <tr className="row-centered"><img alt="portable" className="table-img image-border" src={figure2}/></tr>
                         </table>
                         <table className="portable-inline">
                             <th className="portable-table row-centered">PPT8820 (with Trigger)</th>
-                            <tr className="row-centered"><img className="table-img image-border" src={figure3}></img></tr>
+                            <tr className="row-centered"><img alt="portable" className="table-img image-border" src={figure3}/></tr>
                         </table>
                         <table className="portable-inline">
                             <th className="portable-table row-centered">PPT8820 (with Trigger & Dock)</th>
-                            <tr className="row-centered"><img className="table-img image-border" src={figure4}></img></tr>
+                            <tr className="row-centered"><img alt="portable" className="table-img image-border" src={figure4}/></tr>
                         </table>
 
                         <h4 className="sub-heading-product">HOW TO USE</h4>
@@ -50,7 +50,7 @@ class Portable extends Component {
                         </ol>
 
                         <table className="product-entry-spacing row-centered center-block">
-                            <tr className="center-images"><img className="product-images image-border" src={figure5}></img></tr>
+                            <tr className="center-images"><img alt="portable"className="product-images image-border" src={figure5}/></tr>
                         </table>
 
                         <div className="description-text">If you are scanning a shipment that you received from you vendor, you would do the following:</div>
@@ -61,7 +61,7 @@ class Portable extends Component {
                         </ol>
 
                         <table className="product-entry-spacing row-centered center-block">
-                            <tr className="center-images"><img className="product-images image-border" src={figure6}></img></tr>
+                            <tr className="center-images"><img alt="portable" className="product-images image-border" src={figure6}/></tr>
                         </table>
 
                         <div className="description-text">As you can see, the Vendor Invoice is automatically generated for you.  Make sure it's all OK and your total amount matches and hit "Save".</div>
@@ -70,7 +70,7 @@ class Portable extends Component {
                         <div className="description-text">Shown below is the "Vendor Mappings Window" which can map the columns in your spreadsheet to what we need.</div>
 
                         <table className="product-entry-spacing row-centered center-block">
-                            <tr className="center-images"><img className="product-images image-border" src={figure7}></img></tr>
+                            <tr className="center-images"><img alt="portable" className="product-images image-border" src={figure7}/></tr>
                         </table>
 
                         <div className="sub-heading-product">SETUP VIDEOS</div>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Row from "../../../Home/Row/Row";
 import "./SoftwareProducts.css";
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
@@ -49,7 +48,7 @@ class SoftwareProducts extends Component {
                     <div className="product-page-heading row-centered">Point of Sales</div>
                     <div className="solutions">
                         <div className="product-entry-pos">
-                            <a href="">
+                            <a href="/products/software/pos">
                                 <h3>POS</h3>
                                 <img className="solution-image" src={POS} alt="Scale With Confidence"/>
                                 <p>For C-Stores, Liquor Stores, Grocery Stores, General Stores, Hardware Stores, Flower shops or any store that requires scanning.</p>

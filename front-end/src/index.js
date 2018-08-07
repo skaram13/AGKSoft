@@ -16,6 +16,7 @@ import MicroPC from './Main/Product/PCs/MicroPC/MicroPC';
 import USBScanner from './Main/Product/Accessory/USBScanner/USBScanner';
 import BarcodePrinter from './Main/Product/Accessory/BarcodePrinter/BarcodePrinter';
 import RegisterScanner from './Main/Product/Accessory/RegisterScanner/RegisterScanner';
+import POS from './Main/Product/SoftwareAndPOS/POS/POS';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import registerServiceWorker from './registerServiceWorker';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
@@ -25,6 +26,7 @@ ReactDOM.render((
         <Switch>
             <Route exact path="/" component={Home}/>
             <Route exact path="/products/software" component={SoftwareProducts}/>
+            <Route exact path="/products/software/pos" component={POS}/>
             <Route exact path="/products/accessories/portable" component={Portable}/>
             <Route exact path="/products/accessories/miniPC" component={MiniPC}/>
             <Route exact path="/products/accessories/miniHP" component={MiniHP}/>

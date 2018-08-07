@@ -17,18 +17,18 @@ class MiniHP extends Component {
 
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="center-header">Figure 1 (Front)</th>
-                        <tr className="center-images"><img className="image-border" src={figure1}></img></tr>
+                        <tr className="center-images"><img alt="figure1" className="image-border" src={figure1}/></tr>
                     </table>
 
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="center-header">Figure 2 (Optional:  USB2Serial Converter)</th>
-                        <tr className="center-images"><img className="image-border" src={figure2}></img>
+                        <tr className="center-images"><img alt="figure2" className="image-border" src={figure2}/>
                         </tr>
                     </table>
 
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="center-header">Figure 3 (Optional:  VeriFone Ruby Adapter)</th>
-                        <tr className="center-images"><img className="image-border" src={figure3}></img></tr>
+                        <tr className="center-images"><img alt="figure3" className="image-border" src={figure3}/></tr>
                     </table>
 
                     <div className="sub-heading-product">FEATURES</div>

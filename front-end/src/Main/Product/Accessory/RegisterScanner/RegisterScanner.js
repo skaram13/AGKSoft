@@ -22,9 +22,9 @@ class RegisterScanner extends Component {
                         <th className="center-header"></th>
                         <tr className="center-images">
                             <div>
-                                <img className="" src={scanner3}></img>
-                                <img className="" src={scanner2}></img>
-                                <img className="" src={scanner1}></img>
+                                <img alt="scanner3" src={scanner3}/>
+                                <img alt="scanner2" src={scanner2}/>
+                                <img alt="scanner1" src={scanner1}/>
                             </div>
                         </tr>
                     </table>

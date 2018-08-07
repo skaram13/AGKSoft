@@ -16,18 +16,18 @@ class MicroPC extends Component {
                     <div className="description-text">Shown below is the micro-PC AGKSoft offers with SSD is about 6" x 5" in size and the unit boots in about 5 seconds.</div>
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="center-header">Figure 1 (Front)</th>
-                        <tr className="center-images"><img className="image-border" src={figure1}></img></tr>
+                        <tr className="center-images"><img alt="figure1" className="image-border" src={figure1}/></tr>
                     </table>
 
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="center-header">Figure 2 (Back)</th>
-                        <tr className="center-images"><img className="image-border" src={figure2}></img>
+                        <tr className="center-images"><img alt="figure2" className="image-border" src={figure2}/>
                         </tr>
                     </table>
 
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="center-header">Figure 3 (Mounted on the back of a Monitor)</th>
-                        <tr className="center-images"><img className="image-border" src={figure3}></img></tr>
+                        <tr className="center-images"><img alt="figure3" className="image-border" src={figure3}/></tr>
                     </table>
 
                     <div className="sub-heading-product">FEATURES</div>

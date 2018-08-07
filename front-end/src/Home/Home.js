@@ -22,10 +22,10 @@ class Home extends Component {
                 <Introduction/>
                 <div className="partners-background">
                     <div className="partners row-centered">
-                        <img className="logos" src={gilbarco} alt="Scale With Confidence"/>
-                        <img className="logos" src={verifone} alt="Scale With Confidence"/>
-                        <img className="logos" src={comdata} alt="Scale With Confidence"/>
-                        <img className="logos" src={wayne} alt="Scale With Confidence"/>
+                        <img className="logos" src={gilbarco} alt="gilbarco"/>
+                        <img className="logos" src={verifone} alt="verifone"/>
+                        <img className="logos" src={comdata} alt="comdata"/>
+                        <img className="logos" src={wayne} alt="wayne"/>
                     </div>
                 </div>
                 <div className="home">
@@ -34,35 +34,35 @@ class Home extends Component {
                         <div className="solution-large row-centered">
                             <a href="">
                                 <h3>Back Office</h3>
-                                <img className="solution-image" src={backoffice} alt="Scale With Confidence"/>
+                                <img className="solution-image" src={backoffice} alt="backoffice"/>
                                 <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
                             </a>
                         </div>
                         <div className="solution">
                             <a href="">
                                 <h3>Home Office</h3>
-                                <img className="solution-image" src={home} alt="Scale With Confidence"/>
+                                <img className="solution-image" src={home} alt="home"/>
                                 <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
                             </a>
                         </div>
                         <div className="solution">
                             <a href="">
                                 <h3>Conversion Tool</h3>
-                                <img className="solution-image" src={conversion} alt="Scale With Confidence"/>
+                                <img className="solution-image" src={conversion} alt="conversion"/>
                                 <p>Used to convert registers such as a Gilbarco G-Site, Ruby VeriFone, Sapphire, Topaz, the AGKSoft POS System and more.</p>
                             </a>
                         </div>
                         <div className="solution">
-                            <a href="">
+                            <a href="/products/software/pos">
                                 <h3>POS</h3>
-                                <img className="solution-image" src={POS} alt="Scale With Confidence"/>
+                                <img className="solution-image" src={POS} alt="POS"/>
                                 <p>For C-Stores, Liquor Stores, Grocery Stores, General Stores, Hardware Stores, Flower shops or any store that requires scanning.</p>
                             </a>
                         </div>
                         <div className="solution">
                             <a href="">
                                 <h3>Data Entry</h3>
-                                <img className="solution-image" src={data} alt="Scale With Confidence"/>
+                                <img className="solution-image" src={data} alt="data"/>
                                 <p>Services for maintaining your price book or your complete Sales Download, Shift Balancing, Accounting and Inventory.</p>
                             </a>
                         </div>
