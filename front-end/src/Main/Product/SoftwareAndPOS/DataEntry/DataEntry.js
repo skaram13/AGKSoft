@@ -3,7 +3,7 @@ import '../../Product.css';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 
-class POS extends Component {
+class DataEntry extends Component {
     render() {
         return(
             <div>
@@ -49,4 +49,4 @@ class POS extends Component {
     }
 }
 
-export default POS;
+export default DataEntry;

@@ -6,12 +6,16 @@
 }
 
 .solutions .solution {
+    position: relative;
+    float: left;
     display: inline-block;
     width: 25%;
+    height: 350px;
     text-align: center;
     padding: 25px;
     background: #fff;
     border: 1px solid #C8C8C8;
+    margin-bottom: 50px;
 }
 
 .solution-image{
@@ -43,7 +47,7 @@
     margin: 30px;
 }
 
-@media (min-width: 0px) and (max-width: 750px) {
+@media (min-width: 0px) and (max-width: 920px) {
     .partners{
         margin-left: 50px;
         margin-right: 50px;
@@ -54,6 +58,7 @@
         display: block;
         float: left;
         width: 100%;
+        height: auto;
         text-align: center;
         padding: 25px;
         background: #fff;

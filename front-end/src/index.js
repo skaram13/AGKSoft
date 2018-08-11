@@ -18,7 +18,7 @@ import BarcodePrinter from './Main/Product/Accessory/BarcodePrinter/BarcodePrint
 import RegisterScanner from './Main/Product/Accessory/RegisterScanner/RegisterScanner';
 import POS from './Main/Product/SoftwareAndPOS/POS/POS';
 import HomeOffice from './Main/Product/SoftwareAndPOS/ConversionTool/ConversionTool';
-import BackOffice from './Main/Product/SoftwareAndPOS/ConversionTool/ConversionTool';
+import BackOffice from './Main/Product/SoftwareAndPOS/BackOffice/BackOffice';
 import DataEntry from './Main/Product/SoftwareAndPOS/DataEntry/DataEntry';
 import ConversionTool from './Main/Product/SoftwareAndPOS/ConversionTool/ConversionTool';
 

@@ -5,7 +5,7 @@ import Header from "../../../Shared/Header/Header";
 import figure1 from "../../../../assets/ConversionTool/ConversionFirstTime.gif";
 import figure2 from "../../../../assets/ConversionTool/UploadToGsite.gif";
 
-class POS extends Component {
+class ConversionTool extends Component {
     render() {
         return(
             <div>
@@ -50,4 +50,4 @@ class POS extends Component {
     }
 }
 
-export default POS;
+export default ConversionTool;

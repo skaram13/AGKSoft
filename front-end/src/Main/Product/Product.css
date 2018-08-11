@@ -27,6 +27,27 @@
 
 }
 
+
+.sub-header{
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    float: top;
+    margin-bottom: 10px;
+}
+.dividers{
+    border-left:3px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.dividers-first{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
 .nano-image-size{
     width: 400px;
     height: 380px;
