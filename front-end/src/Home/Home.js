@@ -22,31 +22,31 @@ class Home extends Component {
                 <Introduction/>
                 <div className="partners-background">
                     <div className="partners row-centered">
-                        <img className="logos" src={gilbarco} alt="gilbarco"/>
-                        <img className="logos" src={verifone} alt="verifone"/>
-                        <img className="logos" src={comdata} alt="comdata"/>
-                        <img className="logos" src={wayne} alt="wayne"/>
+                        <a href="https://www.gilbarco.com/us/products/point-sale/passport-c-store-pos-display"><img className="logos" src={gilbarco} alt="gilbarco"/></a>
+                        <a href="https://www.verifone.com/petro"><img className="logos" src={verifone} alt="verifone"/></a>
+                        <a href="https://www.comdata.com/merchants/SmartDESQ/index"><img className="logos" src={comdata} alt="comdata"/></a>
+                        <a href="https://www.wayne.com/"><img className="logos" src={wayne} alt="wayne"/></a>
                     </div>
                 </div>
                 <div className="home">
                     <Row title="OUR PRODUCTS"/>
                     <div className="solutions">
                         <div className="solution-large row-centered">
-                            <a href="">
+                            <a href="/products/software/backOffice">
                                 <h3>Back Office</h3>
                                 <img className="solution-image" src={backoffice} alt="backoffice"/>
                                 <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
                             </a>
                         </div>
                         <div className="solution">
-                            <a href="">
+                            <a href="/products/software/homeOffice">
                                 <h3>Home Office</h3>
                                 <img className="solution-image" src={home} alt="home"/>
                                 <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
                             </a>
                         </div>
                         <div className="solution">
-                            <a href="">
+                            <a href="/products/software/conversionTool">
                                 <h3>Conversion Tool</h3>
                                 <img className="solution-image" src={conversion} alt="conversion"/>
                                 <p>Used to convert registers such as a Gilbarco G-Site, Ruby VeriFone, Sapphire, Topaz, the AGKSoft POS System and more.</p>
@@ -60,7 +60,7 @@ class Home extends Component {
                             </a>
                         </div>
                         <div className="solution">
-                            <a href="">
+                            <a href="/products/software/dataEntry">
                                 <h3>Data Entry</h3>
                                 <img className="solution-image" src={data} alt="data"/>
                                 <p>Services for maintaining your price book or your complete Sales Download, Shift Balancing, Accounting and Inventory.</p>
