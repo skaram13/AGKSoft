@@ -17,28 +17,28 @@ class SoftwareProducts extends Component {
                     <div className="product-page-heading row-centered">Software</div>
                     <div className="solutions">
                         <div className="product-entry-software">
-                            <a href="">
+                            <a href="/products/software/backOffice">
                                 <h3>Back Office</h3>
                                 <img className="solution-image" src={backoffice} alt="Scale With Confidence"/>
                                 <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
                             </a>
                         </div>
                         <div className="product-entry-software">
-                            <a href="">
+                            <a href="/products/software/homeOffice">
                                 <h3>Home Office</h3>
                                 <img className="solution-image" src={home} alt="Scale With Confidence"/>
                                 <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
                             </a>
                         </div>
                         <div className="product-entry-software">
-                            <a href="">
+                            <a href="/products/software/conversionTool">
                                 <h3>Conversion Tool</h3>
                                 <img className="solution-image" src={conversion} alt="Scale With Confidence"/>
                                 <p>Used to convert registers such as a Gilbarco G-Site, Ruby VeriFone, Sapphire, Topaz, the AGKSoft POS System and more.</p>
                             </a>
                         </div>
                         <div className="product-entry-software">
-                            <a href="">
+                            <a href="/products/software/dataEntry">
                                 <h3>Data Entry</h3>
                                 <img className="solution-image" src={data} alt="Scale With Confidence"/>
                                 <p>Services for maintaining your price book or your complete Sales Download, Shift Balancing, Accounting and Inventory.</p>

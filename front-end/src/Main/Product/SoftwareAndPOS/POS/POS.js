@@ -65,9 +65,7 @@ class POS extends Component {
                         <li>USB Scanner + USB or Wireless Mouse + USB or Wireless Keyboard</li>
                         <li>POS Software and Back Office Software all integrated</li>
                     </ul>
-
-
-                    <div className="description-text last-element">This Micro-PC includes a 1 year warranty (Keyboard/Mouse/Monitor are not included).</div>
+                    <div className="description-text last-element">For more info please <a href="\contact">contact us</a></div>
                 </div>
                 <Footer/>
             </div>
