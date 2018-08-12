@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e54f2e1e-42ad-4d61-a3a9-7436416550a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/BackOffice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/GettingStarted/GettingStarted.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Home/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Home/Introduction/Introduction.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Home/Introduction/Introduction.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Home/Introduction/Introduction.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Home/Introduction/Introduction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/Product.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/Product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/ConversionTool/ConversionTool.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/ConversionTool/ConversionTool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/DataEntry/DataEntry.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/DataEntry/DataEntry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/BackOffice.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/BackOffice.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -48,13 +43,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BackOffice.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BackOffice.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/BackOffice.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GettingStarted.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/GettingStarted/GettingStarted.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="38" column="75" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="75" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,9 +195,10 @@
         <option value="$PROJECT_DIR$/front-end/src/Home/Introduction/Introduction.css" />
         <option value="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/DataEntry/DataEntry.js" />
         <option value="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/ConversionTool/ConversionTool.js" />
-        <option value="$PROJECT_DIR$/front-end/src/index.js" />
         <option value="$PROJECT_DIR$/front-end/src/Main/Product/Product.css" />
+        <option value="$PROJECT_DIR$/front-end/src/index.js" />
         <option value="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/BackOffice.js" />
+        <option value="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/GettingStarted/GettingStarted.js" />
       </list>
     </option>
   </component>
@@ -224,6 +244,30 @@
               <item name="AGKSoft" type="462c0819:PsiDirectoryNode" />
               <item name="front-end" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AGKSoft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AGKSoft" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AGKSoft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AGKSoft" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AGKSoft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AGKSoft" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="SoftwareAndPOS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -280,12 +324,12 @@
       <workItem from="1532649287763" duration="6291000" />
       <workItem from="1532717951969" duration="12567000" />
       <workItem from="1532800992066" duration="14823000" />
-      <workItem from="1532883117509" duration="54736000" />
+      <workItem from="1532883117509" duration="56053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107116000" />
+    <option name="totallyTimeSpent" value="108433000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -350,13 +394,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front-end/src/Home/Home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/Main/Shared/Footer/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -634,16 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="26" column="62" lean-forward="true" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/ConversionTool/ConversionTool.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -721,10 +748,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="38" column="75" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/BackOffice.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/GettingStarted/GettingStarted.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

@@ -19,6 +19,7 @@ import RegisterScanner from './Main/Product/Accessory/RegisterScanner/RegisterSc
 import POS from './Main/Product/SoftwareAndPOS/POS/POS';
 import HomeOffice from './Main/Product/SoftwareAndPOS/ConversionTool/ConversionTool';
 import BackOffice from './Main/Product/SoftwareAndPOS/BackOffice/BackOffice';
+import GettingStarted from './Main/Product/SoftwareAndPOS/BackOffice/GettingStarted/GettingStarted';
 import DataEntry from './Main/Product/SoftwareAndPOS/DataEntry/DataEntry';
 import ConversionTool from './Main/Product/SoftwareAndPOS/ConversionTool/ConversionTool';
 
@@ -35,6 +36,7 @@ ReactDOM.render((
             <Route exact path="/products/software/conversionTool" component={ConversionTool}/>
             <Route exact path="/products/software/homeOffice" component={HomeOffice}/>
             <Route exact path="/products/software/backOffice" component={BackOffice}/>
+            <Route exact path="/products/software/backOffice/gettingStarted" component={GettingStarted}/>
             <Route exact path="/products/software/dataEntry" component={DataEntry}/>
             <Route exact path="/products/accessories/portable" component={Portable}/>
             <Route exact path="/products/accessories/miniPC" component={MiniPC}/>

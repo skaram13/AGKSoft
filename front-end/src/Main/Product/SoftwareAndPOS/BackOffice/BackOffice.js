@@ -12,7 +12,7 @@ class BackOffice extends Component {
                     <h1 className="heading-text">AGKSoft Gas Station Software 12.x</h1>
                     <div className="sub-header">
                         <a className="dividers-first" href="http://www.agksoft.com/gasdesk.html">EXPLORE THE SOFTWARE</a>
-                        <a className="dividers" href="http://www.agksoft.com/overview.html">GETTING STARTED</a>
+                        <a className="dividers" href="/products/software/backOffice/gettingStarted">GETTING STARTED</a>
                         <a className="dividers" href="http://www.agksoft.com/stnweb.html">DOCUMENTATION</a>
                     </div>
                     <div className="description-text">
