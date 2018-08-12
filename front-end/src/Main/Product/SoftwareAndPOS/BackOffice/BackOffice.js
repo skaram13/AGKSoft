@@ -78,7 +78,7 @@ class BackOffice extends Component {
                         Everything you can imagine is included in this Software to operate your Gas Station.
                     </div>
 
-                    <div className="description-text last-element">For more info please <a href="\contact">contact us</a></div>
+                    <div className="description-text last-element">For more info please <a href="\contact"><b>contact us</b></a></div>
                 </div>
                 <Footer/>
             </div>

@@ -17,7 +17,7 @@ import USBScanner from './Main/Product/Accessory/USBScanner/USBScanner';
 import BarcodePrinter from './Main/Product/Accessory/BarcodePrinter/BarcodePrinter';
 import RegisterScanner from './Main/Product/Accessory/RegisterScanner/RegisterScanner';
 import POS from './Main/Product/SoftwareAndPOS/POS/POS';
-import HomeOffice from './Main/Product/SoftwareAndPOS/ConversionTool/ConversionTool';
+import HomeOffice from './Main/Product/SoftwareAndPOS/HomeOffice/HomeOffice';
 import BackOffice from './Main/Product/SoftwareAndPOS/BackOffice/BackOffice';
 import GettingStarted from './Main/Product/SoftwareAndPOS/BackOffice/GettingStarted/GettingStarted';
 import DataEntry from './Main/Product/SoftwareAndPOS/DataEntry/DataEntry';

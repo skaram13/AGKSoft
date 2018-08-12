@@ -20,7 +20,7 @@ class SoftwareProducts extends Component {
                             <a href="/products/software/backOffice">
                                 <h3>Back Office</h3>
                                 <img className="solution-image" src={backoffice} alt="Scale With Confidence"/>
-                                <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
+                                <p>Our Gas Station Software is a fully-featured Windows Accounting Software that works either in the back office as BOS (Back Office Software), in your Garage, as a Point Of Sale or a combination with support for headquarter consolidation as well as dialing into multi-locations.</p>
                             </a>
                         </div>
                         <div className="product-entry-software">
