@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e54f2e1e-42ad-4d61-a3a9-7436416550a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/HomeOffice/HomeOffice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/BackOffice.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/BackOffice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Products/SoftwareProducts/SoftwareProducts.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Products/SoftwareProducts/SoftwareProducts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Products/SoftwareProducts/SoftwareProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Products/SoftwareProducts/SoftwareProducts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="e54f2e1e-42ad-4d61-a3a9-7436416550a1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -34,11 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoftwareProducts.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SoftwareProducts.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/src/Main/Products/SoftwareProducts/SoftwareProducts.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reports.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front-end/src/Main/Reports/Reports.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-442">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -204,7 +205,7 @@
       <path value="$PROJECT_DIR$/front-end/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="3" />
     <option name="width" value="1928" />
     <option name="height" value="1031" />
@@ -246,16 +247,7 @@
               <item name="front-end" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AGKSoft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AGKSoft" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Products" type="462c0819:PsiDirectoryNode" />
-              <item name="SoftwareProducts" type="462c0819:PsiDirectoryNode" />
+              <item name="Report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,12 +304,12 @@
       <workItem from="1532649287763" duration="6291000" />
       <workItem from="1532717951969" duration="12567000" />
       <workItem from="1532800992066" duration="14823000" />
-      <workItem from="1532883117509" duration="61263000" />
+      <workItem from="1532883117509" duration="63594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113643000" />
+    <option name="totallyTimeSpent" value="115974000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -329,8 +321,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="0" width="1285" height="687" extended-state="0" />
-    <editor active="true" />
+    <frame x="2" y="0" width="1285" height="687" extended-state="1" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7935657" visible="true" weight="0.19951923" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32737032" />
@@ -497,13 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Reports/Reports.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -763,6 +747,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Reports/Reports.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
