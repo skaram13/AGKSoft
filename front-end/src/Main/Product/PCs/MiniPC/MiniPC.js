@@ -15,18 +15,18 @@ class MiniPC extends Component {
                     <h1 className="heading-text">AGKSoft Mini-RAID-PC (Windows 10)</h1>
                     <div className="description-text">Shown below is the Mini-RAID-PC AGKSoft offers with 2-250GB SSD RAID 1 Drives (7" x 7" in size).</div>
 
-                    <table className="product-entry-spacing row-centered center-block">
+                    <table className="product-entry-spacing row-centered center-images">
                         <th className="center-header">Figure 1 (Front)</th>
                         <tr className="center-images"><img alt="figure1" className="image-border" src={figure1}/></tr>
                     </table>
 
-                    <table className="product-entry-spacing row-centered center-block">
+                    <table className="product-entry-spacing row-centered center-images">
                         <th className="center-header">Figure 2 (Back)</th>
                         <tr className="center-images"><img alt="figure2" className="image-border" src={figure2}/>
                         </tr>
                     </table>
 
-                    <table className="product-entry-spacing row-centered center-block">
+                    <table className="product-entry-spacing row-centered center-images">
                         <th className="center-header">Figure 3 (Mounted on the back of a Monitor)</th>
                         <tr className="center-images"><img alt="figure3" className="image-border" src={figure3}/></tr>
                     </table>

@@ -32,90 +32,90 @@ class Reports extends Component {
                     <div className="reports-heading row-centered">Reports</div>
                     <div className="reports">
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/gasLoad">
                                 <img className="reports-image" src={gasPump} alt="Scale With Confidence"/>
                                 <h4>Gas Load, Gas Sale & Tank Monitoring</h4>
                             </a>
                         </div>
 
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/salesRoom">
                                 <img className="reports-image" src={register} alt="Scale With Confidence"/>
                                 <h4>Sales Room & Point Of Sale</h4>
                             </a>
                         </div>
 
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/edi">
                                 <img className="reports-image" src={vendor} alt="Scale With Confidence"/>
                                 <h4>Vendors & Electronic Invoice (EDI)</h4>
                             </a>
                         </div>
 
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/shortOver">
                                 <img className="reports-image" src={shortOver} alt="Scale With Confidence"/>
                                 <h4>Short/Over (Daily-Books)</h4>
                             </a>
                         </div>
 
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/netIncome">
                                 <img className="reports-image" src={netIncome} alt="Scale With Confidence"/>
                                 <h4>Net Income & General Ledger</h4>
                             </a>
                         </div>
 
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/balanceSheet">
                                 <img className="reports-image" src={balanceSheet} alt="Scale With Confidence"/>
                                 <h4>Balance Sheet</h4>
                             </a>
                         </div>
 
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/clientAcct">
                                 <img className="reports-image" src={clientAccounts} alt="Scale With Confidence"/>
                                 <h4>Client Accounts & Invoices</h4>
                             </a>
                         </div>
 
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/electronicCC">
                                 <img className="reports-image" src={creditCards} alt="Scale With Confidence"/>
                                 <h4>Electronic Credit Cards</h4>
                             </a>
                         </div>
 
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/lotto">
                                 <img className="reports-image" src={lotto} alt="Scale With Confidence"/>
                                 <h4>Lottery Tickets & Lottery Machine</h4>
                             </a>
                         </div>
 
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/checkingAcct">
                                 <img className="reports-image" src={checking} alt="Scale With Confidence"/>
                                 <h4>Checking Accounts & QIF</h4>
                             </a>
                         </div>
 
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/electronicAcct">
                                 <img className="reports-image" src={electronicAccounts} alt="Scale With Confidence"/>
                                 <h4>Electronic Accounts & QIF</h4>
                             </a>
                         </div>
 
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/inventory">
                                 <img className="reports-image" src={inventory} alt="Scale With Confidence"/>
                                 <h4>Inventory & Purchase Orders</h4>
                             </a>
                         </div>
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/payroll">
                                 <img className="reports-image" src={payroll} alt="Scale With Confidence"/>
                                 <h4>Payroll, 941 & Timecard</h4>
                             </a>
@@ -123,44 +123,44 @@ class Reports extends Component {
 
 
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/expenses">
                                 <img className="reports-image" src={expenses} alt="Scale With Confidence"/>
                                 <h4>Expenses</h4>
                             </a>
                         </div>
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/carWash">
                                 <img className="reports-image" src={carWash} alt="Scale With Confidence"/>
                                 <h4>Car Wash</h4>
                             </a>
                         </div>
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/workOrders">
                                 <img className="reports-image" src={workOrders} alt="Scale With Confidence"/>
                                 <h4>Work Orders & Garage Inventory</h4>
                             </a>
                         </div>
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/garageInventory">
                                 <img className="reports-image" src={garage} alt="Scale With Confidence"/>
                                 <h4>Garage Inventory</h4>
                             </a>
                         </div>
 
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/reportsASP">
                                 <img className="reports-image" src={reportsASP} alt="Scale With Confidence"/>
                                 <h4>Reports ASP</h4>
                             </a>
                         </div>
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/fuelStatus">
                                 <img className="reports-image" src={fuelStatus} alt="Scale With Confidence"/>
                                 <h4>AGKSoft Fuel Status ASP</h4>
                             </a>
                         </div>
                         <div className="reports-entry">
-                            <a href="">
+                            <a href="/reports/POS">
                                 <img className="reports-image" src={POS} alt="Scale With Confidence"/>
                                 <h4>Point Of Sale (POS) All-in-One</h4>
                             </a>

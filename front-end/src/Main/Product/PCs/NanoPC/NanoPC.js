@@ -16,7 +16,7 @@ class MiniHP extends Component {
                     <h1 className="heading-text">AGKSoft Nano PC (Windows 10)</h1>
                     <div className="description-text">Shown below are the Nano PCs AGKSoft offers with SSD, the measure 5" x 5" in size and the unit boots in less than 5 seconds. </div>
 
-                    <table className="product-entry-spacing row-centered center-block">
+                    <table className="product-entry-spacing row-centered center-images">
                         <th className="center-header">Nano PC One(Front and Back)</th>
                         <tr className="center-images">
                             <div>
@@ -26,7 +26,7 @@ class MiniHP extends Component {
                         </tr>
                     </table>
 
-                    <table className="product-entry-spacing row-centered center-block">
+                    <table className="product-entry-spacing row-centered center-images">
                         <th className="center-header">Nano PC Two(Front and Back)</th>
                         <tr className="center-images">
                             <div>

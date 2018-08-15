@@ -8,6 +8,26 @@ import Contact from './Main/Contact/Contact';
 import Download from './Home/Home';
 import Support from './Main/Support/Support';
 import Reports from './Main/Reports/Reports';
+import BalanceSheet from './Main/Reports/Reports';
+import CarWash from './Main/Reports/Reports';
+import CheckingAcct from './Main/Reports/Reports';
+import ClientAcct from './Main/Reports/Reports';
+import ElectronicAcct from './Main/Reports/Reports';
+import ElectronicCC from './Main/Reports/Reports';
+import FuelStatus from './Main/Reports/Reports';
+import GasLoad from './Main/Report/GasLoad/GasLoad';
+import Lotto from './Main/Reports/Reports';
+import Payroll from './Main/Reports/Reports';
+import Expenses from './Main/Reports/Reports';
+import EDI from './Main/Reports/Reports';
+import Inventory from './Main/Reports/Reports';
+import GarageInventory from './Main/Reports/Reports';
+import NetIncome from './Main/Reports/Reports';
+import POSReport from './Main/Reports/Reports';
+import ReportsASP from './Main/Reports/Reports';
+import SalesRoom from './Main/Reports/Reports';
+import ShortOver from './Main/Reports/Reports';
+import WorkOrders from './Main/Reports/Reports';
 import Portable from './Main/Product/Accessory/Portable/Portable';
 import MiniPC from './Main/Product/PCs/MiniPC/MiniPC';
 import MiniHP from './Main/Product/PCs/MiniHP/MiniHP';
@@ -51,6 +71,26 @@ ReactDOM.render((
             <Route exact path="/support" component={Support}/>
             <Route exact path="/download" component={Download}/>
             <Route exact path="/reports" component={Reports}/>
+            <Route exact path="/reports/balanceSheet" component={BalanceSheet}/>
+            <Route exact path="/reports/carWash" component={CarWash}/>
+            <Route exact path="/reports/checkingAcct" component={CheckingAcct}/>
+            <Route exact path="/reports/clientAcct" component={ClientAcct}/>
+            <Route exact path="/reports/edi" component={EDI}/>
+            <Route exact path="/reports/electronicAcct" component={ElectronicAcct}/>
+            <Route exact path="/reports/electronicCC" component={ElectronicCC}/>
+            <Route exact path="/reports/expenses" component={Expenses}/>
+            <Route exact path="/reports/fuelStatus" component={FuelStatus}/>
+            <Route exact path="/reports/garageInventory" component={GarageInventory}/>
+            <Route exact path="/reports/gasLoad" component={GasLoad}/>
+            <Route exact path="/reports/inventory" component={Inventory}/>
+            <Route exact path="/reports/lotto" component={Lotto}/>
+            <Route exact path="/reports/netIncome" component={NetIncome}/>
+            <Route exact path="/reports/payroll" component={Payroll}/>
+            <Route exact path="/reports/POS" component={POSReport}/>
+            <Route exact path="/reports/reportsASP" component={ReportsASP}/>
+            <Route exact path="/reports/salesRoom" component={SalesRoom}/>
+            <Route exact path="/reports/shortOver" component={ShortOver}/>
+            <Route exact path="/reports/workOrders" component={WorkOrders}/>
         </Switch>
     </BrowserRouter>
 ),document.getElementById('root'));
