@@ -9,13 +9,13 @@ import figure4 from "../../../assets/GasLoad/GasSaleReport.gif";
 import figure5 from "../../../assets/GasLoad/GasSaleWaterTotalReport.gif";
 import figure6 from "../../../assets/GasLoad/FuelRecon.gif";
 
-class Accessories extends Component {
+class GasLoad extends Component {
     render() {
         return(
             <div>
                 <Header/>
-                <div className="reports-container">
-                    <h1 className="reports-heading">AGKSoft Gas Load & Gas Sale</h1>
+                <div className="report-container">
+                    <h1 className="heading-text">AGKSoft Gas Load & Gas Sale</h1>
                     <div className="description-text">
                         Generating a gas load report is quick and easy:
                     </div>
@@ -76,4 +76,4 @@ class Accessories extends Component {
     }
 }
 
-export default Accessories;
+export default GasLoad;
