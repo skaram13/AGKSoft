@@ -11,6 +11,9 @@
     color: #fc6100;
 }
 
+.tbl-col{
+    padding: 5px;
+}
 .reports-entry{
     display: inline-block;
     float: left;

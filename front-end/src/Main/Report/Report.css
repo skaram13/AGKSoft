@@ -3,6 +3,20 @@
     margin-right: 100px;
 }
 
+.image-resize{
+    width: 100%;
+    height: auto;
+}
+
+.vendors-table{
+    margin-left: auto;
+    margin-right: auto;
+    alignment: center;
+    overflow: hidden;
+    table-layout: fixed;
+    padding: 0;
+    margin-bottom: 20px;
+}
 .center-images{
     display: block;
     margin-left: auto;

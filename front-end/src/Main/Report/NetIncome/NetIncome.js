@@ -4,7 +4,7 @@ import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import figure1 from "../../../assets/NetIncome/Income.gif";
 
-class GasLoad extends Component {
+class NetIncome extends Component {
     render() {
         return(
             <div>
@@ -29,4 +29,4 @@ class GasLoad extends Component {
     }
 }
 
-export default GasLoad;
+export default NetIncome;

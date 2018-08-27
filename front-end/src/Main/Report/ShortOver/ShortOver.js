@@ -22,7 +22,7 @@ class ShortOver extends Component {
 
                     <table className="report-entry-spacing row-centered center-images">
                         <th className="center-header">Short/Over Window</th>
-                        <tr className="center-images"><img alt="figure1" className="image-border" src={figure1}/></tr>
+                        <tr className="center-images"><img alt="figure1" className="image-resize image-border" src={figure1}/></tr>
                     </table>
 
                     <div className="description-text">After Closing your Shift, you may want to look at some reports.</div>
@@ -32,7 +32,7 @@ class ShortOver extends Component {
 
                     <table className="report-entry-spacing row-centered center-images">
                         <th className="center-header">Short/Over Report</th>
-                        <tr className="center-images"><img alt="figure2" className="image-border" src={figure2}/></tr>
+                        <tr className="center-images"><img alt="figure2" className="image-resize image-border" src={figure2}/></tr>
                         <tr className="center-header description-text">Note that the Report shown above can show every shift, every day, your monthly totals and your grand total for the selected dates.</tr>
                     </table>
 
@@ -48,10 +48,8 @@ class ShortOver extends Component {
 
                     <table className="report-entry-spacing row-centered center-images">
                         <th className="center-header">Fuel Reconciliation</th>
-                        <tr className="center-images"><img alt="figure3" className="image-border" src={figure3}/></tr>
+                        <tr className="center-images"><img alt="figure3" className="image-resize image-border" src={figure3}/></tr>
                     </table>
-
-
 
                     <div className="description-text last-element">For more info please <a href="\contact"><b>contact us</b></a></div>
                 </div>
