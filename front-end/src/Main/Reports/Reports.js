@@ -19,8 +19,6 @@ import expenses from "../../assets/expenses.png";
 import workOrders from "../../assets/workOrder.png";
 import garage from "../../assets/garage.png";
 import carWash from "../../assets/carWash.png";
-import reportsASP from "../../assets/reports.png";
-import fuelStatus from "../../assets/fuelGauge.png";
 import POS from "../../assets/POS.png";
 
 class Reports extends Component {
@@ -144,19 +142,6 @@ class Reports extends Component {
                             <a href="/reports/garageInventory">
                                 <img className="reports-image" src={garage} alt="Scale With Confidence"/>
                                 <h4>Garage Inventory</h4>
-                            </a>
-                        </div>
-
-                        <div className="reports-entry">
-                            <a href="/reports/reportsASP">
-                                <img className="reports-image" src={reportsASP} alt="Scale With Confidence"/>
-                                <h4>Reports ASP</h4>
-                            </a>
-                        </div>
-                        <div className="reports-entry">
-                            <a href="/reports/fuelStatus">
-                                <img className="reports-image" src={fuelStatus} alt="Scale With Confidence"/>
-                                <h4>AGKSoft Fuel Status ASP</h4>
                             </a>
                         </div>
                         <div className="reports-entry">

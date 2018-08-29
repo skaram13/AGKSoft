@@ -9,25 +9,23 @@ import Download from './Home/Home';
 import Support from './Main/Support/Support';
 import Reports from './Main/Reports/Reports';
 import BalanceSheet from './Main/Report/BalanceSheet/BalanceSheet';
-import CarWash from './Main/Reports/Reports';
-import CheckingAcct from './Main/Reports/Reports';
-import ClientAcct from './Main/Reports/Reports';
-import ElectronicAcct from './Main/Reports/Reports';
-import ElectronicCC from './Main/Reports/Reports';
-import FuelStatus from './Main/Reports/Reports';
+import CarWash from './Main/Report/CarWash/CarWash';
+import CheckingAcct from './Main/Report/CheckingAcct/CheckingAcct';
+import ClientAcct from './Main/Report/ClientAccounts/ClientAccounts';
+import ElectronicAcct from './Main/Report/ElectronicAcct/ElectronicAcct';
+import ElectronicCC from './Main/Report/ElectronicCC/ElectronicCC';
 import GasLoad from './Main/Report/GasLoad/GasLoad';
-import Lotto from './Main/Reports/Reports';
-import Payroll from './Main/Reports/Reports';
-import Expenses from './Main/Reports/Reports';
+import Lotto from './Main/Report/Lotto/Lotto';
+import Payroll from './Main/Report/Payroll/Payroll';
+import Expenses from './Main/Report/Expenses/Expenses';
 import EDI from './Main/Report/EDI/EDI';
-import Inventory from './Main/Reports/Reports';
-import GarageInventory from './Main/Reports/Reports';
+import Inventory from './Main/Report/Inventory/Inventory';
+import GarageInventory from './Main/Report/GarageInventory/GarageInventory';
 import NetIncome from './Main/Report/NetIncome/NetIncome';
-import POSReport from './Main/Reports/Reports';
-import ReportsASP from './Main/Reports/Reports';
+import POSReport from './Main/Report/POS/POSreport';
 import SalesRoom from './Main/Report/SalesRoom/SalesRoom';
 import ShortOver from './Main/Report/ShortOver/ShortOver';
-import WorkOrders from './Main/Reports/Reports';
+import WorkOrders from './Main/Report/WorkOrders/WorkOrder';
 import Portable from './Main/Product/Accessory/Portable/Portable';
 import MiniPC from './Main/Product/PCs/MiniPC/MiniPC';
 import MiniHP from './Main/Product/PCs/MiniHP/MiniHP';
@@ -79,7 +77,6 @@ ReactDOM.render((
             <Route exact path="/reports/electronicAcct" component={ElectronicAcct}/>
             <Route exact path="/reports/electronicCC" component={ElectronicCC}/>
             <Route exact path="/reports/expenses" component={Expenses}/>
-            <Route exact path="/reports/fuelStatus" component={FuelStatus}/>
             <Route exact path="/reports/garageInventory" component={GarageInventory}/>
             <Route exact path="/reports/gasLoad" component={GasLoad}/>
             <Route exact path="/reports/inventory" component={Inventory}/>
@@ -87,7 +84,6 @@ ReactDOM.render((
             <Route exact path="/reports/netIncome" component={NetIncome}/>
             <Route exact path="/reports/payroll" component={Payroll}/>
             <Route exact path="/reports/POS" component={POSReport}/>
-            <Route exact path="/reports/reportsASP" component={ReportsASP}/>
             <Route exact path="/reports/salesRoom" component={SalesRoom}/>
             <Route exact path="/reports/shortOver" component={ShortOver}/>
             <Route exact path="/reports/workOrders" component={WorkOrders}/>
