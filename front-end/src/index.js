@@ -5,7 +5,7 @@ import Home from './Home/Home';
 import SoftwareProducts from './Main/Products/SoftwareProducts/SoftwareProducts';
 import ProductAccessories from './Main/Products/Accessories/Accessories';
 import Contact from './Main/Contact/Contact';
-import Download from './Home/Home';
+import Downloads from './Main/Download/Downloads';
 import Support from './Main/Support/Support';
 import Reports from './Main/Reports/Reports';
 import BalanceSheet from './Main/Report/BalanceSheet/BalanceSheet';
@@ -67,7 +67,7 @@ ReactDOM.render((
             <Route exact path="/products/accessories" component={ProductAccessories}/>
             <Route exact path="/contact" component={Contact}/>
             <Route exact path="/support" component={Support}/>
-            <Route exact path="/download" component={Download}/>
+            <Route exact path="/download" component={Downloads}/>
             <Route exact path="/reports" component={Reports}/>
             <Route exact path="/reports/balanceSheet" component={BalanceSheet}/>
             <Route exact path="/reports/carWash" component={CarWash}/>

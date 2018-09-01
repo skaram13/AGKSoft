@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../Report.css";
+import '../../Main.css';
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import figure1 from "../../../assets/CreditCards/figure1.gif";
@@ -10,7 +11,7 @@ class ElectronicAcct extends Component {
         return(
             <div>
                 <Header/>
-                <div className="report-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Credit Card Reports</h1>
                     <div className="description-text">
                         When you download your Shift from the Cash Register, the Credit Card details get posted to the Electronic Credit Cards (Pending) window.

@@ -1,0 +1,19 @@
+.main-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.main-heading{
+    font-weight: bolder;
+    font-size: 50px;
+    color: #fc6100;
+}
+
+@media (min-width: 0px) and (max-width: 750px) {
+    .main-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

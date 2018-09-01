@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../Report.css";
+import '../../Main.css';
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import figure1 from "../../../assets/ShortOver/shortover.gif";
@@ -11,7 +12,7 @@ class ShortOver extends Component {
         return(
             <div>
                 <Header/>
-                <div className="report-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Short/Over</h1>
                     <div className="description-text">
                         To see the Daily Summary Report, click Daily Summary

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../Report.css";
+import '../../Main.css';
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import figure1 from "../../../assets/WorkOrders/figure1.gif";
@@ -12,7 +13,7 @@ class WorkOrder extends Component {
         return(
             <div>
                 <Header/>
-                <div className="report-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Work Order</h1>
                     <div className="description-text">
                         In order to create a Work Order, click Work Order.

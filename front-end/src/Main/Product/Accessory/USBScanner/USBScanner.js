@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../Product.css';
+import '../../../Main.css';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 import wireless from "../../../../assets/USBScanner/wirelessScanner.JPG";
@@ -11,7 +12,7 @@ class USBScanner extends Component {
         return(
             <div>
                 <Header/>
-                <div className="product-container">
+                <div className="main-container">
                     <h1 className="heading-text">USB Scanners</h1>
                     <div className="description-text">
                         All the scanner shown here can be used with the AGKSoft Point Of Sale or for the Back Office PC.

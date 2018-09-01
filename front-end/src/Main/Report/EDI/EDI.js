@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../Report.css";
+import '../../Main.css';
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import figure1 from "../../../assets/Vendors/VendorInvoiceWindowHTH.gif";
@@ -17,7 +18,7 @@ class EDI extends Component {
         return(
             <div>
                 <Header/>
-                <div className="report-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Vendors</h1>
                     <div>Invoices can be entered in many ways:</div>
 

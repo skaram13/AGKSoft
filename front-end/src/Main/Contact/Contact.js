@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./Contact.css";
+import '../Main.css';
 import Footer from "../Shared/Footer/Footer";
 import Header from "../Shared/Header/Header";
 
@@ -8,8 +9,8 @@ class Contact extends Component {
         return(
             <div>
                 <Header/>
-                <div className="contact-heading row-centered">Contact</div>
-                <div className="home">
+                <div className="main-container">
+                    <div className="main-heading row-centered">Contact</div>
                     <table className="table-one">
                         <div className="contact-form">
                             <h4 className="row">AGKSoft is here ready to serve you with all your software needs, so feel free to call us or email us any time.</h4>

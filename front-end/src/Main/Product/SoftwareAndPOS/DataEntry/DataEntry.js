@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../Product.css';
+import '../../../Main.css';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 
@@ -8,7 +9,7 @@ class DataEntry extends Component {
         return(
             <div>
                 <Header/>
-                <div className="product-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Data Entry</h1>
                     <div className="description-text">
                         AGKSoft provides services for maintaining your price book or your complete Sales Download, Shift Balancing, Accounting and Inventory.

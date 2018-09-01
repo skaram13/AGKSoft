@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../Product.css';
+import '../../../Main.css';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 import figure1 from "../../../../assets/ConversionTool/ConversionFirstTime.gif";
@@ -10,7 +11,7 @@ class ConversionTool extends Component {
         return(
             <div>
                 <Header/>
-                <div className="product-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Conversion Tool</h1>
                     <div className="description-text">The AGKSoft Conversion Tool Software can be used to convert registers such as a Gilbarco G-Site, Ruby VeriFone/Sapphire/Topaz/Commander/Ruby 2, Gilbarco Passport, Dresser Wayne Nucleus, ComData Smart Solutions POS and the AGKSoft POS System all using the same software.</div>
                     <div className="description-text"><a href="http://www.agksoft.com/demos/ConversionTool/ConversionTool.html">Click here for a demo</a></div>

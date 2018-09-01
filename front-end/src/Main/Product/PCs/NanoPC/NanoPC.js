@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../Product.css';
+import '../../../Main.css';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 import figure11 from "../../../../assets/NanoPC/figure1-1.jpg";
@@ -12,7 +13,7 @@ class MiniHP extends Component {
         return(
             <div>
                 <Header/>
-                <div className="product-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Nano PC (Windows 10)</h1>
                     <div className="description-text">Shown below are the Nano PCs AGKSoft offers with SSD, the measure 5" x 5" in size and the unit boots in less than 5 seconds. </div>
 

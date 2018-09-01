@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../Report.css";
+import '../../Main.css';
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import figure1 from "../../../assets/Inventory/figure1.gif";
@@ -14,7 +15,7 @@ class Inventory extends Component {
         return(
             <div>
                 <Header/>
-                <div className="report-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Inventory Reports</h1>
                     <div className="description-text">
                         The Inventory Window is used to manually change the inventory for a product.

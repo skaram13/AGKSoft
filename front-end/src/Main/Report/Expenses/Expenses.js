@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../Report.css";
+import '../../Main.css';
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import figure1 from "../../../assets/Expenses/figure1.gif";
@@ -10,7 +11,7 @@ class Expenses extends Component {
         return(
             <div>
                 <Header/>
-                <div className="report-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Expense Reports</h1>
                     <table className="report-entry-spacing row-centered center-images">
                         <th className="center-header">Expense Window</th>

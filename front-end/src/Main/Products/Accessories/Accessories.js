@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./Accessories.css";
+import '../../Main.css';
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import MicroPC from "../../../assets/AGKMicroPC.jpg";
@@ -17,7 +18,7 @@ class Accessories extends Component {
         return(
             <div>
                 <Header/>
-                <div className="hardware-container">
+                <div className="main-container">
                     <div className="product-page-heading row-centered">PCs</div>
                     <div>
                         <div className="product-entry">

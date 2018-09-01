@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../../Product.css';
+import '../../../../Main.css';
 import Footer from "../../../../Shared/Footer/Footer";
 import Header from "../../../../Shared/Header/Header";
 
@@ -8,7 +9,7 @@ class GettingStarted extends Component {
         return(
             <div>
                 <Header/>
-                <div className="product-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Getting Started</h1>
                     <div className="sub-header">The following is a quick overview of how you would do your book keeping:</div>
 

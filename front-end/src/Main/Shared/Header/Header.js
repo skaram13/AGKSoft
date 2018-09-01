@@ -24,7 +24,7 @@ class Header extends Component {
                         <NavItem eventKey={3} href="\support">
                             Support
                         </NavItem>
-                        <NavItem eventKey={4} href="\downloads">
+                        <NavItem eventKey={4} href="\download">
                             Downloads
                         </NavItem>
                         <NavDropdown eventKey={5} title="Demos">

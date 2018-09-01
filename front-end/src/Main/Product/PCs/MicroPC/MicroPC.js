@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../Product.css';
+import '../../../Main.css';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 import figure1 from "../../../../assets/MicroPC/Figure1.gif";
@@ -11,7 +12,7 @@ class MicroPC extends Component {
         return(
             <div>
                 <Header/>
-                <div className="product-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Micro-PC2 (Windows 10)</h1>
                     <div className="description-text">Shown below is the micro-PC AGKSoft offers with SSD is about 6" x 5" in size and the unit boots in about 5 seconds.</div>
                     <table className="product-entry-spacing row-centered center-images">

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../Product.css';
+import '../../../Main.css';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 import scanner1 from "../../../../assets/RegisterScanner/scanner1.jpg";
@@ -10,7 +11,7 @@ class RegisterScanner extends Component {
         return(
             <div>
                 <Header/>
-                <div className="product-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Register Scanners</h1>
                     <div className="description-text">The Honeywell/Metrologic Orbit Scanner can be used with any Point Of Sale system.
                         The (RS232 style) can be used for the VeriFone Ruby, Gilbarco G-Site/Passport and Dresser Wayne Nucleus.

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./SoftwareProducts.css";
+import '../../Main.css';
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import home from "../../../assets/home.png";
@@ -13,7 +14,7 @@ class SoftwareProducts extends Component {
         return(
             <div>
                 <Header/>
-                <div className="products-container">
+                <div className="main-container">
                     <div className="product-page-heading row-centered">Software</div>
                     <div className="solutions">
                         <div className="product-entry-software">

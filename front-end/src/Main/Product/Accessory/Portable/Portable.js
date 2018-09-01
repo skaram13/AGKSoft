@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../Product.css';
+import '../../../Main.css';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 import figure1 from "../../../../assets/portable/firgure1.jpg";
@@ -15,7 +16,7 @@ class Portable extends Component {
         return(
             <div>
                 <Header/>
-                    <div className="product-container">
+                    <div className="main-container">
                         <h1 className="heading-text">AGKSoft Portable Data Collector</h1>
                         <h4 className="sub-heading-product">To see a list of supported EDI Vendors, <a href="http://www.agksoft.com/vendorsreports.html">click here.</a></h4>
                         <div className="description-text">Shown below from left to right is the AGKSoft Inventory Software for the portable, followed by an image of the Portable without a trigger, then with a Trigger and finally an image with the Trigger and Docking Station.</div>

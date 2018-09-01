@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../Product.css';
+import '../../../Main.css';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 
@@ -8,7 +9,7 @@ class BackOffice extends Component {
         return(
             <div>
                 <Header/>
-                <div className="product-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Gas Station Software 12.x</h1>
                     <div className="sub-header">
                         <a className="dividers-first" href="http://www.agksoft.com/gasdesk.html">EXPLORE THE SOFTWARE</a>

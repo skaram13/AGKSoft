@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../Report.css";
+import '../../Main.css';
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import figure1 from "../../../assets/NetIncome/Income.gif";
@@ -9,7 +10,7 @@ class NetIncome extends Component {
         return(
             <div>
                 <Header/>
-                <div className="report-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Net Income</h1>
                     <div className="description-text">
                         To see the General Ledger Report, click <a href="http://www.agksoft.com/images/GeneralLedger.gif"><b>General Ledger</b></a>

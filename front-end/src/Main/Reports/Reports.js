@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "./Reports.css";
+import "../Main.css";
 import Footer from "../Shared/Footer/Footer";
 import Header from "../Shared/Header/Header";
 import register from "../../assets/register.png";
@@ -26,7 +27,7 @@ class Reports extends Component {
         return(
             <div>
                 <Header/>
-                <div className="reports-container">
+                <div className="main-container">
                     <div className="reports-heading row-centered">Reports</div>
                     <div className="reports">
                         <div className="reports-entry">

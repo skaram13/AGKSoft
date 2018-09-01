@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../Product.css';
+import '../../../Main.css';
 import './POS.css';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
@@ -13,7 +14,7 @@ class POS extends Component {
         return(
             <div>
                 <Header/>
-                <div className="product-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Point Of Sale Software (POS)</h1>
                     <div className="description-text">
                         AGKSoft Point Of Sale Software (POS) is for Gas Stations, Convenience Stores (C-Stores), Liquor Stores and most general retail stores.

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../Report.css";
+import '../../Main.css';
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import figure1 from "../../../assets/GasLoad/GasLoad.gif";
@@ -14,7 +15,7 @@ class BalanceSheet extends Component {
         return(
             <div>
                 <Header/>
-                <div className="report-container">
+                <div className="main-container">
                     <h1 className="heading-text">Gas Load and Gas Sale</h1>
                     <div className="description-text">When you receive your Fuel Delivery, you click GAS LOAD.
                         You will now see the GAS LOAD screen shown below.

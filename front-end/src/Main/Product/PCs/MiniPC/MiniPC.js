@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../Product.css';
+import '../../../Main.css';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 import figure1 from "../../../../assets/MiniPC/figure1.jpg";
@@ -11,7 +12,7 @@ class MiniPC extends Component {
         return(
             <div>
                 <Header/>
-                <div className="product-container">
+                <div className="main-container">
                     <h1 className="heading-text">AGKSoft Mini-RAID-PC (Windows 10)</h1>
                     <div className="description-text">Shown below is the Mini-RAID-PC AGKSoft offers with 2-250GB SSD RAID 1 Drives (7" x 7" in size).</div>
 
