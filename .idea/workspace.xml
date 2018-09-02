@@ -2,51 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e54f2e1e-42ad-4d61-a3a9-7436416550a1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/front-end/src/Main/Download/Downloads.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/Main/Main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Contact/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Contact/Contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/Accessory/BarcodePrinter/BarcodePrinter.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/Accessory/BarcodePrinter/BarcodePrinter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/Accessory/Portable/Portable.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/Accessory/Portable/Portable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/Accessory/RegisterScanner/RegisterScanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/Accessory/RegisterScanner/RegisterScanner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/Accessory/USBScanner/USBScanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/Accessory/USBScanner/USBScanner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/PCs/MicroPC/MicroPC.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/PCs/MicroPC/MicroPC.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/PCs/MiniHP/MiniHP.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/PCs/MiniHP/MiniHP.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/PCs/MiniPC/MiniPC.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/PCs/MiniPC/MiniPC.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/PCs/NanoPC/NanoPC.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/PCs/NanoPC/NanoPC.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/Product.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/Product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/BackOffice.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/BackOffice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/GettingStarted/GettingStarted.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/GettingStarted/GettingStarted.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/ConversionTool/ConversionTool.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/ConversionTool/ConversionTool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/DataEntry/DataEntry.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/DataEntry/DataEntry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/HomeOffice/HomeOffice.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/HomeOffice/HomeOffice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/POS/POS.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/POS/POS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Products/Accessories/Accessories.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Products/Accessories/Accessories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Products/SoftwareProducts/SoftwareProducts.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Products/SoftwareProducts/SoftwareProducts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/BalanceSheet/BalanceSheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/BalanceSheet/BalanceSheet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/CarWash/CarWash.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/CarWash/CarWash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/CheckingAcct/CheckingAcct.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/CheckingAcct/CheckingAcct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/ClientAccounts/ClientAccounts.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/ClientAccounts/ClientAccounts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/EDI/EDI.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/EDI/EDI.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/ElectronicAcct/ElectronicAcct.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/ElectronicAcct/ElectronicAcct.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/ElectronicCC/ElectronicCC.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/ElectronicCC/ElectronicCC.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/Expenses/Expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/Expenses/Expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/GarageInventory/GarageInventory.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/GarageInventory/GarageInventory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/GasLoad/GasLoad.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/GasLoad/GasLoad.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/Inventory/Inventory.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/Inventory/Inventory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/Lotto/Lotto.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/Lotto/Lotto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/NetIncome/NetIncome.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/NetIncome/NetIncome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/POS/POSreport.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/POS/POSreport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/Payroll/Payroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/Payroll/Payroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/Report.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/Report.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/SalesRoom/SalesRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/SalesRoom/SalesRoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/ShortOver/ShortOver.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/ShortOver/ShortOver.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Report/WorkOrders/WorkOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Report/WorkOrders/WorkOrder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Reports/Reports.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Reports/Reports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Shared/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Shared/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Support/Support.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Support/Support.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Download/Downloads.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Download/Downloads.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/Main/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/Main/Main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WorkOrder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/WorkOrders/WorkOrder.js">
+      <file leaf-file-name="Downloads.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front-end/src/Main/Download/Downloads.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            <state relative-caret-position="165">
+              <caret line="144" column="41" lean-forward="true" selection-start-line="144" selection-start-column="41" selection-end-line="144" selection-end-column="41" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -72,83 +30,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inventory.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/Inventory/Inventory.js">
+      <file leaf-file-name="Main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/Main/Main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="216">
+              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-end-line="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="POSreport.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/POS/POSreport.js">
+      <file leaf-file-name="Row.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/Home/Row/Row.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SalesRoom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/SalesRoom/SalesRoom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShortOver.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/ShortOver/ShortOver.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lotto.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/Lotto/Lotto.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NetIncome.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/NetIncome/NetIncome.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Payroll.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/Payroll/Payroll.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            <state>
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -213,8 +107,6 @@
         <option value="$PROJECT_DIR$/front-end/src/index.js" />
         <option value="$PROJECT_DIR$/front-end/src/Main/Report/Report.css" />
         <option value="$PROJECT_DIR$/front-end/src/Main/Reports/Reports.js" />
-        <option value="$PROJECT_DIR$/front-end/src/Main/Main.css" />
-        <option value="$PROJECT_DIR$/front-end/src/Main/Download/Downloads.js" />
         <option value="$PROJECT_DIR$/front-end/src/Main/Contact/Contact.js" />
         <option value="$PROJECT_DIR$/front-end/src/Main/Contact/Contact.css" />
         <option value="$PROJECT_DIR$/front-end/src/Main/Product/Product.css" />
@@ -253,6 +145,8 @@
         <option value="$PROJECT_DIR$/front-end/src/Main/Report/ShortOver/ShortOver.js" />
         <option value="$PROJECT_DIR$/front-end/src/Main/Report/WorkOrders/WorkOrder.js" />
         <option value="$PROJECT_DIR$/front-end/src/Main/Support/Support.js" />
+        <option value="$PROJECT_DIR$/front-end/src/Main/Main.css" />
+        <option value="$PROJECT_DIR$/front-end/src/Main/Download/Downloads.js" />
       </list>
     </option>
   </component>
@@ -305,6 +199,13 @@
               <item name="AGKSoft" type="462c0819:PsiDirectoryNode" />
               <item name="front-end" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AGKSoft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AGKSoft" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -313,23 +214,7 @@
               <item name="front-end" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Reports" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AGKSoft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AGKSoft" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AGKSoft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AGKSoft" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="Support" type="462c0819:PsiDirectoryNode" />
+              <item name="Download" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -390,12 +275,12 @@
       <workItem from="1532883117509" duration="77809000" />
       <workItem from="1534811241582" duration="9289000" />
       <workItem from="1535496066401" duration="6990000" />
-      <workItem from="1535670847993" duration="6605000" />
+      <workItem from="1535670847993" duration="12769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153073000" />
+    <option name="totallyTimeSpent" value="159237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -407,10 +292,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="0" width="1286" height="688" extended-state="1" />
+    <frame x="2" y="0" width="1286" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7896175" visible="true" weight="0.19935949" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7896175" visible="true" weight="0.19935949" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32737032" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32849365" />
@@ -418,7 +303,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32608697" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3291592" />
       <window_info id="Structure" order="1" sideWeight="0.2103825" side_tool="true" visible="true" weight="0.19935949" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33695653" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33695653" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -460,7 +345,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/ElectronicAcct/ElectronicAcct" />
     <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/FuelStatus/FuelStatus" />
     <entry file="file://$PROJECT_DIR$/front-end/src/Main/Shared/Header/Header.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -506,27 +390,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/Main/Contact/Contact.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-277">
           <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Download/Downloads.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,37 +649,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/Lotto/Lotto.js">
+    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Support/Support.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/NetIncome/NetIncome.js">
+    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Reports/Reports.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/Payroll/Payroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-272">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/POS/POSreport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/Inventory/Inventory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/WorkOrders/WorkOrder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
@@ -842,37 +713,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/WorkOrders/WorkOrder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Support/Support.js">
+    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/Lotto/Lotto.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Reports/Reports.js">
+    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/NetIncome/NetIncome.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="204">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/Inventory/Inventory.js">
+    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Report/Payroll/Payroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="51">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/Home/Row/Row.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/Main/Download/Downloads.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="144" column="41" lean-forward="true" selection-start-line="144" selection-start-column="41" selection-end-line="144" selection-end-column="41" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
