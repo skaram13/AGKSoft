@@ -37,12 +37,9 @@ class Header extends Component {
                             Contact
                         </NavItem>
                     </Nav>
-                    <Navbar.Text className="hidden-xs" pullRight>|</Navbar.Text>
-                    <Navbar.Text className="hidden-xs" pullRight>1-800-000-0000</Navbar.Text>
+                    <Navbar.Text className="hidden-xs hidden-sm" pullRight>|</Navbar.Text>
+                    <Navbar.Text className="hidden-xs hidden-sm" pullRight>1-800-320-9519</Navbar.Text>
                 </Navbar.Collapse>
-
-
-
             </Navbar>
         )
     }

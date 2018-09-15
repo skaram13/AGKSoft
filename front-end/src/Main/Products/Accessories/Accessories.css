@@ -36,6 +36,19 @@
     margin-bottom: 20px;
 }
 
+.product-entry-pc{
+    display: inline-block;
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #C8C8C8;
+
+}
 
 @media (min-width: 0px) and (max-width: 750px) {
     .product-entry{
@@ -45,5 +58,12 @@
         margin-top: 0px;
         margin-bottom: 40px;
     }
+    .product-entry-pc {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
 
-}
+    }

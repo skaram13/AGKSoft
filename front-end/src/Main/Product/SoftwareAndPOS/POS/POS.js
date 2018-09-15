@@ -2,12 +2,28 @@ import React, { Component } from 'react';
 import '../../Product.css';
 import '../../../Main.css';
 import './POS.css';
+import ProductCarousel from '../../../Shared/ProductCarousel/ProductCarousel';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
-import figure1 from "../../../../assets/POS/POS-Front.jpg";
-import figure2 from "../../../../assets/POS/POS-Back.jpg";
-import figure3 from "../../../../assets/POS/Customer-Moniter.jpg";
-import figure4 from "../../../../assets/POS/POS-Screen.gif";
+import figure1 from "../../../../assets/POS/figure1.jpg";
+import figure2 from "../../../../assets/POS/figure2.jpg";
+import figure3 from "../../../../assets/POS/figure3.jpg";
+import figure4 from "../../../../assets/POS/figure4.jpg";
+import figure5 from "../../../../assets/POS/figure5.jpg";
+import figure6 from "../../../../assets/POS/figure6.jpg";
+import figure7 from "../../../../assets/POS/figure10.gif";
+import figure8 from "../../../../assets/POS/figure11.jpg";
+const photos = [figure1, figure2, figure3, figure4, figure5, figure6, figure7, figure8];
+const photoCaptions = [
+    'Front View (Receipt Printer built-in)',
+    'Side View',
+    'Back View (Customer Display)',
+    'Front View with Cash Drawer',
+    'Bottom View',
+    'VeriFone VX805 Pin Pad',
+    'POS Interface',
+    'POS with Scanner/Scale'
+];
 
 class POS extends Component {
     render() {
@@ -19,25 +35,7 @@ class POS extends Component {
                     <div className="description-text">
                         AGKSoft Point Of Sale Software (POS) is for Gas Stations, Convenience Stores (C-Stores), Liquor Stores and most general retail stores.
                         Our POS is easy to use with an intuitive graphical user interface and can be installed on a network and access the system from multiple PCs.</div>
-                    <table className="product-entry-spacing row-centered center-block">
-                        <th className="center-header">Figure 1 (Front)</th>
-                        <tr className="center-images"><img alt="Figure 1 (Front)" className="pos-images image-border" src={figure1}/></tr>
-                    </table>
-
-                    <table className="product-entry-spacing row-centered center-block">
-                        <th className="center-header">Figure 2 (Back)</th>
-                        <tr className="center-images"><img alt="Figure 2 (Back)" className="pos-images image-border" src={figure2}/></tr>
-                    </table>
-
-                    <table className="product-entry-spacing row-centered center-block">
-                        <th className="center-header">Figure 3 (Customer Display Monitor)</th>
-                        <tr className="center-images"><img alt="Figure 3 (Customer Display Monitor)" className="pos-images image-border" src={figure3}/></tr>
-                    </table>
-
-                    <table className="product-entry-spacing row-centered center-block">
-                        <th className="center-header">Shown below is the POS Interface, you may click on the various buttons for more info.</th>
-                        <tr className="center-images"><img alt="POS Interface" className="pos-images image-border" src={figure4}/></tr>
-                    </table>
+                    <ProductCarousel photos={photos} photoCaptions={photoCaptions}/>
 
                     <div className="sub-heading-product">FEATURES</div>
                     <ul>

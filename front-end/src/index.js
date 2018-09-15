@@ -27,9 +27,6 @@ import SalesRoom from './Main/Report/SalesRoom/SalesRoom';
 import ShortOver from './Main/Report/ShortOver/ShortOver';
 import WorkOrders from './Main/Report/WorkOrders/WorkOrder';
 import Portable from './Main/Product/Accessory/Portable/Portable';
-import MiniPC from './Main/Product/PCs/MiniPC/MiniPC';
-import MiniHP from './Main/Product/PCs/MiniHP/MiniHP';
-import NanoPC from './Main/Product/PCs/NanoPC/NanoPC';
 import MicroPC from './Main/Product/PCs/MicroPC/MicroPC';
 import USBScanner from './Main/Product/Accessory/USBScanner/USBScanner';
 import BarcodePrinter from './Main/Product/Accessory/BarcodePrinter/BarcodePrinter';
@@ -57,10 +54,7 @@ ReactDOM.render((
             <Route exact path="/products/software/backOffice/gettingStarted" component={GettingStarted}/>
             <Route exact path="/products/software/dataEntry" component={DataEntry}/>
             <Route exact path="/products/accessories/portable" component={Portable}/>
-            <Route exact path="/products/accessories/miniPC" component={MiniPC}/>
-            <Route exact path="/products/accessories/miniHP" component={MiniHP}/>
             <Route exact path="/products/accessories/microPC" component={MicroPC}/>
-            <Route exact path="/products/accessories/nanoPC" component={NanoPC}/>
             <Route exact path="/products/accessories/usbScanner" component={USBScanner}/>
             <Route exact path="/products/accessories/barcodePrinter" component={BarcodePrinter}/>
             <Route exact path="/products/accessories/registerScanner" component={RegisterScanner}/>
