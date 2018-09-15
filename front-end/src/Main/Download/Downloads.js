@@ -3,6 +3,8 @@ import Footer from "../Shared/Footer/Footer";
 import Header from "../Shared/Header/Header";
 import "../Main.css";
 import {Panel, PanelGroup } from 'react-bootstrap';
+const baseUrl = "http://www.agksoft.com/images/";
+const agk = "http://www.agksoft.com";
 class Downloads extends Component {
     render() {
         return(
@@ -23,7 +25,7 @@ class Downloads extends Component {
                                         <th>Version</th>
                                     </tr>
                                     <tr>
-                                        <td>Click here to install the latest version</td>
+                                        <td><a href={baseUrl + "updategas.exe"}>Click here to install the latest version</a></td>
                                         <td>07/26/2018</td>
                                         <td>12.12.201</td>
                                     </tr>
@@ -41,8 +43,8 @@ class Downloads extends Component {
                                         <th>Video</th>
                                     </tr>
                                     <tr>
-                                        <td>Click here for the complete Ruby installation</td>
-                                        <td>Click here to See Video Installation.</td>
+                                        <td><a href={baseUrl + "setupruby.exe"}>Click here for the complete Ruby installation</a></td>
+                                        <td><a href={"http://www.agksoft.com/Training/Ruby/Ruby.html"}>Click here to See Video Installation.</a></td>
                                     </tr>
                                 </table>
                                 <table id="downloads">
@@ -50,7 +52,7 @@ class Downloads extends Component {
                                         <th>Ruby VeriFone Sapphire Installation</th>
                                     </tr>
                                     <tr>
-                                        <td>Click here to install the Sapphire Software.</td>
+                                        <td><a href="http://www.agksoft.com/images/setupsaphire.exe">Click here to install the Sapphire Software.</a></td>
                                     </tr>
                                 </table>
                                 <table id="downloads">
@@ -58,13 +60,13 @@ class Downloads extends Component {
                                         <th>Ruby Commander Configuration</th>
                                     </tr>
                                     <tr>
-                                        <td>Shell Cybera Zone Router</td>
+                                        <td><a href={baseUrl + "RubyCommanderShell.JPG"}>Shell Cybera Zone Router</a></td>
                                     </tr>
                                     <tr>
-                                        <td>Cybera Zone Router (Single WAN)</td>
+                                        <td><a href={baseUrl + "RubyCyberaZoneRouter.JPG"}>Cybera Zone Router (Single WAN)</a></td>
                                     </tr>
                                     <tr>
-                                        <td>Cybera Zone Router  (Dual WAN)</td>
+                                        <td><a href={baseUrl + "RubyCommanderCyberaZoneRouter.JPG"}>Cybera Zone Router  (Dual WAN)</a></td>
                                     </tr>
                                 </table>
                                 <table id="downloads">
@@ -73,27 +75,27 @@ class Downloads extends Component {
                                         <th/>
                                     </tr>
                                     <tr>
-                                        <td>Java Runtime</td>
+                                        <td><a href={baseUrl + "java.exe"}>Java Runtime</a></td>
                                         <td>Download to C:\TEMP and run it if you do not have Java already.</td>
                                     </tr>
                                     <tr>
-                                        <td>MSXML</td>
+                                        <td><a href={baseUrl + "msxml.msi"}>MSXML</a></td>
                                         <td>Download to C:\TEMP only</td>
                                     </tr>
                                     <tr>
-                                        <td>Latest RubyLink</td>
+                                        <td><a href={baseUrl + "gemcom32.msi"}>Latest RubyLink</a></td>
                                         <td>Download to C:\TEMP and run it</td>
                                     </tr>
                                     <tr>
-                                        <td>Sapphire Templates</td>
+                                        <td><a href={baseUrl + "saphire.exe"}>Sapphire Templates</a></td>
                                         <td>Download to C:\TEMP and run it if you have a Ruby with Sapphire</td>
                                     </tr>
                                     <tr>
-                                        <td>Gemcom & Templates</td>
+                                        <td><a href={baseUrl + "gemcom.exe"}>Gemcom & Templates </a></td>
                                         <td>Download to C:\TEMP and run it if you have a Ruby only</td>
                                     </tr>
                                     <tr>
-                                        <td>RubyLink Windows 7 Patch</td>
+                                        <td><a href={baseUrl + "rubylink-1.6.1.0.zip"}>RubyLink Windows 7 Patch</a></td>
                                         <td>Download to C:\TEMP, open with WinZip and extract to: C:\GEMCOM\BIN</td>
                                     </tr>
                                 </table>
@@ -110,7 +112,7 @@ class Downloads extends Component {
                                         <th/>
                                     </tr>
                                     <tr>
-                                        <td>Black Pipe Software 1.3.3/198 Installation</td>
+                                        <td><a href={baseUrl + "Blackpipe_1.3.3.198_Install.exe"}>Black Pipe Software 1.3.3/198 Installation</a></td>
                                         <td>Download to C:\TEMP and run it</td>
                                     </tr>
                                 </table>
@@ -120,7 +122,7 @@ class Downloads extends Component {
                                         <th>Dresser Wayne NAMOS/Beetle POS</th>
                                     </tr>
                                     <tr>
-                                        <td>Secure FTP Installation</td>
+                                        <td><a href={baseUrl + "SecureFTPInstallation.pdf"}>Secure FTP Installation</a></td>
                                     </tr>
                                 </table>
                             </Panel.Body>
@@ -135,19 +137,24 @@ class Downloads extends Component {
                                         <th>Gilbarco Passport</th>
                                     </tr>
                                     <tr>
-                                        <td>V8.03 Network Add. HPS-Dallas or ConocoPhillips</td>
+                                        <td><a href={baseUrl + "MDE-4859B.pdf"}>V8.03 Network Add. HPS-Dallas or ConocoPhillips</a></td>
                                     </tr>
                                     <tr>
-                                        <td>V8.02+ Third-party Partner Device Access Rules</td>
+                                        <td><a href={baseUrl + "MDE-4880B.pdf"}>V8.02+ Third-party Partner Device Access Rules</a></td>
                                     </tr>
                                     <tr>
-                                        <td>ConocoPhillip Back Office Setup (Image1, Image2, Image3)</td>
+                                        <td>ConocoPhillip Back Office Setup (
+                                            <a href={baseUrl + "cp1.gif"}>Image1, </a>
+                                            <a href={baseUrl + "cp2.gif"}>Image2, </a>
+                                            <a href={baseUrl + "cp3.gif"}>Image3</a>
+                                            )
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <td>Firewall Router Start up and Service Manual</td>
+                                        <td><a href={baseUrl + "mde-4866a.pdf"}>Firewall Router Start up and Service Manual</a></td>
                                     </tr>
                                     <tr>
-                                        <td>Click here to see the DMZ Port</td>
+                                        <td><a href={baseUrl + "DMZ.JPG"}>Click here to see the DMZ Port</a></td>
                                     </tr>
                                 </table>
                             </Panel.Body>
@@ -164,12 +171,12 @@ class Downloads extends Component {
                                         <th>Version</th>
                                     </tr>
                                     <tr>
-                                        <td>Download PPT88xx//MC5x Software Update ONLY</td>
+                                        <td><a href={baseUrl + "AGKSoftInv.exe"}>Download PPT88xx//MC5x Software Update ONLY</a></td>
                                         <td>03/23/2018</td>
                                         <td>12.83</td>
                                     </tr>
                                     <tr>
-                                        <td>Download MC70 (Windows Mobile 5.0 Visual Basic Runtime)</td>
+                                        <td><a href={baseUrl + "VBRuntime.exe"}>Download MC70 (Windows Mobile 5.0 Visual Basic Runtime)</a></td>
                                         <td>03/14/2016</td>
                                         <td>N/A</td>
                                     </tr>
@@ -181,23 +188,23 @@ class Downloads extends Component {
                                         <th>Updated On</th>
                                     </tr>
                                     <tr>
-                                        <td>Connect Portable to PC</td>
+                                        <td><a href={agk + "/Training/PPT88xx/PPT88xx.html"}>Connect Portable to PC</a></td>
                                         <td>03/16/2016</td>
                                     </tr>
                                     <tr>
-                                        <td>Inventory Installation</td>
+                                        <td><a href={agk + "/demos/InventoryInstall/InventoryInstall.html"}>Inventory Installation</a></td>
                                         <td>03/16/2016</td>
                                     </tr>
                                     <tr>
-                                        <td>Setup the Portable</td>
+                                        <td><a href={agk + "/demos/PortableSetup/PortableSetup.html"}>Setup the Portable</a></td>
                                         <td>03/16/2016</td>
                                     </tr>
                                     <tr>
-                                        <td>Cold Start with Keys</td>
+                                        <td><a href={agk + "/demos/PortableKeysColdstart/PortableKeysColdstart.html"}>Cold Start with Keys</a></td>
                                         <td>03/16/2016</td>
                                     </tr>
                                     <tr>
-                                        <td>Cold Start with No Keys</td>
+                                        <td><a href={agk + "/demos/PortableNoKeysColdstart/PortableNoKeysColdstart.html"}>Cold Start with No Keys</a></td>
                                         <td>03/16/2016</td>
                                     </tr>
                                 </table>
@@ -213,16 +220,16 @@ class Downloads extends Component {
                                         <th>AGKSoft Point Of Sale Downloads (Mercury/Vantiv)</th>
                                     </tr>
                                     <tr>
-                                        <td>Verifone VX805 driver</td>
+                                        <td><a href={baseUrl + "VeriFoneUSBUARTDriver_Vx_1.0.0.52_B5.zip"}>Verifone VX805 driver</a></td>
                                     </tr>
                                     <tr>
-                                        <td>DSI EMVx</td>
+                                        <td><a href={baseUrl + "dsiEMVUS-100-Install20150831-W8.exe"}>DSI EMVx</a></td>
                                     </tr>
                                     <tr>
-                                        <td>DSI PDCX</td>
+                                        <td><a href={baseUrl + "dsiPDCX-142-Install20150420-W8.exe"}>DSI PDCX</a></td>
                                     </tr>
                                     <tr>
-                                        <td>NETePay</td>
+                                        <td><a href={baseUrl + "NETePay.exe"}>NETePay</a></td>
                                     </tr>
                                 </table>
                                 <table id='downloads'>
@@ -230,10 +237,10 @@ class Downloads extends Component {
                                         <th>AGKSoft Point Of Sale Downloads (Elavon/Converge)</th>
                                     </tr>
                                     <tr>
-                                        <td>Ingenico driver	</td>
+                                        <td><a href={baseUrl + "IngenicoUSBDrivers_2.80_setup.exe"}>Ingenico driver</a></td>
                                     </tr>
                                     <tr>
-                                        <td>Commerce Web Services</td>
+                                        <td><a href={baseUrl + "CommerceWebServicesSetup.exe"}>Commerce Web Services</a></td>
                                     </tr>
                                 </table>
                                 <table id='downloads'>
@@ -241,34 +248,34 @@ class Downloads extends Component {
                                         <th>AGKSoft Point Of Sale Downloads (non-EMV)</th>
                                     </tr>
                                     <tr>
-                                        <td>MS2320 Scale/Scanner OPOS</td>
+                                        <td><a href={baseUrl + "MetroOPOS.exe"}>MS2320 Scale/Scanner OPOS</a></td>
                                     </tr>
                                     <tr>
-                                        <td>Honeywell MetroSet 2</td>
+                                        <td><a href={baseUrl + "Metroset3.2.48.exe"}>Honeywell MetroSet 2</a></td>
                                     </tr>
                                     <tr>
-                                        <td>OPOS Instructions</td>
+                                        <td><a href={baseUrl + "MS2320_K241_EPOS.pdf"}>OPOS Instructions</a></td>
                                     </tr>
                                     <tr>
-                                        <td>Epson APD Printer Driver Ver. 4.56E</td>
+                                        <td><a href={baseUrl + "APD_456E.exe"}>Epson APD Printer Driver Ver. 4.56E</a></td>
                                     </tr>
                                     <tr>
-                                        <td>R180 Printer Driver</td>
+                                        <td><a href={baseUrl + "R180.exe"}>R180 Printer Driver</a></td>
                                     </tr>
                                     <tr>
-                                        <td>DSI Client Software Installation</td>
+                                        <td><a href={baseUrl + "DSIClient.exe"}>DSI Client Software Installation</a></td>
                                     </tr>
                                     <tr>
-                                        <td>AGKSoft USB Scanner Sheet</td>
+                                        <td><a href={baseUrl + "USB-Scanner-Setup.pdf"}>AGKSoft USB Scanner Sheet</a></td>
                                     </tr>
                                     <tr>
-                                        <td>Fix OPOS</td>
+                                        <td><a href={baseUrl + "fixOPOS.exe"}>Fix OPOS</a></td>
                                     </tr>
                                     <tr>
-                                        <td>SNBC BTP-R880 Win 7 Driver</td>
+                                        <td><a href={baseUrl + "SNBC-BTP-R880-Win7.zip"}>SNBC BTP-R880 Win 7 Driver</a></td>
                                     </tr>
                                     <tr>
-                                        <td>SNBC BTP-R880 Win 10 Driver</td>
+                                        <td><a href={baseUrl + "SNBC-BTP-R880-Win10.zip"}>SNBC BTP-R880 Win 10 Driver</a></td>
                                     </tr>
                                 </table>
                             </Panel.Body>
@@ -283,20 +290,22 @@ class Downloads extends Component {
                                         <th>External Tools</th>
                                     </tr>
                                     <tr>
-                                        <td>Download Google Drive</td>
+                                        <td><a href={baseUrl +  "googledrivesync.exe"}>Download Google Drive</a></td>
                                     </tr>
                                     <tr>
-                                        <td>Download One Drive</td>
+                                        <td><a href={baseUrl + "OneDriveSetup.exe"}>Download One Drive</a></td>
                                     </tr>
                                     <tr>
-                                        <td>Download PDF Writer</td>
+                                        <td><a href={baseUrl + "Install_PDFR_Pro_v228.exe"}>Download PDF Writer</a></td>
                                     </tr>
                                     <tr>
-                                        <td>Crystal Reports Service Pack 3</td>
+                                        <td><a href={baseUrl + "cr85win_en_sp3.exe"}>Crystal Reports Service Pack 3</a></td>
                                     </tr>
                                     <tr>
                                         <td>
-                                            To download MCMICR font Install MCMICR and then Download MCMICR Font
+                                            To download MCMICR font
+                                            <a href={baseUrl + "mcmicr2.exe"}> Install MCMICR</a> and then
+                                            <a href={baseUrl + "mcmicr.ttf"}> Download MCMICR Font</a>
                                         </td>
                                     </tr>
                                 </table>
