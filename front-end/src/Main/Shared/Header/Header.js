@@ -38,7 +38,7 @@ class Header extends Component {
                         </NavItem>
                     </Nav>
                     <Navbar.Text className="hidden-xs hidden-sm" pullRight>|</Navbar.Text>
-                    <Navbar.Text className="hidden-xs hidden-sm" pullRight>1-800-320-9519</Navbar.Text>
+                    <Navbar.Text className="hidden-xs hidden-sm" pullRight> <a href="tel:18003209519">1-800-320-9519</a></Navbar.Text>
                 </Navbar.Collapse>
             </Navbar>
         )

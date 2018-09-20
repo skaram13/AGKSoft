@@ -3,9 +3,14 @@ import Footer from "../Shared/Footer/Footer";
 import Header from "../Shared/Header/Header";
 import "../Main.css";
 import {Panel, PanelGroup } from 'react-bootstrap';
+import myData from "../../assets/JSON/data";
+
 const baseUrl = "http://www.agksoft.com/images/";
 const agk = "http://www.agksoft.com";
+
 class Downloads extends Component {
+
+
     render() {
         return(
             <div>
@@ -15,19 +20,27 @@ class Downloads extends Component {
                     <PanelGroup accordion id="accordion-example">
                         <Panel eventKey="1">
                             <Panel.Heading>
-                                <Panel.Title toggle>Latest AGKSoft Updates</Panel.Title>
+                                <Panel.Title toggle>AGKSoft Software</Panel.Title>
                             </Panel.Heading>
                             <Panel.Body collapsible>
                                 <table id='downloads'>
                                     <tr>
-                                        <th>Installation</th>
+                                        <th>Full Installation</th>
+                                    </tr>
+                                    <tr>
+                                        <td><a href={baseUrl + "setupstation.exe"}>Click here to install the full AGKSoft software</a></td>
+                                    </tr>
+                                </table>
+                                <table id='downloads'>
+                                    <tr>
+                                        <th>Latest Update</th>
                                         <th>Updated On</th>
                                         <th>Version</th>
                                     </tr>
                                     <tr>
                                         <td><a href={baseUrl + "updategas.exe"}>Click here to install the latest version</a></td>
-                                        <td>07/26/2018</td>
-                                        <td>12.12.201</td>
+                                        <td><agksoftupdatedon>{myData.agksoftupdatedon}</agksoftupdatedon></td>
+                                        <td><agksoftversion>{myData.agksoftversion}</agksoftversion></td>
                                     </tr>
                                 </table>
                             </Panel.Body>
@@ -172,8 +185,8 @@ class Downloads extends Component {
                                     </tr>
                                     <tr>
                                         <td><a href={baseUrl + "AGKSoftInv.exe"}>Download PPT88xx//MC5x Software Update ONLY</a></td>
-                                        <td>03/23/2018</td>
-                                        <td>12.83</td>
+                                        <td>09/10/2018</td>
+                                        <td>12.84</td>
                                     </tr>
                                     <tr>
                                         <td><a href={baseUrl + "VBRuntime.exe"}>Download MC70 (Windows Mobile 5.0 Visual Basic Runtime)</a></td>

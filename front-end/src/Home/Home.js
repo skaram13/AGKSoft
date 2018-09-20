@@ -49,7 +49,7 @@ class Home extends Component {
                             <a href="/products/software/conversionTool">
                                 <h3>Conversion Tool</h3>
                                 <img className="solution-image" src={conversion} alt="conversion"/>
-                                <p>Used to convert registers such as a Gilbarco G-Site, Ruby VeriFone, Sapphire, Topaz, the AGKSoft POS System and more.</p>
+                                <p>The AGKSoft Conversion Tool Software can be used to convert registers such as a Gilbarco G-Site, Ruby VeriFone/ Sapphire/ Topaz/ Commander/ Ruby 2, Gilbarco Passport, Dresser Wayne Nucleus, ComData Smart Solutions POS and the AGKSoft POS System all using the same software.</p>
                             </a>
                         </div>
                         <div className="solution">

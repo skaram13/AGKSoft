@@ -12,7 +12,6 @@ class Support extends Component {
                 <Header/>
                 <div className="main-container">
                     <div className="main-heading row-centered">Support</div>
-                    <h3 className="row"><a href={base_url + "setupstation.exe"}>AGKSOFT DOWNLOAD</a></h3>
                     <h3 className="row">REMOTE DESKTOP SUPPORT</h3>
                     <h5><a href={base_url + "TeamViewerQS.exe"}>TeamViewer Quick Support</a></h5>
                     <h5><a href={base_url + "TeamViewer11.exe"}>Download TeamViewer 11</a></h5>

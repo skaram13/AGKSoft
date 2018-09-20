@@ -6,6 +6,17 @@
   margin: 0 auto;
 }
 
+.logo-spacing{
+  vertical-align: top;
+  padding-left: 20px;
+
+}
+.home-logo {
+  width: auto;
+  height: 100%;
+  max-height: 175px;
+}
+
 .home-container-background {
   background-color: #fc6100;
   color: white;
@@ -20,10 +31,11 @@
 .home-heading-text{
   font-weight: bolder;
   font-size: 50px;
+  text-align:left;
 }
 
 .sales-button{
-  margin-top: 70px;
+  margin-top: 20px;
   border-width: medium;
   border-style: solid;
   border-color: white;
@@ -34,6 +46,7 @@
 
 .description-text{
   font-size: 20px;
+  text-align:left;
 }
 
 @keyframes cf3FadeInOut {
