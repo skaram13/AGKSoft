@@ -3,7 +3,7 @@ import Footer from "../Shared/Footer/Footer";
 import Header from "../Shared/Header/Header";
 import "../Main.css";
 import {Panel, PanelGroup } from 'react-bootstrap';
-import myData from "../../assets/JSON/data";
+import myData from "../../assets/JSON/versions";
 
 const baseUrl = "http://www.agksoft.com/images/";
 const agk = "http://www.agksoft.com";
