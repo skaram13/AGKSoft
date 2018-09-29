@@ -30,10 +30,10 @@ class Contact extends Component {
                         <div>
                             <h4>Phone:</h4>
                             <div className="contact-text">
-                                <div>+1(508) 995-4934</div>
-                                <div>+1(401) 466-4213</div>
-                                <div>+1(508) 644-0192</div>
-                                <div>+1(800) 320-9519</div>
+                                <div><a href="tel:15089954934">+1(508) 995-4934</a></div>
+                                <div><a href="tel:14014664213">+1(401) 466-4213</a></div>
+                                <div><a href="tel:15086440192">+1(508) 644-0192</a></div>
+                                <div><a href="tel:18003209519">+1(800) 320-9519</a></div>
                             </div>
                         </div>
                         <div className="fax">
