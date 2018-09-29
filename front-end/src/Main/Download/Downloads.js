@@ -9,8 +9,6 @@ const baseUrl = "http://www.agksoft.com/images/";
 const agk = "http://www.agksoft.com";
 
 class Downloads extends Component {
-
-
     render() {
         return(
             <div>
@@ -331,5 +329,4 @@ class Downloads extends Component {
         );
     }
 }
-
 export default Downloads;

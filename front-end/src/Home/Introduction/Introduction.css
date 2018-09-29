@@ -1,11 +1,3 @@
-.home-img {
-  width: auto;
-  height: 100%;
-  align-items: center;
-  max-height: 400px;
-  margin: 0 auto;
-}
-
 .logo-spacing{
   vertical-align: top;
   padding-left: 20px;
@@ -61,5 +53,16 @@
   }
   100% {
     opacity:0;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 750px) {
+  .home-container{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .home-logo {
+    max-height: 100px;
   }
 }
