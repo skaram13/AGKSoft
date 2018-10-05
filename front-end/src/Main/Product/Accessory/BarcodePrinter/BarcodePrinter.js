@@ -20,19 +20,19 @@ class BarcodePrinter extends Component {
 
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="center-header">Figure 1 (4" X 2.31")</th>
-                        <tr className="center-images"><img alt='Figure 1 (4" X 2.31")' className="image-border" src={barcode1}/></tr>
+                        <tr className="center-images"><img alt='Figure 1 (4" X 2.31")' className="product-images image-border" src={barcode1}/></tr>
                     </table>
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="center-header">Figure 2 (4" X 2.31")</th>
-                        <tr className="center-images"><img alt='Figure 2 (4" X 2.31")' className="image-border" src={barcode2}/></tr>
+                        <tr className="center-images"><img alt='Figure 2 (4" X 2.31")' className="product-images image-border" src={barcode2}/></tr>
                     </table>
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="center-header">Figure 3 (3.5" X 1.1")</th>
-                        <tr className="center-images"><img alt='Figure 3 (3.5" X 1.1")' className="image-border" src={barcode3}/></tr>
+                        <tr className="center-images"><img alt='Figure 3 (3.5" X 1.1")' className="product-images image-border" src={barcode3}/></tr>
                     </table>
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="center-header">Figure 4 (2" X 0.75")</th>
-                        <tr className="center-images"><img alt='Figure 4 (2" X 0.75")' className="image-border" src={barcode4}/></tr>
+                        <tr className="center-images"><img alt='Figure 4 (2" X 0.75")' className="product-images image-border" src={barcode4}/></tr>
                     </table>
                 </div>
                 <Footer/>
