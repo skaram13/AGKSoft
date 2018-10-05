@@ -151,18 +151,12 @@ class Downloads extends Component {
                                         <td><a href={baseUrl + "MDE-4859B.pdf"}>V8.03 Network Add. HPS-Dallas or ConocoPhillips</a></td>
                                     </tr>
                                     <tr>
-                                        <td><a href={baseUrl + "MDE-4880B.pdf"}>V8.02+ Third-party Partner Device Access Rules</a></td>
-                                    </tr>
-                                    <tr>
                                         <td>ConocoPhillip Back Office Setup (
                                             <a href={baseUrl + "cp1.gif"}>Image1, </a>
                                             <a href={baseUrl + "cp2.gif"}>Image2, </a>
                                             <a href={baseUrl + "cp3.gif"}>Image3</a>
                                             )
                                         </td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href={baseUrl + "mde-4866a.pdf"}>Firewall Router Start up and Service Manual</a></td>
                                     </tr>
                                     <tr>
                                         <td><a href={baseUrl + "DMZ.JPG"}>Click here to see the DMZ Port</a></td>
@@ -182,7 +176,7 @@ class Downloads extends Component {
                                         <th>Version</th>
                                     </tr>
                                     <tr>
-                                        <td><a href={baseUrl + "AGKSoftInv.exe"}>Download PPT88xx//MC5x Software Update ONLY</a></td>
+                                        <td><a href={baseUrl + "AGKSoftInv.exe"}>Download PPT88xx/MC5x Software Update ONLY</a></td>
                                         <td>09/10/2018</td>
                                         <td>12.84</td>
                                     </tr>
