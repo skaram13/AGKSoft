@@ -9,7 +9,7 @@ class Introduction extends Component {
                 <div className="home-container">
                     <table>
                         <td>
-                            <tr rowspan="3"><img className="home-logo" src={logo}/></tr>
+                            <tr rowspan="3"><img className="home-logo" src={logo} alt="logo"/></tr>
                         </td>
                         <td className="logo-spacing">
                             <tr><div className="home-heading-text">AGKSoft</div></tr>
