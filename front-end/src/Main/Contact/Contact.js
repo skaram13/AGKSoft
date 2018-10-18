@@ -43,7 +43,7 @@ class Contact extends Component {
                         <div>
                             <h4>Email:</h4>
                             <div className="contact-text">
-                                A G K S U P P O R T @AGKSOFT.COM
+                                AGKSupport@AGKSoft.COM
                             </div>
                         </div>
                     </table>

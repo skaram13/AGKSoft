@@ -6,7 +6,8 @@
 
 .support-table{
     border: 1px solid black;
-    font-size: medium;
+    font-size: large;
+    color: #0000FF;
 }
 
 td{

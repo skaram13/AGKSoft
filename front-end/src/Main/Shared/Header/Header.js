@@ -15,7 +15,7 @@ class Header extends Component {
                 <Navbar.Collapse>
                     <Nav>
                         <NavDropdown eventKey={1} title="Products">
-                            <MenuItem eventKey={1.1} href="\products\software">Software & POS</MenuItem>
+                            <MenuItem eventKey={1.1} href="\products\software">Software</MenuItem>
                             <MenuItem eventKey={1.2} href="\products\accessories">PCs & Accessories</MenuItem>
                         </NavDropdown>
                         <NavItem eventKey={2} href="\reports">
@@ -28,8 +28,8 @@ class Header extends Component {
                             Downloads
                         </NavItem>
                         <NavDropdown eventKey={5} title="Demos">
-                            <MenuItem eventKey={5.1} href="http://agksoft.com/demos/POSDemo/POSDemo.html">POS Demo</MenuItem>
-                            <MenuItem eventKey={5.2} href="http://agksoft.com/demos/AGKDemo/AGKDemo.html">AGKSoft Demo</MenuItem>
+                            <MenuItem eventKey={5.1} href="http://www.agksoft.com/demos/POSDemo/POSDemo.html">POS Demo</MenuItem>
+                            <MenuItem eventKey={5.2} href="http://www.agksoft.com/demos/AGKDemo/AGKDemo.html">AGKSoft Demo</MenuItem>
                         </NavDropdown>
                     </Nav>
                     <Nav pullRight>
