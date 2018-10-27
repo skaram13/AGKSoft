@@ -3,7 +3,8 @@ import '../../Product.css';
 import '../../../Main.css';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
-import figure1 from "../../../../assets/HOS/HOSLocs.gif";
+import figure1 from "../../../../assets/HOS/HOSSetup.JPG";
+import figure1A from "../../../../assets/HOS/HOSSetupLocation.JPG";
 import figure2 from "../../../../assets/HOS/CashRegisterInterface.gif";
 import figure3 from "../../../../assets/HOS/HOSImport.gif";
 import figure4 from "../../../../assets/HOS/short.gif";
@@ -21,44 +22,39 @@ class BackOffice extends Component {
                         <a className="dividers" href="http://www.agksoft.com/stnweb.html">DOCUMENTATION</a>
                     </div>
                     <div className="description-text">
-                        The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.
-                        It uses an FTP service such as Internet Information Services (IIS), to communicate with the back office locations to
-                        FTP data to the home office, and also to allow the home office to FTP price changes to the locations.
+                        The AGKSoft Home Office main purpose is for Central Pricebook and Central Reporting.  
+                        You will be able to change the price of one or more products once and send it to one or more stores.
+                        Your daily sales data from multiple back office locations will be consolidated into one centralized location (The Home Office).
+                        To Synchronize the Home Office with the Back Office, we can use Google Drive, Microsoft OneDrive or direct FTP using IIS.                        
                     </div>
-                    <div className="description-text">
-                        To use AGKSoft as a Home Office, run the software and log-in, the "First Time User" should launch automatically,
-                        if it does not you can open it from the AGKSoft desktop or press SHIFT + F4.
-                    </div>
-
-                    <div className="sub-header">From the First Time User screen:</div>
-                    <ul>
-                        <li>Under "1. Cash Register Interface".  Select "None" and you will be prompted "Are you using the software as Point Of Sale?", select "NO" for Home Office.</li>
-                        <li>You should now go to the "Setup" menu and select "Locations" see the "Location List".  Make sure to keep "ID (0), Desc (ALL LOCATIONS)" in place.</li>
-                        <li>Click under the "0" and type "1", hit the right arrow and type your 1st location name.  Note: in our example below we used 1 and 2 for the ID, these numbers would be replaced by the numbers that have been configured at the Back Office if different.</li>
-                        <li>Repeat for each additional location (s).  When you have finished, click "Quit" all entries will be automatically saved.</li>
-                    </ul>
-
+                    
+                    <div className="description-text">First Time User can easily help you setup muyltiple locations as follows:</div>
                     <table className="product-entry-spacing row-centered center-block">
                         <tr className="center-images"><img alt="figure1" className="image-border" src={figure1}/></tr>
                     </table>
+                    <table className="product-entry-spacing row-centered center-block">
+                        <tr className="center-images"><img alt="figure1A" className="image-border" src={figure1A}/></tr>
+                    </table>
 
-                    <div className="description-text">Now you can click "Cash Register Interface" from the AGKSoft desktop or press F5 and you will see the following:</div>
+                    <div className="description-text">Click "Cash Register Interface" from the AGKSoft desktop or press F5 and you will see the following:</div>
                     <table className="product-entry-spacing row-centered center-block">
                         <tr className="center-images"><img alt="figure2" className="image-border" src={figure2}/></tr>
                     </table>
+
                     <div className="sub-header">Cash Register Interface Options:</div>
                     <ul>
-                        <li>"Upload Products to Cash Register" allows you to choose what folder or Zone (see below to learn more about zones) you are going to export the price changes into.</li>
-                        <li>"Product Wizard" will allow multiple price changes with the click of the mouse. Click "Product Wizard" for more info.</li>
-                        <li>"Department Setup" will display the current department configuration setup at the back office.</li>
-                        <li>Change Price Groups allows you to view the current price groups configured at the back office, and also allows any changes to be made if necessary. Click "Change Price Groups" for more info.  Note: When sending Price Groups to a Gilbarco G-Site the number of price groups that can be configured is limited to the software running on the G-Site.</li>
-                        <li>Change Categories / Sub Categories is similar to a price group allowing items to be grouped together that aren't in the same department for easy reporting.  Clicking on either Change Categories or Change Subcategories  will allow you to view the current configuration, and also allow you to make changes or corrections if needed.</li>
-                        <li>Click "Products Download" to manually import a Price Book file from another location that is saved on a disk file.</li>
-                        <li>"View products" is a list of the price book file including departments, UPC's and PLU's.  Click "View Products" for more info.</li>
-                        <li>Click "Validate Products" to make sure your Price Book is valid.</li>
-                        <li>"Buy Down" is where you can configure the discount from the cigarette manufactures and send to the back office.  Please see BuyDown for more info.</li>
-                        <li>"Mix Match" is the window used to configure items that would sell normally 1 for .59 and 2 for 1.00.  Click "Mix Match" for more info.</li>
-                        <li>"Create/Modify Products" will allow working with one UPC, Dept or PLU at a time.  Changing pricing, updating names etc... Click "Create/Modify Products" for more info.</li>
+                        <li>"Send to Back Office" allows you to choose which products to send to one or more Back Office Locations.</li>
+                        <li>"Product Wizard" helps you make multiple price changes easily.</li>
+                        <li>"Departments" will display the current list of departments.</li>
+                        <li>"Price Groups" allows you to Create/Modify one or more price groups.</li>
+                        <li>"Categories" allows you to Create/Modify one or more Category.</li>
+                        <li>"Sub-Categories" allows you to Create/Modify one or more Sub-Category.</li>
+                        <li>"Products Download" will manually import a Price Book file from another location that is saved on a disk file.</li>
+                        <li>"View products" is a list of the price book file including departments, UPC's and PLU's.</li>
+                        <li>"Validate" is used to make sure your Price Book is valid.</li>
+                        <li>"Buy Down" is where you can configure the discount from the cigarette manufactures and send to the back office.</li>
+                        <li>"Mix Match" is used to configure items that would sell normally 1 for .59 and 2 for 1.00.</li>
+                        <li>"Create/Modify Products" will allow working with one UPC-Code, Dept or PLU at a time.  Changing pricing, updating names etc.</li>
                         <li>"Change" under Gas Selling Prices will allow all prices to be raised or lowered a certain amount, and then hit Send to Register to send these new prices to a zone or folder for the back office to import.</li>
                         <li>"Setup Zones" is where to configure the Zone names and folders that the back office will pick up the price changes from.</li>
                         <li>"Auto" will open the Home Office Automatic Import screen to allow the home office to import the data sent from the back office.</li>

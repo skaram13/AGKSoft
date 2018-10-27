@@ -26,14 +26,18 @@ class Support extends Component {
                             <td className="support-table"><a href="https://get.teamviewer.com/9tb47uc">8</a></td>
                         </tr>
                     </table>
+                    
                     <h3 className="row sub-heading">HELPFUL LINKS</h3>
                     <h5><a href={base_url + "ExcelViewer.exe"}>Excel Viewer</a></h5>
                     <h5><a href="http://www.dslreports.com/whatismyip">What's my IP Address?</a></h5>
+
                     <h3 className="row">RUBY</h3>
                     <h5><a href={base_url + "RubyCyberaZoneRouter.JPG"}>Cybera Zone Router</a></h5>
                     <h5><a href={base_url + "MicrosoftEasyFix51044.msi"}>Windows 7 HTTPS Patch</a></h5>
+
                     <h3 className="row">GILBARCO</h3>
                     <h5><a href={base_url + "DMZ.JPG"}>DMZ Port</a></h5>
+                    
                     <h3 className="row">UPC Code Guide</h3>
                     <img className="upc-image" alt="UPC" src={UPC}/>
                 </div>
