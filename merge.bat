@@ -2,18 +2,28 @@
 
 if "%1"=="" goto invalid
 
-rem Should show me what I changed.
+echo.
+echo Show me what I changed....
+echo.
 git status
+echo.
 pause
 
-rem Now it turns Green and ready
+echo.
+echo git add .
+echo.
 git add .
-pause
+
+echo.
+echo git commit 
+echo.
 
 git commit -m "%1 %2 %3 %4 %5 %6 %7 %8 %9"
-pause 
 
-rem 			Pushes it on inet
+echo.
+echo git push - Pushes it on internet
+echo.
+
 git push
 
 echo all done
