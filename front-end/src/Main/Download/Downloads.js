@@ -301,6 +301,9 @@ class Downloads extends Component {
                                         <td><a href={baseUrl + "OneDriveSetup.exe"}>Download One Drive</a></td>
                                     </tr>
                                     <tr>
+                                        <td><a href={baseUrl + "DPSetup.exe"}>Avery DesignPro 5</a></td>
+                                    </tr>
+                                    <tr>
                                         <td><a href={baseUrl + "Install_PDFR_Pro_v228.exe"}>Download PDF Writer</a></td>
                                     </tr>
                                     <tr>

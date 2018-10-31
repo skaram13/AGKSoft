@@ -27,6 +27,9 @@ echo.
 git push
 
 echo all done
+echo.
+echo *** TO GO LIVE, type "rebuild" from a Command Prompt ***
+echo.
 goto done
 
 :invalid
