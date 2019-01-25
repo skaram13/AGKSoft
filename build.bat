@@ -5,6 +5,7 @@ rem This must run from the F:\website\agksoft\front-end folder using a Command P
 echo Creating ReBuild Log on c:\temp\rebuild.log
 echo %DATE% >c:\temp\rebuild.log
 
+cd front-end 
 call npm.cmd run -script build
 cd build
 echo.
@@ -34,6 +35,8 @@ echo Back to static folder...
 cd..
 
 echo Back to build folder...
+cd..
+
 cd..
 
 C:

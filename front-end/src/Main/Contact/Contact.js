@@ -32,7 +32,6 @@ class Contact extends Component {
                             <div className="contact-text">
                                 <div><a href="tel:15089954934">+1(508) 995-4934</a></div>
                                 <div><a href="tel:14014664213">+1(401) 466-4213</a></div>
-                                <div><a href="tel:15086440192">+1(508) 644-0192</a></div>
                                 <div><a href="tel:18003209519">+1(800) 320-9519</a></div>
                             </div>
                         </div>
