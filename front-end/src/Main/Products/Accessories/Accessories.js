@@ -4,11 +4,11 @@ import '../../Main.css';
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import MicroPC from "../../../assets/AGKMicroPC.jpg";
+import ShuttlePC from "../../../assets/AGKShuttlePC.jpg";
 import BarcodePrinter from "../../../assets/BarCodePrinter.jpg";
 import PortableScanner from "../../../assets/Scanner.jpg";
 import OrbitScanner from "../../../assets/OrbitScan.jpg";
 import USBScanner from "../../../assets/USBScanner.jpg";
-
 
 class Accessories extends Component {
     render() {
@@ -16,14 +16,22 @@ class Accessories extends Component {
             <div>
                 <Header/>
                 <div className="main-container">
+
                     <div className="product-page-heading row-centered">PCs</div>
                     <div>
                         <div className="product-entry-pc">
                             <a href="/products/accessories/microPC">
                                 <img alt="MicroPC" className="product-icon" src={MicroPC}/>
-                                <div className="product-text">AGKSoft Windows 10 Micro-PC2</div>
+                                <div className="product-text">AGKSoft Micro PC</div>
                             </a>
                         </div>
+                        <div className="product-entry-pc">
+                            <a href="/products/accessories/ShuttlePC">
+                                <img alt="ShuttlePC" className="product-icon" src={ShuttlePC}/>
+                                <div className="product-text">AGKSoft Shuttle PC</div>
+                            </a>
+                        </div>
+                        
                     </div>
 
                     <div className="product-page-heading row-centered">Accessories</div>

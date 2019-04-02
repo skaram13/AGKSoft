@@ -7,6 +7,7 @@ import figure1 from "../../../../assets/MicroPC/Figure1.gif";
 import figure2 from "../../../../assets/MicroPC/figure2.gif";
 import figure3 from "../../../../assets/MicroPC/figure3.jpg";
 
+
 class MicroPC extends Component {
     render() {
         return(
