@@ -6,20 +6,28 @@ import ProductCarousel from '../../../Shared/ProductCarousel/ProductCarousel';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 import figure1 from "../../../../assets/POS/figure1.jpg";
-import figure2 from "../../../../assets/POS/figure2.jpg";
-import figure3 from "../../../../assets/POS/figure3.jpg";
-import figure4 from "../../../../assets/POS/figure4.jpg";
-import figure5 from "../../../../assets/POS/figure5.jpg";
-import figure6 from "../../../../assets/POS/figure6.jpg";
-import figure7 from "../../../../assets/POS/figure10.gif";
-import figure8 from "../../../../assets/POS/figure11.jpg";
-const photos = [figure1, figure2, figure3, figure4, figure5, figure6, figure7, figure8];
+import figure2 from "../../../../assets/POS/POSALL2-Front.jpg";
+import figure3 from "../../../../assets/POS/POSALL2-Back.jpg";
+import figure4 from "../../../../assets/POS/POSALL2-Side2.jpg";
+import figure5 from "../../../../assets/POS/figure2.jpg";
+import figure6 from "../../../../assets/POS/figure3.jpg";
+import figure7 from "../../../../assets/POS/figure4.jpg";
+import figure8 from "../../../../assets/POS/POSALL2-Bottom-Small.jpg";
+import figure9 from "../../../../assets/POS/figure5.jpg";
+import figure10 from "../../../../assets/POS/figure6.jpg";
+import figure11 from "../../../../assets/POS/figure10.gif";
+import figure12 from "../../../../assets/POS/figure11.jpg";
+const photos = [figure1, figure2, figure3, figure4, figure5, figure6, figure7, figure8, figure9, figure10, figure11, figure12];
 const photoCaptions = [
-    'Front View (Receipt Printer built-in)',
-    'Side View',
-    'Back View (Customer Display)',
-    'Front View with Cash Drawer',
-    'Bottom View',
+    'Front View Black (Receipt Printer built-in)',
+    'Front View White (Receipt Printer built-in)',
+    'Back View White (Customer Display/Adds)',    
+    'Side View White',
+    'Side View Black',
+    'Back View Black (Customer Display/Adds)',    
+    'Front View Black with Cash Drawer',
+    'Bottom View White',
+    'Bottom View Black',
     'VeriFone VX805 Pin Pad',
     'POS Interface',
     'POS with Scanner/Scale'
