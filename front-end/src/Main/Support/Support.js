@@ -26,7 +26,10 @@ class Support extends Component {
                             <td className="support-table"><a href="https://get.teamviewer.com/9tb47uc">8</a></td>
                         </tr>
                     </table>
-                    
+
+                    <h3 className="row">AGKSoft PC Boot Order and Recovery</h3>
+                    <h5><a href={base_url + "AGKBootChange.mp4"}>AGKSoft Change PC Boot Order</a></h5>
+
                     <h3 className="row sub-heading">HELPFUL LINKS</h3>
                     <h5><a href={base_url + "ExcelViewer.exe"}>Excel Viewer</a></h5>
                     <h5><a href="http://www.dslreports.com/whatismyip">What's my IP Address?</a></h5>
