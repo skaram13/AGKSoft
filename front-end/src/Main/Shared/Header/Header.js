@@ -28,8 +28,8 @@ class Header extends Component {
                             Downloads
                         </NavItem>
                         <NavDropdown eventKey={5} title="Demos">
-                            <MenuItem eventKey={5.1} href="http://www.agksoft.com/demos/POSDemo/POSDemo.html">POS Demo</MenuItem>
-                            <MenuItem eventKey={5.2} href="http://www.agksoft.com/demos/AGKDemo/AGKDemo.html">AGKSoft Demo</MenuItem>
+                            <MenuItem eventKey={5.1} href="/demos/POSDemo/POSDemo.html">POS Demo</MenuItem>
+                            <MenuItem eventKey={5.2} href="/demos/AGKDemo/AGKDemo.html">AGKSoft Demo</MenuItem>
                         </NavDropdown>
                     </Nav>
                     <Nav pullRight>

@@ -5,8 +5,7 @@ import "../Main.css";
 import {Panel, PanelGroup } from 'react-bootstrap';
 import myData from "../../assets/JSON/versions";
 
-const baseUrl = "http://www.agksoft.com/images/";
-const agk = "http://www.agksoft.com";
+const baseUrl = "/images/";
 
 class Downloads extends Component {
     render() {
@@ -55,7 +54,7 @@ class Downloads extends Component {
                                     </tr>
                                     <tr>
                                         <td><a href={baseUrl + "setupruby.exe"}>Click here for the complete Ruby installation</a></td>
-                                        <td><a href={"http://www.agksoft.com/Training/Ruby/Ruby.html"}>Click here to See Video Installation.</a></td>
+                                        <td><a href="Training/Ruby/Ruby.html">Click here to See Video Installation.</a></td>
                                     </tr>
                                 </table>
                                 <table id="downloads">
@@ -63,7 +62,7 @@ class Downloads extends Component {
                                         <th>Ruby VeriFone Sapphire Installation</th>
                                     </tr>
                                     <tr>
-                                        <td><a href="http://www.agksoft.com/images/setupsaphire.exe">Click here to install the Sapphire Software.</a></td>
+                                        <td><a href={baseUrl + "setupsaphire.exe"}>Click here to install the Sapphire Software.</a></td>
                                     </tr>
                                 </table>
                                 <table id="downloads">
@@ -193,23 +192,23 @@ class Downloads extends Component {
                                         <th>Updated On</th>
                                     </tr>
                                     <tr>
-                                        <td><a href={agk + "/Training/PPT88xx/PPT88xx.html"}>Connect Portable to PC</a></td>
+                                        <td><a href="Training/PPT88xx/PPT88xx.html">Connect Portable to PC</a></td>
                                         <td>03/16/2016</td>
                                     </tr>
                                     <tr>
-                                        <td><a href={agk + "/demos/InventoryInstall/InventoryInstall.html"}>Inventory Installation</a></td>
+                                        <td><a href="/demos/InventoryInstall/InventoryInstall.html">Inventory Installation</a></td>
                                         <td>03/16/2016</td>
                                     </tr>
                                     <tr>
-                                        <td><a href={agk + "/demos/PortableSetup/PortableSetup.html"}>Setup the Portable</a></td>
+                                        <td><a href="/demos/PortableSetup/PortableSetup.html">Setup the Portable</a></td>
                                         <td>03/16/2016</td>
                                     </tr>
                                     <tr>
-                                        <td><a href={agk + "/demos/PortableKeysColdstart/PortableKeysColdstart.html"}>Cold Start with Keys</a></td>
+                                        <td><a href="/demos/PortableKeysColdstart/PortableKeysColdstart.html">Cold Start with Keys</a></td>
                                         <td>03/16/2016</td>
                                     </tr>
                                     <tr>
-                                        <td><a href={agk + "/demos/PortableNoKeysColdstart/PortableNoKeysColdstart.html"}>Cold Start with No Keys</a></td>
+                                        <td><a href="/demos/PortableNoKeysColdstart/PortableNoKeysColdstart.html">Cold Start with No Keys</a></td>
                                         <td>03/16/2016</td>
                                     </tr>
                                 </table>

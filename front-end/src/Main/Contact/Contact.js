@@ -14,7 +14,7 @@ class Contact extends Component {
                     <table className="table-one">
                         <div className="contact-form">
                             <h4 className="row">AGKSoft is here ready to serve you with all your software needs, so feel free to call or email any time.</h4>
-                            <form method="POST" action="http://www.agksoft.com/emailagksoft.asp" accept-charset="UTF-8">
+                            <form method="POST" action="emailagksoft.asp" accept-charset="UTF-8">
                                 <div className="row"><input type="text" required="" placeholder="Name" id="fromName" name="fromWho" className="input-boxes"/></div>
                                 <div className="row"><input type="email" required="" placeholder="Email address" id="fromemail" name="fromemail" className="input-boxes"/></div>
                                 <div className="row"><input type="tel" required="" placeholder="Phone number" id="phone" name="phone" className="input-boxes"/></div>

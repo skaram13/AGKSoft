@@ -18,8 +18,8 @@ class BackOffice extends Component {
                 <div className="main-container">
                     <h1 className="heading-text">AGKSoft Home Office Software</h1>
                     <div className="sub-header">
-                        <a className="dividers-first" href="http://www.agksoft.com/gasdesk.html">EXPLORE THE SOFTWARE</a>
-                        <a className="dividers" href="http://www.agksoft.com/stnweb.html">DOCUMENTATION</a>
+                        <a className="dividers-first" href="/gasdesk.html">EXPLORE THE SOFTWARE</a>
+                        <a className="dividers" href="/stnweb.html">DOCUMENTATION</a>
                     </div>
                     <div className="description-text">
                         The AGKSoft Home Office main purpose is for Central Pricebook and Central Reporting.  

@@ -4,7 +4,7 @@ import '../Main.css';
 import Footer from "../Shared/Footer/Footer";
 import Header from "../Shared/Header/Header";
 import UPC from "../../assets/UPC.PNG";
-const base_url = "http://www.agksoft.com/images/";
+const base_url = "/images/";
 class Support extends Component {
     render() {
         return(

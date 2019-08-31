@@ -13,7 +13,7 @@ class NetIncome extends Component {
                 <div className="main-container">
                     <h1 className="heading-text">AGKSoft Net Income</h1>
                     <div className="description-text">
-                        To see the General Ledger Report, click <a href="http://www.agksoft.com/images/GeneralLedger.gif"><b>General Ledger</b></a>
+                        To see the General Ledger Report, click <a href="/images/GeneralLedger.gif"><b>General Ledger</b></a>
                     </div>
 
 
