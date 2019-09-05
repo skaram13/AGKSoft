@@ -12,9 +12,9 @@ class BackOffice extends Component {
                 <div className="main-container">
                     <h1 className="heading-text">AGKSoft Gas Station Software 12.x</h1>
                     <div className="sub-header">
-                        <a className="dividers-first" href="gasdesk.html">EXPLORE THE SOFTWARE</a>
+                        <a className="dividers-first" href="/gasdesk.html">EXPLORE THE SOFTWARE</a>
                         <a className="dividers" href="/products/software/backOffice/gettingStarted">GETTING STARTED</a>
-                        <a className="dividers" href="stnweb.html">DOCUMENTATION</a>
+                        <a className="dividers" href="/stnweb.html">DOCUMENTATION</a>
                     </div>
                     <div className="description-text">
                         Our Gas Station Software is a fully-featured Windows Accounting Software that works either in the back office as <b>BOS (Back Office Software)</b>, in your Garage,

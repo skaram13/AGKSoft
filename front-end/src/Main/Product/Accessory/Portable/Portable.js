@@ -18,7 +18,7 @@ class Portable extends Component {
                 <Header/>
                     <div className="main-container">
                         <h1 className="heading-text">AGKSoft Portable Data Collector</h1>
-                        <h4 className="sub-heading-product">To see a list of supported EDI Vendors, <a href="vendorsreports.html">click here.</a></h4>
+                        <h4 className="sub-heading-product">To see a list of supported EDI Vendors, <a href="/vendorsreports.html">click here.</a></h4>
                         <div className="description-text">Shown below from left to right is the AGKSoft Inventory Software for the portable, followed by an image of the Portable without a trigger, then with a Trigger and finally an image with the Trigger and Docking Station.</div>
                         <div className="description-text">The portable can be used to create your price book, scan your Inventory or Invoices as well as take your orders if needed.</div>
 
