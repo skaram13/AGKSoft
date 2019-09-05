@@ -13,6 +13,7 @@ import verifone from "../assets/verifone.png";
 import comdata from "../assets/comdata.png";
 import backoffice from "../assets/backoffice.png";
 import wayne from "../assets/wayne.png";
+import scandata from "../assets/scandata.png";
 
 class Home extends Component {
     render() {
@@ -31,38 +32,45 @@ class Home extends Component {
                 <div className="home">
                     <Row title="OUR PRODUCTS"/>
                     <div className="solutions">
-                        <div className="solution-large row-centered">
+                        <div className="solution-large">
                             <a href="/products/software/backOffice">
                                 <h3>Back Office</h3>
                                 <img className="solution-image" src={backoffice} alt="backoffice"/>
                                 <p>Our Gas Station Software is a fully-featured Windows Accounting Software that works either in the back office as BOS (Back Office Software), in your Garage, as a Point Of Sale or all combinations with support for headquarter consolidation as well as dialing into multi-locations.</p>
                             </a>
                         </div>
-                        <div className="solution">
-                            <a href="/products/software/homeOffice">
-                                <h3>Home Office</h3>
-                                <img className="solution-image" src={home} alt="home"/>
-                                <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
-                            </a>
-                        </div>
-                        <div className="solution">
-                            <a href="/products/software/conversionTool">
-                                <h3>Conversion Tool</h3>
-                                <img className="solution-image" src={conversion} alt="conversion"/>
-                                <p>The AGKSoft Conversion Tool Software can be used to convert registers such as a Gilbarco G-Site, Ruby VeriFone/ Sapphire/ Topaz/ Commander/ Ruby 2, Gilbarco Passport, Dresser Wayne Nucleus, ComData Smart Solutions POS and the AGKSoft POS System all using the same software.</p>
-                            </a>
-                        </div>
-                        <div className="solution">
+                        <div className="solution-large">
                             <a href="/products/software/pos">
                                 <h3>POS</h3>
                                 <img className="solution-image" src={POS} alt="POS"/>
                                 <p>For C-Stores, Liquor Stores, Grocery Stores, General Stores, Hardware Stores, Flower shops or any store that requires scanning.</p>
                             </a>
                         </div>
-                        <div className="solution">
+                        <div className="solution-large">
+                            <a href="/products/software/homeOffice">
+                                <h3>Home Office</h3>
+                                <img className="solution-image" src={home} alt="home"/>
+                                <p>The AGKSoft Home Office allows data from multiple back office locations to be consolidated into one centralized location.</p>
+                            </a>
+                        </div>
+                        <div className="solution-large">
+                            <a href="/products/software/conversionTool">
+                                <h3>Conversion Tool</h3>
+                                <img className="solution-image" src={conversion} alt="conversion"/>
+                                <p>The AGKSoft Conversion Tool Software can be used to convert registers such as a Gilbarco G-Site, Ruby VeriFone/ Sapphire/ Topaz/ Commander/ Ruby 2, Gilbarco Passport, Dresser Wayne Nucleus, ComData Smart Solutions POS and the AGKSoft POS System all using the same software.</p>
+                            </a>
+                        </div>
+                        <div className="solution-large">
                             <a href="/products/software/dataEntry">
                                 <h3>Data Entry</h3>
                                 <img className="solution-image" src={data} alt="data"/>
+                                <p>Services for maintaining your price book or your complete Sales Download, Shift Balancing, Accounting and Inventory.</p>
+                            </a>
+                        </div>
+                        <div className="solution-large">
+                            <a href="/scandata.html">
+                                <h3>Data Entry</h3>
+                                <img className="solution-image" src={scandata} alt="scandata"/>
                                 <p>Services for maintaining your price book or your complete Sales Download, Shift Balancing, Accounting and Inventory.</p>
                             </a>
                         </div>

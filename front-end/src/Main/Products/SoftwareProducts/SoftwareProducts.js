@@ -56,10 +56,10 @@ class SoftwareProducts extends Component {
                             </a>
                         </div>
                         <div className="product-entry-software">
-                            <a href="scandata.html">
+                            <a href="/scandata.html">
                                 <h3>Scan Data</h3>
                                 <img className="solution-image" src={scandata} alt=""/>
-                                <p>Scan Data Program is a Free Service for sending your Scan Data to PM USA and RJR.  This program has the potential to increase your store Sales 15% to 25% on average plus you get paid $0.15 per Carton from RJR, $0.15 per roll from US Smokeless and $0.10 per Carton from PM USA.</p>
+                                <p>Services for maintaining your price book or your complete Sales Download, Shift Balancing, Accounting and Inventory.</p>
                             </a>
                         </div>
                     </div>
