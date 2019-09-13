@@ -69,9 +69,9 @@ class Home extends Component {
                         </div>
                         <div className="solution-large">
                             <a href="/scandata.html">
-                                <h3>Data Entry</h3>
+                                <h3>Scan Data</h3>
                                 <img className="solution-image" src={scandata} alt="scandata"/>
-                                <p>Services for maintaining your price book or your complete Sales Download, Shift Balancing, Accounting and Inventory.</p>
+                                <p>Benefits of Scan Data and how to sign up for Altria/PM USA and RJR.</p>
                             </a>
                         </div>
                     </div>

@@ -79,7 +79,7 @@ class Portable extends Component {
                             <li className="link-text"><a href="/demos/PortableSetup/PortableSetup.html">Setup</a></li>                            
                             <li className="link-text"><a href="/Training/Trigger/Trigger.html">Remove Trigger</a></li>                            
                             <li className="link-text"><a href="/demos/PortableKeysColdstart/PortableKeysColdstart.html">Cold Start With Keys</a></li>
-                            <li className="link-text"><a href="/demos/PortableNoKeysColdstart/PortableNoKeysColdstart.html">Cold Start NO Keys</a></li>                           
+                            <li className="link-textc"><a href="/demos/PortableNoKeysColdstart/PortableNoKeysColdstart.html">Cold Start NO Keys</a></li>                           
                         </ul>
                     </div>
                 <Footer/>
