@@ -10,6 +10,8 @@ import figure4 from "../../../../assets/portable/figure4.gif";
 import figure5 from "../../../../assets/portable/figure5.gif";
 import figure6 from "../../../../assets/portable/figure6.gif";
 import figure7 from "../../../../assets/portable/figure7.gif";
+import trigger from "../../../../assets/portable/ppt88trigback.jpg";
+
 
 class Portable extends Component {
     render() {
@@ -38,6 +40,12 @@ class Portable extends Component {
                             <th className="portable-table row-centered">PPT8820 (with Trigger & Dock)</th>
                             <tr className="row-centered"><img alt="portable" className="table-img image-border" src={figure4}/></tr>
                         </table>
+
+                        <table className="portable-inline">
+                            <th className="portable-table row-centered">PPT8820 Trigger</th>
+                            <tr className="row-centered"><img alt="trigger" className="table-img image-border" src={trigger}/></tr>
+                        </table>
+
 
                         <h4 className="sub-heading-product">HOW TO USE</h4>
                         <div className="description-text">Using the Portable Data Collector Interface Window, you can download the current Inventory into your PC.</div>
@@ -76,10 +84,10 @@ class Portable extends Component {
 
                         <div className="sub-heading-product">Portable Videos</div>
                         <ul className="last-element">
-                            <li className="link-text"><a href="/demos/PortableSetup/PortableSetup.html">Setup</a></li>                            
-                            <li className="link-text"><a href="/Training/Trigger/Trigger.html">Remove Trigger</a></li>                            
+                            <li className="link-text"><a href="/demos/PortableSetup/PortableSetup.html">Setup</a></li>
+                            <li className="link-text"><a href="/Training/Trigger/Trigger.html">Remove Trigger</a></li>
                             <li className="link-text"><a href="/demos/PortableKeysColdstart/PortableKeysColdstart.html">Cold Start With Keys</a></li>
-                            <li className="link-textc"><a href="/demos/PortableNoKeysColdstart/PortableNoKeysColdstart.html">Cold Start NO Keys</a></li>                           
+                            <li className="link-text"><a href="/demos/PortableNoKeysColdstart/PortableNoKeysColdstart.html">Cold Start NO Keys</a></li>
                         </ul>
                     </div>
                 <Footer/>
