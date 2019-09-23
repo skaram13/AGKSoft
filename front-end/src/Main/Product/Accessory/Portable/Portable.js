@@ -84,8 +84,9 @@ class Portable extends Component {
 
                         <div className="sub-heading-product">Portable Videos</div>
                         <ul className="last-element">
-                            <li className="link-text"><a href="/demos/PortableSetup/PortableSetup.html">Setup</a></li>
-                            <li className="link-text"><a href="/Training/Trigger/Trigger.html">Remove Trigger</a></li>
+                            <li className="link-text"><a href="/demos/PortableSwitch/PortableSwitch.html">How to Scan with the Trigger and Download</a></li>
+                            <li className="link-text"><a href="/demos/PortableSetup/PortableSetup.html">How to Setup the Portable</a></li>
+                            <li className="link-text"><a href="/Training/Trigger/Trigger.html">How to Remove the Trigger</a></li>
                             <li className="link-text"><a href="/demos/PortableKeysColdstart/PortableKeysColdstart.html">Cold Start With Keys</a></li>
                             <li className="link-text"><a href="/demos/PortableNoKeysColdstart/PortableNoKeysColdstart.html">Cold Start NO Keys</a></li>
                         </ul>
