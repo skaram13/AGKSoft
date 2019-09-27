@@ -5,6 +5,13 @@ import "../Main.css";
 import {Panel, PanelGroup } from 'react-bootstrap';
 import myData from "../../assets/JSON/versions";
 
+import IEMoreInfo from "../../assets/AGKDownloadIE_MoreInfo.JPG";
+import IERunAnyway from "../../assets/AGKDownloadIE_RunAnyway.JPG";
+import ChromeRun from "../../assets/AGKDownloadChrome.JPG";
+
+import FireFox from "../../assets/AGKDownloadFirefox.JPG";
+import FireFoxDown from "../../assets/AGKDownloadFirefoxDownloads.JPG";
+
 const baseUrl = "/images/";
 
 class Downloads extends Component {
@@ -25,7 +32,7 @@ class Downloads extends Component {
                                         <th>Full Installation</th>
                                     </tr>
                                     <tr>
-                                        <td><a href={baseUrl + "setupstation.exe"}>Click here to install the full AGKSoft software</a></td>
+                                        <td><a href={baseUrl + "setupstation.exe"}><h3>Click here to install the full AGKSoft software</h3></a></td>
                                     </tr>
                                 </table>
                                 <table id='downloads'>
@@ -35,11 +42,30 @@ class Downloads extends Component {
                                         <th>Version</th>
                                     </tr>
                                     <tr>
-                                        <td><a href={baseUrl + "updategas.exe"}>Click here to install the latest version</a></td>
-                                        <td><agksoftupdatedon>{myData.agksoftupdatedon}</agksoftupdatedon></td>
-                                        <td><agksoftversion>{myData.agksoftversion}</agksoftversion></td>
+                                        <td><a href={baseUrl + "updategas.exe"}><h3>Click here to install the latest version</h3></a></td>
+                                        <td><h3><agksoftupdatedon>{myData.agksoftupdatedon}</agksoftupdatedon></h3></td>
+                                        <td><h3><agksoftversion>{myData.agksoftversion}</agksoftversion></h3></td>
                                     </tr>
                                 </table>
+                                <table id='downloads'>
+                                    <tr>
+                                        <th>When using Google Chrome</th>
+                                    </tr>
+                                    <tr className="row-centered"><img alt="ChromeRun" className="table-img image-border" src={ChromeRun}/></tr>                                            
+
+                                    <tr>
+                                        <th>When using Firefox</th>
+                                    </tr>
+                                    <tr className="row-centered"><img alt="FireFox" className="table-img image-border" src={FireFox}/></tr>
+                                    <tr className="row-centered"><img alt="FireFoxDown" className="table-img image-border" src={FireFoxDown}/></tr>
+
+                                    <tr>
+                                        <th>When using Internet Explorer</th>
+                                    </tr>
+                                    <tr className="row-centered"><img alt="IEMoreInfo" className="table-img image-border" src={IEMoreInfo}/></tr>
+                                    <tr className="row-centered"><img alt="IERunAnyway" className="table-img image-border" src={IERunAnyway}/></tr>
+                                </table>
+                                                                
                             </Panel.Body>
                         </Panel>
                         <Panel eventKey="2">
