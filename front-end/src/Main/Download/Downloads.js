@@ -284,7 +284,7 @@ class Downloads extends Component {
                                         <td><a href={baseUrl + "Metroset3.2.48.exe"}>Honeywell MetroSet 2</a></td>
                                     </tr>
                                     <tr>
-                                        <td><a href={baseUrl + "MS2320_K241_EPOS.pdf"}>OPOS Instructions</a></td>
+                                        <td><a href={baseUrl + "MS2320_K141_OPOS.pdf"}>OPOS Instructions</a></td>
                                     </tr>
                                     <tr>
                                         <td><a href={baseUrl + "APD_456E.exe"}>Epson APD Printer Driver Ver. 4.56E</a></td>
