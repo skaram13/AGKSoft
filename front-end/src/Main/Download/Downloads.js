@@ -52,13 +52,15 @@ class Downloads extends Component {
                                         <th>When using Google Chrome</th>
                                     </tr>
                                     <tr className="row-centered"><img alt="ChromeRun" className="table-img image-border" src={ChromeRun}/></tr>                                            
-
+                                    <tr className="row-centered"><img alt="IEMoreInfo" className="table-img image-border" src={IEMoreInfo}/></tr>
+                                    <tr className="row-centered"><img alt="IERunAnyway" className="table-img image-border" src={IERunAnyway}/></tr>
                                     <tr>
                                         <th>When using Firefox</th>
                                     </tr>
                                     <tr className="row-centered"><img alt="FireFox" className="table-img image-border" src={FireFox}/></tr>
                                     <tr className="row-centered"><img alt="FireFoxDown" className="table-img image-border" src={FireFoxDown}/></tr>
-
+                                    <tr className="row-centered"><img alt="IEMoreInfo" className="table-img image-border" src={IEMoreInfo}/></tr>
+                                    <tr className="row-centered"><img alt="IERunAnyway" className="table-img image-border" src={IERunAnyway}/></tr>
                                     <tr>
                                         <th>When using Internet Explorer</th>
                                     </tr>
