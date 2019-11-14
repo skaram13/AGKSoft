@@ -16,7 +16,7 @@ class Support extends Component {
                     <h5><a href={base_url + "TeamViewerQS.exe"}>TeamViewer Quick Support</a></h5>
                     <h5><a href={base_url + "TeamViewer11.exe"}>Download TeamViewer 11</a></h5>
                     <table className="support-table">
-                        <th className="support-table" colspan="6">TeamViewer Web Support</th>
+                        <th className="support-table" colspan="7">TeamViewer Web Support</th>
                         <tr className="support-table">
                             <td className="support-table"><a href="https://get.teamviewer.com/4dzs7n5">1</a></td>
                             <td className="support-table"><a href="https://get.teamviewer.com/6hj3az7">3</a></td>
