@@ -19,11 +19,12 @@ class Support extends Component {
                         <th className="support-table" colspan="6">TeamViewer Web Support</th>
                         <tr className="support-table">
                             <td className="support-table"><a href="https://get.teamviewer.com/4dzs7n5">1</a></td>
-                            <td className="support-table"><a href="https://get.teamviewer.com/6ymm82c">3</a></td>
+                            <td className="support-table"><a href="https://get.teamviewer.com/6hj3az7">3</a></td>
                             <td className="support-table"><a href="https://get.teamviewer.com/4wgspxy">4</a></td>
                             <td className="support-table"><a href="https://898.tv/pqf46hp">5</a></td>
                             <td className="support-table"><a href="https://get.teamviewer.com/h37k9e8">7</a></td>
                             <td className="support-table"><a href="https://get.teamviewer.com/9tb47uc">8</a></td>
+                            <td className="support-table"><a href="https://get.teamviewer.com/6ymm82c">9</a></td>
                         </tr>
                     </table>
 
