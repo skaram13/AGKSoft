@@ -8,7 +8,8 @@ import ShuttlePC from "../../../assets/AGKShuttlePC.jpg";
 import BarcodePrinter from "../../../assets/BarCodePrinter.jpg";
 import PortableScanner from "../../../assets/Scanner.jpg";
 import OrbitScanner from "../../../assets/OrbitScan.jpg";
-import USBScanner from "../../../assets/USBScanner.jpg";
+//import USBScanner from "../../../assets/USBScanner.jpg";
+import USBScanner from "../../../assets/USBScanner/SymbolAgeScanner.jpg";
 
 class Accessories extends Component {
     render() {
@@ -53,7 +54,7 @@ class Accessories extends Component {
                         <div className="product-entry">
                             <a href="\products\accessories\usbScanner">
                                 <img alt="USBScanner" className="product-icon" src={USBScanner}/>
-                                <div className="product-text">USB/Keyboard Scanners</div>
+                                <div className="product-text">Age Scanners and USB Scanners</div>
                             </a>
                         </div>
                     </div>

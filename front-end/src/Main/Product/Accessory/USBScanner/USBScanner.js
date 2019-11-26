@@ -6,6 +6,8 @@ import Header from "../../../Shared/Header/Header";
 import wireless from "../../../../assets/USBScanner/wirelessScanner.JPG";
 import multiline from "../../../../assets/USBScanner/MultilineScanner.jpg";
 import singleline from "../../../../assets/USBScanner/SinglelineScanner.jpg";
+import SymbolAgeScanner from "../../../../assets/USBScanner/SymbolAgeScanner.jpg";
+import IntermecAgeScanner from "../../../../assets/USBScanner/IntermecWithStand.jpg";
 
 class USBScanner extends Component {
     render() {
@@ -13,11 +15,23 @@ class USBScanner extends Component {
             <div>
                 <Header/>
                 <div className="main-container">
-                    <h1 className="heading-text">USB Scanners</h1>
+                    <h1 className="heading-text">Age Scanners and USB Scanners</h1>
                     <div className="description-text">
                         All the scanner shown here can be used with the AGKSoft Point Of Sale or for the Back Office PC.
                         You simply plug these scanners to your USB port and start scanning.
                     </div>
+
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="sub-heading-product center-header">Symbol Age Scanner for Verifone Ruby Commander or AGKSoft POS</th>
+                        <tr className="center-header">This is a 2D scanner to scan products as well as a driver's license to validate Minimum Age.</tr>
+                        <tr className="center-images"><img alt="SymbolAgeScanner" className="product-images image-border" src={SymbolAgeScanner}/></tr>
+                    </table>
+
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="sub-heading-product center-header">Intermec Age Scanner for AGKSoft POS</th>
+                        <tr className="center-header">This is a 2D scanner to scan products as well as a driver's license to validate Minimum Age.</tr>
+                        <tr className="center-images"><img alt="IntermecAgeScanner" className="product-images image-border" src={IntermecAgeScanner}/></tr>
+                    </table>
 
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="sub-heading-product center-header">Wireless USB Single Line Scanner</th>
