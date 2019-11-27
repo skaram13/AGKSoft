@@ -17,8 +17,8 @@ class USBScanner extends Component {
                 <div className="main-container">
                     <h1 className="heading-text">Age Scanners and USB Scanners</h1>
                     <div className="description-text">
-                        All the scanner shown here can be used with the AGKSoft Point Of Sale or for the Back Office PC.
-                        You simply plug these scanners to your USB port and start scanning.
+                        All the scanners shown here can be used with the AGKSoft Point Of Sale or for the Back Office PC.
+                        You simply plug the scanner to your USB port and start scanning.
                     </div>
 
                     <table className="product-entry-spacing row-centered center-block">
