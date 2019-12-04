@@ -34,7 +34,6 @@ class DataEntry extends Component {
                         <li>Fuel Sale and Reconcilation</li>
                         <li>Expenses and Assets tracking.</li>
                         <li>Lottery Paid and Lottery Settlements</li>
-                        <li>Vendor Invoices Process (EDI, PDF)</li>
                         <li>Maintaining Client Accounts.</li>                        
                     </ul>
 
