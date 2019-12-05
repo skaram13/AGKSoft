@@ -12,6 +12,11 @@ import ChromeRun from "../../assets/AGKDownloadChrome.JPG";
 import FireFox from "../../assets/AGKDownloadFirefox.JPG";
 import FireFoxDown from "../../assets/AGKDownloadFirefoxDownloads.JPG";
 
+import DefenderSmartScreen from '../../assets/WindowsDefenderSmartScreen.JPG';
+import DefenderSmartScreenDownload from '../../assets/WindowsDefenderSmartScreenDownload.JPG';
+import DefenderSmartScreenRun from '../../assets/WindowsDefenderSmartScreenRun.JPG';
+
+
 const baseUrl = "/images/";
 
 class Downloads extends Component {
@@ -64,6 +69,9 @@ class Downloads extends Component {
                                     <tr>
                                         <th>When using Internet Explorer</th>
                                     </tr>
+                                    <tr className="row-centered"><img alt="IEMoreInfo" className="table-img image-border" src={DefenderSmartScreen}/></tr>
+                                    <tr className="row-centered"><img alt="IEMoreInfo" className="table-img image-border" src={DefenderSmartScreenDownload}/></tr>
+                                    <tr className="row-centered"><img alt="IEMoreInfo" className="table-img image-border" src={DefenderSmartScreenRun}/></tr>
                                     <tr className="row-centered"><img alt="IEMoreInfo" className="table-img image-border" src={IEMoreInfo}/></tr>
                                     <tr className="row-centered"><img alt="IERunAnyway" className="table-img image-border" src={IERunAnyway}/></tr>
                                 </table>
