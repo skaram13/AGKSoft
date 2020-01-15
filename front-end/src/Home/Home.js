@@ -14,6 +14,7 @@ import comdata from "../assets/comdata.png";
 import backoffice from "../assets/backoffice.png";
 import wayne from "../assets/wayne.png";
 import scandata from "../assets/scandata.png";
+import diebold from "../assets/Diebold.JPG";
 
 class Home extends Component {
     render() {
@@ -27,6 +28,7 @@ class Home extends Component {
                         <a href="https://www.verifone.com/petro"><img className="logos" src={verifone} alt="verifone"/></a>
                         <a href="https://www.comdata.com/merchants/SmartDESQ/index"><img className="logos" src={comdata} alt="comdata"/></a>
                         <a href="https://www.wayne.com/"><img className="logos" src={wayne} alt="wayne"/></a>
+                        <a href="https://www.dieboldnixdorf.com/en-us"><img className="logos" src={diebold} alt="diebold"/></a>
                     </div>
                 </div>
                 <div className="home">
