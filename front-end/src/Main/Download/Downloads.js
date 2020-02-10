@@ -69,9 +69,9 @@ class Downloads extends Component {
                                     <tr>
                                         <th>When using Internet Explorer</th>
                                     </tr>
-                                    <tr className="row-centered"><img alt="IEMoreInfo" className="table-img image-border" src={DefenderSmartScreen}/></tr>
-                                    <tr className="row-centered"><img alt="IEMoreInfo" className="table-img image-border" src={DefenderSmartScreenDownload}/></tr>
-                                    <tr className="row-centered"><img alt="IEMoreInfo" className="table-img image-border" src={DefenderSmartScreenRun}/></tr>
+                                    <tr className="row-centered"><img alt="DefenderSmartScreen" className="table-img image-border" src={DefenderSmartScreen}/></tr>
+                                    <tr className="row-centered"><img alt="DefenderSmartScreenDownload" className="table-img image-border" src={DefenderSmartScreenDownload}/></tr>
+                                    <tr className="row-centered"><img alt="DefenderSmartScreenRun" className="table-img image-border" src={DefenderSmartScreenRun}/></tr>
                                     <tr className="row-centered"><img alt="IEMoreInfo" className="table-img image-border" src={IEMoreInfo}/></tr>
                                     <tr className="row-centered"><img alt="IERunAnyway" className="table-img image-border" src={IERunAnyway}/></tr>
                                 </table>
@@ -125,7 +125,7 @@ class Downloads extends Component {
                                         <td>Download to C:\TEMP and run it if you do not have Java already.</td>
                                     </tr>
                                     <tr>
-                                        <td><a href={baseUrl + "msxml.msi"}>MSXML</a></td>
+                                        <td><a href={baseUrl + "msxml.msi"}>MSXML (WINHTTP5.DLL)</a></td>
                                         <td>Download to C:\TEMP only</td>
                                     </tr>
                                     <tr>
@@ -329,6 +329,11 @@ class Downloads extends Component {
                                     <tr>
                                         <th>External Tools</th>
                                     </tr>
+
+                                    <tr>
+                                        <td><a href={baseUrl + "msxml.msi"}>MSXML (WINHTTP5.DLL)</a></td>
+                                    </tr>
+
                                     <tr>
                                         <td><a href={baseUrl +  "googledrivesync.exe"}>Download Google Drive</a></td>
                                     </tr>
@@ -343,7 +348,7 @@ class Downloads extends Component {
                                     </tr>
                                     <tr>
                                         <td><a href={baseUrl + "cr85win_en_sp3.exe"}>Crystal Reports Service Pack 3</a></td>
-                                    </tr>
+                                    </tr>                                    
                                     <tr>
                                         <td>
                                             To download MCMICR font
