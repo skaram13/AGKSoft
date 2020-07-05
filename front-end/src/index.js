@@ -27,6 +27,7 @@ import SalesRoom from './Main/Report/SalesRoom/SalesRoom';
 import ShortOver from './Main/Report/ShortOver/ShortOver';
 import WorkOrders from './Main/Report/WorkOrders/WorkOrder';
 import Portable from './Main/Product/Accessory/Portable/Portable';
+import MiniPC from './Main/Product/PCs/MiniPC/MiniPC';
 import MicroPC from './Main/Product/PCs/MicroPC/MicroPC';
 import ShuttlePC from './Main/Product/PCs/ShuttlePC/ShuttlePC';
 import USBScanner from './Main/Product/Accessory/USBScanner/USBScanner';
@@ -55,6 +56,7 @@ ReactDOM.render((
             <Route exact path="/products/software/backOffice/gettingStarted" component={GettingStarted}/>
             <Route exact path="/products/software/dataEntry" component={DataEntry}/>
             <Route exact path="/products/accessories/portable" component={Portable}/>
+            <Route exact path="/products/accessories/miniPC" component={MiniPC}/>
             <Route exact path="/products/accessories/microPC" component={MicroPC}/>
             <Route exact path="/products/accessories/ShuttlePC" component={ShuttlePC}/>
             <Route exact path="/products/accessories/usbScanner" component={USBScanner}/>
