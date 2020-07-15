@@ -24,7 +24,7 @@ class BackOffice extends Component {
                         Now it is one of the best and easiest to use programs on the market.
                     </div>
                     <div className="description-text">
-                        We have built-in all the inventory control features that you need with the best interface to Gilbarco G-Site, Gilbarco Passport,
+                        We have built-in all the inventory control features that you need with the best interface to Gilbarco Passport,
                         Wayne Plus, Wayne Nucleus or Ruby VeriFone.
                         Using the software will let you track what you Buy and Sell as well as give you the ability to know how many of each item you have now.
                         We have full support for EDI (Electronic Data Invoice) and Portable Data Collectors/Hand Held Terminals.
@@ -34,7 +34,6 @@ class BackOffice extends Component {
                     <ul>
                         <a href="/products/software/pos"><li><b>AGKSoft All-in-One Point Of Sale Touch Screen System</b></li></a>
                         <a href="/products/software/homeOffice"><li><b>Home Office Software (HOS)</b></li></a>
-                        <li>Connected to a Gilbarco G-Site</li>
                         <li>Connected to a Gilbarco Passport</li>
                         <li>Connected to a Ruby VeriFone/Sapphire/Topaz/Site Controller/Commander/RubyCi/Ruby2</li>
                         <li>Connected to a ComData</li>
