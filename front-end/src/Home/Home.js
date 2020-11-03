@@ -24,9 +24,9 @@ class Home extends Component {
                 <Introduction/>
                 <div className="partners-background">
                     <div className="partners row-centered">
-                        <a href="https://www.gilbarco.com/us/products/point-sale/passport-c-store-pos-display"><img className="logos" src={gilbarco} alt="gilbarco"/></a>
-                        <a href="https://www.verifone.com/petro"><img className="logos" src={verifone} alt="verifone"/></a>
-                        <a href="https://www.comdata.com/merchants/SmartDESQ/index"><img className="logos" src={comdata} alt="comdata"/></a>
+                        <a href="https://www.gilbarco.com/us/products/c-store-solution/point-sale-pos-systems/passport-point-sale"><img className="logos" src={gilbarco} alt="gilbarco"/></a>
+                        <a href="https://www.verifone.com/en/us/devices/petro-store-pos/ruby2"><img className="logos" src={verifone} alt="verifone"/></a>
+                        <a href="https://merchantpos.comdata.com/c-store-solutions"><img className="logos" src={comdata} alt="comdata"/></a>
                         <a href="https://www.wayne.com/"><img className="logos" src={wayne} alt="wayne"/></a>
                         <a href="https://www.dieboldnixdorf.com/en-us"><img className="logos" src={diebold} alt="diebold"/></a>
                     </div>
