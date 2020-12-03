@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Introduction.css';
 import logo from '../../assets/AGKlogo.png';
-import edioffer from '../../assets/AGKEDISmall.jpg';
+import edioffer from '../../assets/AGKEDISmall.png';
 
 class Introduction extends Component {
     render() {
@@ -14,7 +14,7 @@ class Introduction extends Component {
                         </td>
                         <td className="logo-spacing">
                             <tr><div className="home-heading-text">AGKSoft</div></tr>
-                            <tr><div className="description-text">AGKSoft Back Office Software, Point Of Sale and Home Office.</div></tr>
+                            <tr><div className="description-text">Back Office Software, Point Of Sale (POS) Software and Home Office Software.</div></tr>
                             <tr align="left"><a href="/contact"><button className="sales-button">CONTACT A SALES REP</button></a></tr>
                         </td>
 
