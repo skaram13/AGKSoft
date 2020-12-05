@@ -19,7 +19,7 @@ class Introduction extends Component {
                         </td>
 
                         <td className="logo-spacing">
-                            <tr align="left"><img className="edi-offer" src={edioffer} alt="AGKSoft Unlimited EDI Offer"/></tr>
+                            <tr align="left"><a href="/ediOffer.html"><img className="edi-offer" src={edioffer} alt="AGKSoft Unlimited EDI Offer"/></a></tr>
                         </td>
 
                     </table>
