@@ -16,6 +16,8 @@ import DefenderSmartScreen from '../../assets/WindowsDefenderSmartScreen.JPG';
 import DefenderSmartScreenDownload from '../../assets/WindowsDefenderSmartScreenDownload.JPG';
 import DefenderSmartScreenRun from '../../assets/WindowsDefenderSmartScreenRun.JPG';
 
+import UGreen from '../../assets/UGreen.gif';
+import TrendNet from '../../assets/TrendNet.png';
 
 const baseUrl = "/images/";
 
@@ -347,10 +349,10 @@ class Downloads extends Component {
                                         <td><a href={baseUrl + "Install_PDFR_Pro_v228.exe"}>Download PDF Writer</a></td>
                                     </tr>
                                     <tr>
-                                        <td><a href={baseUrl + "PL23XX-M_LogoDriver_Setup_v200_20190815.exe"}>TrendNet TU-S9 USB-to-Serial Prolific Driver</a></td>                                        
+                                        <td><img alt="TrendNet" className="logos" src={TrendNet}/><a href={baseUrl + "PL23XX-M_LogoDriver_Setup_v200_20190815.exe"}>TrendNet TU-S9 USB-to-Serial Prolific Driver</a></td>                                                                                
                                     </tr>                                    
                                     <tr>
-                                        <td><a href={baseUrl + "PL23XX-M_LogoDriver_Setup_v203_20201029.exe"}>UGreen USB 2 Serial Prolific Driver</a></td>
+                                        <td><img alt="UGreen" className="logos" src={UGreen}/><a href={baseUrl + "PL23XX-M_LogoDriver_Setup_v203_20201029.exe"}>UGreen USB 2 Serial Prolific Driver</a> </td>                                        
                                     </tr>                                    
                                     <tr>
                                         <td>
