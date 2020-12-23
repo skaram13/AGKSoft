@@ -347,7 +347,7 @@ class Downloads extends Component {
                                         <td><a href={baseUrl + "Install_PDFR_Pro_v228.exe"}>Download PDF Writer</a></td>
                                     </tr>
                                     <tr>
-                                        <td><a href={baseUrl + "PL23XX-M_LogoDriver_Setup_v200_20190815.exe"}>Prolific USB-to-Serial Driver</a></td>
+                                        <td><a href={baseUrl + "PL23XX-M_LogoDriver_Setup_v200_20190815.exe"}>TrendNet TU-S9 Prolific USB-to-Serial Driver</a></td>
                                     </tr>                                    
                                     <tr>
                                         <td>
