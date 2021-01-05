@@ -42,6 +42,7 @@ class DataEntry extends Component {
                     <ul>                        
                         <li>Salesroom and Inventory Control</li>
                         <li>Multiple Checking Accounts, Electronic and Cash Accounts handling</li>                        
+                        <li>Payroll</li>                        
                         <li>Balance Sheet, General Ledger and Net Income</li>
                         <li>Price book Import/Export for multiple locations</li>
                         <li>Consolidate multiple locations into the Home Office</li>                        
