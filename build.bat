@@ -41,4 +41,4 @@ cd..
 
 C:
 
-np c:\temp\rebuild.log
+start np c:\temp\rebuild.log

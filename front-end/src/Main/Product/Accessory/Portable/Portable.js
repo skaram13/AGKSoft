@@ -5,13 +5,11 @@ import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 import figure1 from "../../../../assets/portable/firgure1.jpg";
 import figure2 from "../../../../assets/portable/figure2.jpg";
-import figure3 from "../../../../assets/portable/figure3.gif";
-import figure4 from "../../../../assets/portable/figure4.gif";
 import figure5 from "../../../../assets/portable/figure5.gif";
 import figure6 from "../../../../assets/portable/figure6.gif";
 import figure7 from "../../../../assets/portable/figure7.gif";
 import trigger from "../../../../assets/portable/ppt88trigback.jpg";
-
+import ppt88complete from "../../../../assets/portable/PPT88xxWithTriggerAndBase.png";
 
 class Portable extends Component {
     render() {
@@ -33,12 +31,8 @@ class Portable extends Component {
                             <tr className="row-centered"><img alt="portable" className="table-img image-border" src={figure2}/></tr>
                         </table>
                         <table className="portable-inline">
-                            <th className="portable-table row-centered">PPT8820 (with Trigger)</th>
-                            <tr className="row-centered"><img alt="portable" className="table-img image-border" src={figure3}/></tr>
-                        </table>
-                        <table className="portable-inline">
                             <th className="portable-table row-centered">PPT8820 (with Trigger & Dock)</th>
-                            <tr className="row-centered"><img alt="portable" className="table-img image-border" src={figure4}/></tr>
+                            <tr className="row-centered"><img alt="portable" className="table-img image-border" src={ppt88complete}/></tr>
                         </table>
 
                         <table className="portable-inline">
