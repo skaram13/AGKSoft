@@ -8,6 +8,8 @@ import barcode2 from "../../../../assets/BarcodePrinter/barcode2.gif";
 import barcode3 from "../../../../assets/BarcodePrinter/barcode3.gif";
 import barcode4 from "../../../../assets/BarcodePrinter/barcode4.gif";
 
+const baseUrl = "/images/";
+
 class BarcodePrinter extends Component {
     render() {
         return(
@@ -33,6 +35,11 @@ class BarcodePrinter extends Component {
                         <tr className="center-images"><img alt='Figure 1 (4" X 2.31")' className="product-images image-border" src={barcode1}/></tr>
                     </table>
 
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="center-header">Dymo Software Driver</th>
+                        <tr className="center-images"><a href={baseUrl + "DLS8Setup.8.7.2.exe"}>Download Version 8.7.2</a></tr>
+                        <tr className="center-images"><a href={baseUrl + "DCDSetup1.3.2.18.exe"}>Download Version 1.3.2.18</a></tr>                        
+                    </table>
                 </div>
                 <Footer/>
             </div>
