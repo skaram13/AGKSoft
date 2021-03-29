@@ -37,8 +37,8 @@ class BarcodePrinter extends Component {
 
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="center-header">Dymo Software Driver</th>
-                        <tr className="center-images"><a href={baseUrl + "DLS8Setup.8.7.2.exe"}>Download Version 8.7.2</a></tr>
-                        <tr className="center-images"><a href={baseUrl + "DCDSetup1.3.2.18.exe"}>Download Version 1.3.2.18</a></tr>                        
+                        <tr className="center-images"><a href={baseUrl + "DLS8Setup.8.7.4.exe"}>Download Version 8.7.4</a></tr>
+                        <tr className="center-images"><a href={baseUrl + "DCDSetup1.3.2.exe"}>Download Version 1.3.2</a></tr>
                     </table>
                 </div>
                 <Footer/>
