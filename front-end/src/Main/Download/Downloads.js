@@ -342,8 +342,16 @@ class Downloads extends Component {
                                     <tr>
                                         <td><a href={baseUrl + "OneDriveSetup.exe"}>Download One Drive</a></td>
                                     </tr>
+
                                     <tr>
-                                        <td><a href={baseUrl + "DPSetup.exe"}>Avery DesignPro 5</a></td>
+                                        <td><a href={baseUrl + "DLS8Setup8.7.4.exe"}>Download Dymo DLS 8.7.4</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a href={baseUrl + "DCDSetup1.3.2.18.exe"}>Download Dymo DCD 1.3.2.18</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href={baseUrl + "DPSetup.exe"}>Download Avery DesignPro 5</a></td>
                                     </tr>
                                     <tr>
                                         <td><a href={baseUrl + "Install_PDFR_Pro_v228.exe"}>Download PDF Writer</a></td>
