@@ -4,7 +4,6 @@ import '../../../Main.css';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 import barcode1 from "../../../../assets/BarcodePrinter/barcode1.gif";
-import barcode2 from "../../../../assets/BarcodePrinter/barcode2.gif";
 import barcode3 from "../../../../assets/BarcodePrinter/barcode3.gif";
 import barcode4 from "../../../../assets/BarcodePrinter/barcode4.gif";
 
