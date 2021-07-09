@@ -8,7 +8,7 @@
 .nav-home{
     font-family: "Helvetica Neue";
     font-weight: bold;
-    color: black;
+    color: rgb(112, 109, 109);
     font-size: large;
 }
 
@@ -16,7 +16,7 @@
     margin: 0px;
     padding: 0px;
     font-family: "Helvetica Neue";
-    color: black;
+    color: rgb(112, 109, 109);
     font-size: large;
 }
 
@@ -38,5 +38,6 @@
 
 a:link, a:visited {
     text-decoration: none;
-    color: #5e5e5e;
+    color: #d10909ef;
+    font-size: large;
 }
