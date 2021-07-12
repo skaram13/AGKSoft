@@ -319,6 +319,10 @@ class Downloads extends Component {
                                     <tr>
                                         <td><a href={baseUrl + "SNBC-BTP-R880-Win10.zip"}>SNBC BTP-R880 Win 10 Driver</a></td>
                                     </tr>
+
+                                    <tr>
+                                        <td><a href={baseUrl + "xp80.exe"}>POS ALL IN ONE (POS80 or XP80-C Driver)</a></td>
+                                    </tr>
                                 </table>
                             </Panel.Body>
                         </Panel>
