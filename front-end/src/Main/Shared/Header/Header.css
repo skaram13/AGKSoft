@@ -36,8 +36,12 @@
     margin-bottom: 0px !important;
 }
 
+.phone {
+    color: #d10909ef !important;
+}
+
 a:link, a:visited {
     text-decoration: none;
-    color: #d10909ef;
+    color: #5e5e5e;
     font-size: large;
 }
