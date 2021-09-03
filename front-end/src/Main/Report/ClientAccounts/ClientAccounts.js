@@ -14,7 +14,7 @@ class ClientAccounts extends Component {
             <div>
                 <Header/>
                 <div className="main-container">
-                    <h1 className="heading-text">AGKSoft Client Accounts Reportst</h1>
+                    <h1 className="heading-text">AGKSoft Client Accounts Reports</h1>
                     <div className="description-text">
                         If you are connected to your Cash Register, we can automatically populate the Client Accounts screen with any new local credit / store credit / house charges.
                     </div>
