@@ -23,7 +23,7 @@ class DataEntry extends Component {
                         <li>Pricebook Management</li>
                         <li>Daily Short/Over or End of Shift</li>
                         <li>Gas Load Invoices Process</li>
-                        <li>Vendor Invoices Process (EDI, PDF)</li>
+                        <li>Vendor Invoices Process (EDI)</li>
                         <li>Electronic Credit Cards Settlement</li>
                         <li>Inventory/invoices through PDA</li>
                     </ul>
@@ -41,13 +41,12 @@ class DataEntry extends Component {
                     <div className="description-text">Includes the [Standard Service] plus the following:</div>
                     <ul>                        
                         <li>Salesroom and Inventory Control</li>
-                        <li>Multiple Checking Accounts, Electronic and Cash Accounts handling</li>                        
                         <li>Payroll</li>                        
+                        <li>Provide monthly Sales Tax and Payroll Tax</li>                        
+                        <li>Multiple Checking Accounts, Electronic and Cash Accounts handling</li>                        
                         <li>Balance Sheet, General Ledger and Net Income</li>
-                        <li>Price book Import/Export for multiple locations</li>
-                        <li>Consolidate multiple locations into the Home Office</li>                        
+                        <li>Price book Import/Export for multiple locations</li>                        
                     </ul>
-
                     <div className="description-text last-element">For more info please <a href="\contact">contact us</a></div>
                 </div>
                 <Footer/>
