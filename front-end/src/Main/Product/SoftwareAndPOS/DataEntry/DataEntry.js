@@ -22,7 +22,6 @@ class DataEntry extends Component {
                     <ul>
                         <li>Pricebook Management</li>
                         <li>Daily Short/Over or End of Shift</li>
-                        <li>Gas Load Invoices Process</li>
                         <li>Vendor Invoices Process (EDI)</li>
                         <li>Electronic Credit Cards Settlement</li>
                         <li>Inventory/invoices through PDA</li>
@@ -31,12 +30,12 @@ class DataEntry extends Component {
                     <div className="sub-heading-product">Standard Service ($299/month)</div>
                     <div className="description-text">Includes the [Basic Service] plus the following:.</div>
                     <ul>
+                        <li>Gas Load Invoices Process</li>                        
                         <li>Fuel Sale and Reconcilation</li>
                         <li>Expenses and Assets tracking.</li>
                         <li>Lottery Paid and Lottery Settlements</li>
                         <li>Maintaining Client Accounts.</li>                        
                     </ul>
-
                     <div className="sub-heading-product">Full Data Entry Service ($395/month)</div>
                     <div className="description-text">Includes the [Standard Service] plus the following:</div>
                     <ul>                        
