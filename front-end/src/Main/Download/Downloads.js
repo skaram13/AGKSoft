@@ -260,6 +260,17 @@ class Downloads extends Component {
                             <Panel.Body collapsible>
                                 <table id='downloads'>
                                     <tr>
+                                        <th>AGKSoft Point Of Sale Downloads (Elavon/Converge)</th>
+                                    </tr>
+                                    <tr>
+                                        <td><a href={baseUrl + "IngenicoUSBDrivers_3.14_setup.exe"}>Ingenico 3.14 driver</a> or <a href={baseUrl + "IngenicoUSBDrivers_3.22_setup_SIGNED.exe"}>Ingenico 3.22 driver</a> </td>                                        
+                                    </tr>
+                                    <tr>
+                                        <td><a href={baseUrl + "CommerceWebServicesSetup.exe"}>Commerce Web Services</a></td>
+                                    </tr>
+                                </table>                                
+                                <table id='downloads'>
+                                    <tr>
                                         <th>AGKSoft Point Of Sale Downloads (Mercury/Vantiv)</th>
                                     </tr>
                                     <tr>
@@ -275,17 +286,7 @@ class Downloads extends Component {
                                         <td><a href={baseUrl + "NETePay.exe"}>NETePay</a></td>
                                     </tr>
                                 </table>
-                                <table id='downloads'>
-                                    <tr>
-                                        <th>AGKSoft Point Of Sale Downloads (Elavon/Converge)</th>
-                                    </tr>
-                                    <tr>
-                                        <td><a href={baseUrl + "IngenicoUSBDrivers_3.14_setup.exe"}>Ingenico driver</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href={baseUrl + "CommerceWebServicesSetup.exe"}>Commerce Web Services</a></td>
-                                    </tr>
-                                </table>
+                                
                                 <table id='downloads'>
                                     <tr>
                                         <th>AGKSoft Point Of Sale Downloads (non-EMV)</th>
