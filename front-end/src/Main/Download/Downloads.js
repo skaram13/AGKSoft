@@ -343,7 +343,7 @@ class Downloads extends Component {
                                     </tr>
 
                                     <tr>
-                                        <td><a href={baseUrl +  "googledrivesync.exe"}>Download Google Drive</a></td>
+                                        <td><a href={baseUrl +  "GoogleDriveSetup.exe"}>Download Google Drive</a></td>
                                     </tr>
                                     <tr>
                                         <td><a href={baseUrl + "OneDriveSetup.exe"}>Download One Drive</a></td>
