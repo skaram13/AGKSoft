@@ -4,7 +4,7 @@ import '../../../Main.css';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 import wireless from "../../../../assets/USBScanner/wirelessScanner.JPG";
-import multiline from "../../../../assets/USBScanner/MultilineScanner.jpg";
+import multiline from "../../../../assets/USBScanner/SymbolLS9208.jpg";
 import singleline from "../../../../assets/USBScanner/SinglelineScanner.jpg";
 import SymbolAgeScanner from "../../../../assets/USBScanner/SymbolAgeScanner.jpg";
 import IntermecAgeScanner from "../../../../assets/USBScanner/IntermecWithStand.jpg";
@@ -40,7 +40,7 @@ class USBScanner extends Component {
                     </table>
 
                     <table className="product-entry-spacing row-centered center-block">
-                        <th className="sub-heading-product center-header">Multi Line USB Scanner</th>
+                        <th className="sub-heading-product center-header">Multi Line Symbol USB Scanner</th>
                         <tr className="center-header">This is a multi line 1-D omni-directional scanner that will scan multiple lines without having to hold it.</tr>
                         <tr className="center-images"><img alt="multiline" className="product-images image-border" src={multiline}/></tr>
                     </table>
