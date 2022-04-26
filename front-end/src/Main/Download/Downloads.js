@@ -263,7 +263,7 @@ class Downloads extends Component {
                                         <th>AGKSoft Point Of Sale Downloads (Elavon/Converge)</th>
                                     </tr>                                
                                     <tr>
-                                        <td><a href={baseUrl + "ConvergeConnectSetup.exe"}>Converge Connect</a></td>
+                                        <td><a href={baseUrl + "CommerceWebServicesSetup.exe"}>Commerce Web Services 4.7.2.17</a></td>
                                     </tr>
                                 </table>                                
                                 <table id='downloads'>
