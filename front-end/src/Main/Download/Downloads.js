@@ -301,6 +301,12 @@ class Downloads extends Component {
                                         <td><a href={baseUrl + "APD_456E.exe"}>Epson APD Printer Driver Ver. 4.56E</a></td>
                                     </tr>
                                     <tr>
+                                        <td><a href={baseUrl + "RongTaDriverInstall.exe"}>RongTa Printer Driver Install</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href={baseUrl + "RongtaTool.exe"}>RongTa Tool Install</a></td>
+                                    </tr>
+                                    <tr>
                                         <td><a href={baseUrl + "R180.exe"}>R180 Printer Driver</a></td>
                                     </tr>
                                     <tr>
