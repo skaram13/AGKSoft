@@ -342,6 +342,10 @@ class Downloads extends Component {
                                     </tr>
 
                                     <tr>
+                                        <td><a href={baseUrl + "AGKBarcodePrint.exe"}>AGKSoft Barcode Printing</a></td>
+                                    </tr>
+
+                                    <tr>
                                         <td><a href={baseUrl + "msxml.msi"}>MSXML (WINHTTP5.DLL)</a></td>
                                     </tr>
 
