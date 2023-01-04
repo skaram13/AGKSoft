@@ -31,7 +31,7 @@ class DataEntry extends Component {
                     <div className="description-text">Includes the [Basic Service] plus the following:.</div>
                     <ul>
                         <li>Gas Load Invoices Process</li>                        
-                        <li>Fuel Sale and Reconcilation</li>
+                        <li>Fuel Sale and Reconciliation</li>
                         <li>Expenses and Assets tracking.</li>
                         <li>Lottery Paid and Lottery Settlements</li>
                         <li>Maintaining Client Accounts.</li>                        

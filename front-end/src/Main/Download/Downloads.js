@@ -19,6 +19,7 @@ import DefenderSmartScreenRun from '../../assets/WindowsDefenderSmartScreenRun.J
 import UGreen from '../../assets/UGreen.gif';
 import TrendNet from '../../assets/TrendNet.png';
 import IOGear from '../../assets/IOGearGUC232A.PNG';
+import tera from '../../assets/tera.JPG';
 
 const baseUrl = "/images/";
 
@@ -382,7 +383,11 @@ class Downloads extends Component {
                                     <tr>
                                         <td><img alt="IOGear" className="logos" src={IOGear}/><a href={baseUrl + "UC232A_Windows_Setup.exe"}>IOGear GUC 232A USB-to-Serial Driver</a></td>                                                                                
                                     </tr>                                    
-                                                                    
+
+                                    <tr>
+                                        <td><img alt="tera" className="logos" src={tera}/><a href={baseUrl + "CDM212364_Setup.exe"}>Tera Grand USB-to-Serial Driver</a></td>                                                                                
+                                    </tr>                                                                                                                                            
+
                                     <tr>
                                         <td>
                                             To download MCMICR font
