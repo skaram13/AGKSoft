@@ -372,11 +372,12 @@ class Downloads extends Component {
                                     </tr>
 
                                     <tr>
-                                        <td><img alt="TrendNet" className="logos" src={TrendNet}/><a href={baseUrl + "PL23XX-M_LogoDriver_Setup_v400_20211229.exe"}>Prolific Windows 11 Driver</a></td>                                                                                
+                                        <td><img alt="TrendNet" className="logos" src={TrendNet}/><a href={baseUrl + "PL23XX-M_LogoDriver_Setup_v200_20190815.exe"}>Prolific Windows 11 TrendNet Driver TU-S9 USB-to-Serial</a></td>
                                     </tr>                                    
                                     <tr>
-                                        <td><img alt="TrendNet" className="logos" src={TrendNet}/><a href={baseUrl + "PL23XX-M_LogoDriver_Setup_v200_20190815.exe"}>TrendNet TU-S9 USB-to-Serial Prolific Driver</a></td>                                                                                
+                                        <td><img alt="TrendNet" className="logos" src={TrendNet}/><a href={baseUrl + "PL23XX-M_LogoDriver_Setup_v400_20211229.exe"}>Prolific Windows 10 Driver (Not for Windows 11)</a></td>
                                     </tr>                                    
+                                    
                                     <tr>
                                         <td><img alt="UGreen" className="logos" src={UGreen}/><a href={baseUrl + "PL23XX-M_LogoDriver_Setup_v203_20201029.exe"}>UGreen USB 2 Serial Prolific Driver</a> </td>                                        
                                     </tr>                                    
