@@ -266,6 +266,9 @@ class Downloads extends Component {
                                     <tr>
                                         <td><a href={baseUrl + "CommerceWebServicesSetup.exe"}>Commerce Web Services 4.7.2.17</a></td>
                                     </tr>
+                                    <tr>
+                                        <td><a href={baseUrl + "IngenicoUSBDrivers_3.32_setup_SIGNED.exe"}>Ingenico USB Drivers 3.32</a></td>
+                                    </tr>
                                 </table>                                
                                 <table id='downloads'>
                                     <tr>
