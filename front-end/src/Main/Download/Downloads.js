@@ -264,7 +264,7 @@ class Downloads extends Component {
                                         <th>AGKSoft Point Of Sale Downloads (Elavon/Converge)</th>
                                     </tr>                                
                                     <tr>
-                                        <td><a href={baseUrl + "CommerceWebServicesSetup.exe"}>Commerce Web Services 4.7.2.17</a></td>
+                                        <td><a href={baseUrl + "ConvergeConnectSetup.exe"}>Commerce Connect 5.1.0.31</a></td>
                                     </tr>
                                     <tr>
                                         <td><a href={baseUrl + "IngenicoUSBDrivers_3.32_setup_SIGNED.exe"}>Ingenico USB Drivers 3.32</a></td>
