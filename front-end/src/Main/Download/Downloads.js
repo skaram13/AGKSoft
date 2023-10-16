@@ -361,6 +361,10 @@ class Downloads extends Component {
                                     </tr>
 
                                     <tr>
+                                        <td><a href={baseUrl + "SmartLabelCreator_Ver1-2-3_EN.zip"}>Download Seiko Smart Label Creator</a></td>
+                                    </tr>
+
+                                    <tr>
                                         <td><a href={baseUrl + "DLS8Setup8.7.4.exe"}>Download Dymo DLS 8.7.4</a></td>
                                     </tr>
 

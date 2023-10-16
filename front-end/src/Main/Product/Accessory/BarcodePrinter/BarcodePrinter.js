@@ -47,6 +47,12 @@ class BarcodePrinter extends Component {
                         <tr className="center-images"><a href={baseUrl + "DLS8Setup8.7.4.exe"}>Download Version 8.7.4</a></tr>
                         <tr className="center-images"><a href={baseUrl + "DCDSetup1.3.2.18.exe"}>Download Version 1.3.2.18</a></tr>
                     </table>
+                    <table className="product-entry-spacing row-centered center-block">
+                        <th className="center-header">Seiko Smart Label Software</th>
+                        <tr className="center-images"><a href={baseUrl + "SmartLabelCreator_Ver1-2-3_EN.zip"}>Download Seiko Smart Label Software</a></tr>
+                        <tr className="center-images"><a href={baseUrl + "SlpSdkRuntime64.msi"}>Download Seiko 64-bit Runtime ONLY</a></tr>
+                        <tr className="center-images"><a href={baseUrl + "SlpSdkRuntime32.msi"}>Download Seiko 32-bit Runtime ONLY</a></tr>
+                    </table>
                 </div>
                 <Footer/>
             </div>
