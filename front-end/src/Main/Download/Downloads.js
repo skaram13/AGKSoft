@@ -346,6 +346,12 @@ class Downloads extends Component {
                                     </tr>
 
                                     <tr>
+                                        <td><a href={baseUrl + "VistaDeviceCenter61_64bit.exe"}>Windows Mobile Device Center 64-bits</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href={baseUrl + "VistaDeviceCenter61.exe"}>Windows Mobile Device Center 32-bits</a></td>
+                                    </tr>
+                                    <tr>
                                         <td><a href={baseUrl + "AGKBarcodePrint.exe"}>AGKSoft Barcode Printing</a></td>
                                     </tr>
 
