@@ -9,6 +9,9 @@ import barcode4 from "../../../../assets/BarcodePrinter/barcode4.gif";
 
 import barcode6 from "../../../../assets/BarcodePrinter/UPCCodeVS.gif";
 
+import DymoTwin  from "../../../../assets/BarcodePrinter/DymoTwin.jpg";
+import Seiko  from "../../../../assets/BarcodePrinter/Seiko.jpg";
+
 
 const baseUrl = "/images/";
 
@@ -46,12 +49,17 @@ class BarcodePrinter extends Component {
                         <th className="center-header">Dymo Software Driver</th>
                         <tr className="center-images"><a href={baseUrl + "DLS8Setup8.7.4.exe"}>Download Version 8.7.4</a></tr>
                         <tr className="center-images"><a href={baseUrl + "DCDSetup1.3.2.18.exe"}>Download Version 1.3.2.18</a></tr>
+
+                        <tr className="center-images"><img alt='Dymo 450 Twin Turbo' className="product-images image-border" src={DymoTwin}/></tr>
+
                     </table>
                     <table className="product-entry-spacing row-centered center-block">
                         <th className="center-header">Seiko Smart Label Software</th>
                         <tr className="center-images"><a href={baseUrl + "SmartLabelCreator_Ver1-2-3_EN.zip"}>Download Seiko Smart Label Software</a></tr>
                         <tr className="center-images"><a href={baseUrl + "SlpSdkRuntime64.msi"}>Download Seiko 64-bit Runtime ONLY</a></tr>
                         <tr className="center-images"><a href={baseUrl + "SlpSdkRuntime32.msi"}>Download Seiko 32-bit Runtime ONLY</a></tr>
+
+                        <tr className="center-images"><img alt='Seiko Barcode Printer' className="product-images image-border" src={Seiko}/></tr>
                     </table>
                 </div>
                 <Footer/>
