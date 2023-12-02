@@ -20,6 +20,7 @@ import UGreen from '../../assets/UGreen.gif';
 import TrendNet from '../../assets/TrendNet.png';
 import IOGear from '../../assets/IOGearGUC232A.PNG';
 import tera from '../../assets/tera.JPG';
+import staples from '../../assets/StaplesUSB2Serial.JPG';
 
 const baseUrl = "/images/";
 
@@ -399,7 +400,7 @@ class Downloads extends Component {
                                         <td><img alt="tera" className="logos" src={tera}/><a href={baseUrl + "CDM212364_Setup.exe"}>Tera Grand USB-to-Serial Driver</a></td>
                                     </tr>
                                     <tr>
-                                        <td><img alt="tera" className="logos" src={tera}/><a href={baseUrl + "Staples-USB-Serial-Adapter-driver-18762_32bit-64bit_setup.exe"}>Staples USB 2 Serial Driver</a></td>
+                                        <td><img alt="tera" className="logos" src={staples}/><a href={baseUrl + "Staples-USB-Serial-Adapter-driver-18762_32bit-64bit_setup.exe"}>Staples USB 2 Serial Driver</a></td>
                                     </tr>
                                     <tr>
                                         <td>
