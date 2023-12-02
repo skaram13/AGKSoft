@@ -383,25 +383,24 @@ class Downloads extends Component {
                                     <tr>
                                         <td><a href={baseUrl + "Install_PDFR_Pro_v228.exe"}>Download PDF Writer</a></td>
                                     </tr>
-
                                     <tr>
                                         <td><img alt="TrendNet" className="logos" src={TrendNet}/><a href={baseUrl + "drivers_tu-s9v3_windows.zip"}>Prolific Windows 11 TrendNet Driver TU-S9 USB-to-Serial</a></td>
-                                    </tr>                                    
+                                    </tr>
                                     <tr>
                                         <td><img alt="TrendNet" className="logos" src={TrendNet}/><a href={baseUrl + "PL23XX-M_LogoDriver_Setup_v400_20211229.exe"}>Prolific Windows 10 Driver (Not for Windows 11)</a></td>
                                     </tr>                                    
-                                    
                                     <tr>
-                                        <td><img alt="UGreen" className="logos" src={UGreen}/><a href={baseUrl + "PL23XX-M_LogoDriver_Setup_v203_20201029.exe"}>UGreen USB 2 Serial Prolific Driver</a> </td>                                        
-                                    </tr>                                    
+                                        <td><img alt="UGreen" className="logos" src={UGreen}/><a href={baseUrl + "PL23XX-M_LogoDriver_Setup_v203_20201029.exe"}>UGreen USB 2 Serial Prolific Driver</a> </td>
+                                    </tr>
                                     <tr>
-                                        <td><img alt="IOGear" className="logos" src={IOGear}/><a href={baseUrl + "UC232A_Windows_Setup.exe"}>IOGear GUC 232A USB-to-Serial Driver</a></td>                                                                                
-                                    </tr>                                    
-
+                                        <td><img alt="IOGear" className="logos" src={IOGear}/><a href={baseUrl + "UC232A_Windows_Setup.exe"}>IOGear GUC 232A USB-to-Serial Driver</a></td>
+                                    </tr>
                                     <tr>
-                                        <td><img alt="tera" className="logos" src={tera}/><a href={baseUrl + "CDM212364_Setup.exe"}>Tera Grand USB-to-Serial Driver</a></td>                                                                                
-                                    </tr>                                                                                                                                            
-
+                                        <td><img alt="tera" className="logos" src={tera}/><a href={baseUrl + "CDM212364_Setup.exe"}>Tera Grand USB-to-Serial Driver</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img alt="tera" className="logos" src={tera}/><a href={baseUrl + "Staples-USB-Serial-Adapter-driver-18762_32bit-64bit_setup.exe"}>Staples USB 2 Serial Driver</a></td>
+                                    </tr>
                                     <tr>
                                         <td>
                                             To download MCMICR font
