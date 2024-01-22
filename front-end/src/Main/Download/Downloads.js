@@ -151,33 +151,7 @@ class Downloads extends Component {
                                     </tr>
                                 </table>
                             </Panel.Body>
-                        </Panel>
-                        <Panel eventKey="3">
-                            <Panel.Heading>
-                                <Panel.Title toggle>Dresser Wayne Downloads</Panel.Title>
-                            </Panel.Heading>
-                            <Panel.Body collapsible>
-                                <table id='downloads'>
-                                    <tr>
-                                        <th>Dresser Wayne Nucleus Software Update</th>
-                                        <th/>
-                                    </tr>
-                                    <tr>
-                                        <td><a href={baseUrl + "Blackpipe_1.3.3.198_Install.exe"}>Black Pipe Software 1.3.3/198 Installation</a></td>
-                                        <td>Download to C:\TEMP and run it</td>
-                                    </tr>
-                                </table>
-
-                                <table id='downloads'>
-                                    <tr>
-                                        <th>Dresser Wayne NAMOS/Beetle POS</th>
-                                    </tr>
-                                    <tr>
-                                        <td><a href={baseUrl + "SecureFTPInstallation.pdf"}>Secure FTP Installation</a></td>
-                                    </tr>
-                                </table>
-                            </Panel.Body>
-                        </Panel>
+                        </Panel>                        
                         <Panel eventKey="4">
                             <Panel.Heading>
                                 <Panel.Title toggle>Gilbarco Passport Downloads</Panel.Title>
