@@ -142,7 +142,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/front-end/src/Main/Product/PCs/MicroPC/MicroPC.js" />
-        <option value="$PROJECT_DIR$/front-end/src/Main/Product/PCs/MiniHP/MiniHP.js" />
+        <option value="$PROJECT_DIR$/front-end/src/Main/Product/PCs/MicroXCYPC/MicroXCYPC.js" />
         <option value="$PROJECT_DIR$/front-end/src/Main/Product/PCs/MiniPC/MiniPC.js" />
         <option value="$PROJECT_DIR$/front-end/src/Main/Product/PCs/NanoPC/NanoPC.js" />
         <option value="$PROJECT_DIR$/front-end/src/Main/Product/SoftwareAndPOS/BackOffice/BackOffice.js" />

@@ -29,6 +29,7 @@ import WorkOrders from './Main/Report/WorkOrders/WorkOrder';
 import Portable from './Main/Product/Accessory/Portable/Portable';
 import MiniPC from './Main/Product/PCs/MiniPC/MiniPC';
 import MicroPC from './Main/Product/PCs/MicroPC/MicroPC';
+import MicroXCYPC from './Main/Product/PCs/MicroXCYPC/MicroXCYPC';
 import ShuttlePC from './Main/Product/PCs/ShuttlePC/ShuttlePC';
 import USBScanner from './Main/Product/Accessory/USBScanner/USBScanner';
 import BarcodePrinter from './Main/Product/Accessory/BarcodePrinter/BarcodePrinter';
@@ -58,6 +59,7 @@ ReactDOM.render((
             <Route exact path="/products/accessories/portable" component={Portable}/>
             <Route exact path="/products/accessories/miniPC" component={MiniPC}/>
             <Route exact path="/products/accessories/microPC" component={MicroPC}/>
+            <Route exact path="/products/accessories/microXCYPC" component={MicroXCYPC}/>
             <Route exact path="/products/accessories/ShuttlePC" component={ShuttlePC}/>
             <Route exact path="/products/accessories/usbScanner" component={USBScanner}/>
             <Route exact path="/products/accessories/barcodePrinter" component={BarcodePrinter}/>

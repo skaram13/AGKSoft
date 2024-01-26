@@ -4,6 +4,7 @@ import '../../Main.css';
 import Footer from "../../Shared/Footer/Footer";
 import Header from "../../Shared/Header/Header";
 import MicroPC from "../../../assets/AGKMicroPC.jpg";
+import MicroXCYPC from "../../../assets/AGKMicroPC-XCY-front.gif";
 import MiniPC from "../../../assets/AGKMinisPCSmall.jpg";
 import ShuttlePC from "../../../assets/AGKShuttlePC.jpg";
 import BarcodePrinter from "../../../assets/BarCodePrinter.jpg";
@@ -43,10 +44,16 @@ class Accessories extends Component {
                     <div className="product-page-heading row-centered">PCs</div>
 
                     <div className="product-entry">
-                    <a href="/products/accessories/miniPC">
+                        <a href="/products/accessories/miniPC">
                             <img alt="MiniPC" className="product-icon" src={MiniPC}/>
                             <div className="product-text">AGKSoft Mini PC</div>
-                        </a>                        
+                        </a>                
+                        
+                        <a href="/products/accessories/microXCYPC">
+                            <img alt="MicroXCYPC" className="product-icon" src={MicroXCYPC}/>
+                            <div className="product-text">AGKSoft Micro XCY PC</div>
+                        </a>
+
                         <a href="/products/accessories/microPC">
                             <img alt="MicroPC" className="product-icon" src={MicroPC}/>
                             <div className="product-text">AGKSoft Micro PC</div>
