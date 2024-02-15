@@ -307,6 +307,12 @@ class Downloads extends Component {
                                     <tr>
                                         <td><a href={baseUrl + "xp80.exe"}>POS ALL IN ONE (POS80 or XP80-C Driver)</a></td>
                                     </tr>
+
+                                    <tr>
+                                        <td><a href={baseUrl + "AGKSoft-OfficeLab-Sleep.pdf"}>AGKSoft OfficeLab Wireless Scanner Sleep Mode</a></td>
+                                    </tr>
+                                    
+
                                 </table>
                             </Panel.Body>
                         </Panel>
