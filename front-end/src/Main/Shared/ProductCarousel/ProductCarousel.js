@@ -10,7 +10,7 @@ class ProductCarousel extends Component {
             <Carousel.Item className ="slide-container">
                 <img className="carousel-image center-images" alt="900x500" src={photo}/>
                 <Carousel.Caption>
-                    <h3 className="caption-padding">{this.props.photoCaptions[index]}</h3>
+                    <h3 className="caption-padding">{this.props.photosCaptions[index]}</h3>
                 </Carousel.Caption>
             </Carousel.Item>);
 

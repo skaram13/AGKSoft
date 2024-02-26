@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import '../../Product.css';
 import '../../../Main.css';
 import './POS.css';
-import ProductCarousel from '../../../Shared/ProductCarousel/ProductCarousel';
+import ProductCarousel1 from '../../../Shared/ProductCarousel/ProductCarousel';
+import ProductCarousel2 from '../../../Shared/ProductCarousel/ProductCarousel';
 import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 import figure1 from "../../../../assets/POS/figure1.jpg";
@@ -17,8 +18,28 @@ import figure9 from "../../../../assets/POS/figure5.jpg";
 import figure10 from "../../../../assets/POS/figure6.jpg";
 import figure11 from "../../../../assets/POS/figure10.gif";
 import figure12 from "../../../../assets/POS/figure11.jpg";
-const photos = [figure1, figure2, figure3, figure4, figure5, figure6, figure7, figure8, figure9, figure10, figure11, figure12];
-const photoCaptions = [
+
+import fig1 from "../../../../assets/POS/AGKPOS-D2-Front1.jpg";
+import fig2 from "../../../../assets/POS/AGKPOS-D2-back1.jpg";
+import fig3 from "../../../../assets/POS/AGKPOS-D2-SideView.jpg";
+import fig4 from "../../../../assets/POS/AGKPOS-D2-bottom1.jpg";
+import fig5 from "../../../../assets/POS/AGKPOS-POSDisplay.JPG";
+import fig6 from "../../../../assets/POS/AGKPOS-POSWindow.JPG";
+import fig7 from "../../../../assets/POS/AGKPOS-POS-Lane3000.JPG";
+
+const photos1 = [fig1, fig2, fig3, fig4, fig5, fig6, fig7];
+const photos1Captions = [
+    'Front View (Receipt Printer built-in)',
+    'Back View (Customer Display/Adds)',    
+    'Side View',
+    'Bottom View',
+    'Customer Display',
+    'POS Interface',
+    'Ingenico Lane 3000 Pin Pad'
+];
+
+const photos2 = [figure1, figure2, figure3, figure4, figure5, figure6, figure7, figure8, figure9, figure10, figure11, figure12];
+const photos2Captions = [
     'Front View Black (Receipt Printer built-in)',
     'Front View White (Receipt Printer built-in)',
     'Back View White (Customer Display/Adds)',    
@@ -43,7 +64,9 @@ class POS extends Component {
                     <div className="description-text">
                         AGKSoft Point Of Sale Software (POS) is for Gas Stations, Convenience Stores (C-Stores), Liquor Stores and most general retail stores.
                         Our POS is easy to use with an intuitive graphical user interface and can be installed on a network and access the system from multiple PCs.</div>
-                    <ProductCarousel photos={photos} photoCaptions={photoCaptions}/>
+
+                    <ProductCarousel1 photos={photos1} photosCaptions={photos1Captions}/>
+                    <ProductCarousel2 photos={photos2} photosCaptions={photos2Captions}/>
 
                     <div className="sub-heading-product">FEATURES</div>
                     <ul>
