@@ -242,21 +242,43 @@ class Downloads extends Component {
                                         <td><a href={baseUrl + "ConvergeConnectSetup.exe"}>Commerce Connect 5.1.0.31</a></td>
                                     </tr>
                                     <tr>
-                                        <td><a href={baseUrl + "IngenicoUSBDrivers_3.32_setup_SIGNED.exe"}>Ingenico USB Drivers 3.32</a></td>
+                                        <td><a href={baseUrl + "IngenicoUSBDrivers_3.32_setup_SIGNED.exe"}>Ingenico USB Driver 3.32</a></td>
                                     </tr>
                                 </table>                                
+
                                 <table id='downloads'>
                                     <tr>
-                                        <th>AGKSoft Point Of Sale Downloads (Mercury/Vantiv)</th>
+                                        <th>AGKSoft Point Of Sale Downloads (Mercury/Vantiv ingenico Lane/3000)</th>
+                                    </tr>
+                                    <tr>
+                                        <td><a href={baseUrl + "IngenicoUSBDrivers_3.34_setup_SIGNED.exe"}>Ingenico USB Driver 3.34</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href={baseUrl + "dsiEMVUS-176-Install20240209-W8.exe"}>DSI EMVUS 1.76</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href={baseUrl + "dsiPDCX-191-Install20240129-W8.exe"}>DSI PDCX 1.91</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href={baseUrl + "DSIClient251-386-Install20230105-W8.exe"}>DSI Client 2.51</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href={baseUrl + "NETePay-Director-Manager-Install20200814-W8.exe"}>NETePay Director</a></td>
+                                    </tr>
+                                </table>
+
+                                <table id='downloads'>
+                                    <tr>
+                                        <th>AGKSoft Point Of Sale Downloads (Mercury/Vantiv VX805)</th>
                                     </tr>
                                     <tr>
                                         <td><a href={baseUrl + "VeriFoneUSBUARTDriver_Vx_1.0.0.52_B5.zip"}>Verifone VX805 driver</a></td>
                                     </tr>
                                     <tr>
-                                        <td><a href={baseUrl + "dsiEMVUS-100-Install20150831-W8.exe"}>DSI EMVx</a></td>
+                                        <td><a href={baseUrl + "dsiEMVUS-100-Install20150831-W8.exe"}>DSI EMVUS 1.00</a></td>
                                     </tr>
                                     <tr>
-                                        <td><a href={baseUrl + "dsiPDCX-142-Install20150420-W8.exe"}>DSI PDCX</a></td>
+                                        <td><a href={baseUrl + "dsiPDCX-142-Install20150420-W8.exe"}>DSI PDCX 1.42</a></td>
                                     </tr>
                                     <tr>
                                         <td><a href={baseUrl + "NETePay.exe"}>NETePay</a></td>
