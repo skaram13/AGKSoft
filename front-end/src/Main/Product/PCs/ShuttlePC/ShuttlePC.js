@@ -12,7 +12,7 @@ class ShuttlePC extends Component {
             <div>
                 <Header/>
                 <div className="main-container">
-                    <h1 className="heading-text">AGKSoft Windows 10 Shuttle Slim PC</h1>
+                    <h1 className="heading-text">AGKSoft Windows 11 Shuttle Slim PC</h1>
                     <div className="description-text">Shown below is the AGKSoft Shuttle Slim PC AGKSoft offers with SSD is about 6" x 6" in size and the unit boots in about 5 seconds.</div>
                     <table className="product-entry-spacing row-centered center-images">
                         <th className="center-header">Figure 1 (Front)</th>
@@ -25,10 +25,10 @@ class ShuttlePC extends Component {
                     </table>            
                     <div className="sub-heading-product">FEATURES</div>
                     <ul>
-                        <li>Fanless Design - Intel Skylake Celeron 3855U</li>                        
-                        <li>Dual Gigabit LAN + Wireless</li>
-                        <li>2 Serial Ports</li>
-                        <li>1 HDMI + 1 Display Port</li>
+                        <li>Fanless Design - Intel Celeron 4205U</li>                        
+                        <li>Dual Gigabit LAN + Wireless + Bluetooth</li>
+                        <li>1 Serial Port</li>
+                        <li>HDMI + Display Port + VGA Port</li>
                         <li>6 USB Ports (4 USB 2.0, 2 USB 3.0)</li>
                         <li>8-GB Ram</li>                        
                         <li>240GB SSD</li>
