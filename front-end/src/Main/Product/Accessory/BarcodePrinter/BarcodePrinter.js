@@ -26,7 +26,7 @@ class BarcodePrinter extends Component {
                     <div className="description-text">You can order any of these labels by contacting AGKSoft.</div>
 
                     <table className="product-entry-spacing row-centered center-block">
-                        <th className="center-header">Figure 1 - Very Small (Not Scannable) (1" X 1.5")</th>
+                        <th className="center-header">Figure 1 - Very Small (1" X 1.5")</th>
                         <tr className="center-images"><img alt='Figure 1 (1" X 1.5")' className="product-images image-border" src={barcode6}/></tr>
                     </table>
 
