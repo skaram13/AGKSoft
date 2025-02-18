@@ -6,7 +6,7 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <p>
-                    Content property of AGKSoft | Website by <a href="http://www.linkedin.com/in/samantha-karam-901778129"> Samantha Karam</a>
+                    <a href="https://www.agksoft.com/privacy.html">AGKSoft privacy policy</a>
                 </p>
             </div>
         )

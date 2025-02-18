@@ -12,8 +12,8 @@ class MicroXCYPC extends Component {
             <div>
                 <Header/>
                 <div className="main-container">
-                    <h1 className="heading-text">AGKSoft MicroXCYPC (Windows 10)</h1>
-                    <div className="description-text">Shown below is the MicroXCY-PC AGKSoft offers with SSD is about 6" x 5" in size and the unit boots in about 5 seconds.</div>
+                    <h1 className="heading-text">AGKSoft Shuttle XCY PC (Windows 10)</h1>
+                    <div className="description-text">Shown below is the Shuttle XCY PC AGKSoft offers with SSD is about 6" x 5" in size and the unit boots in about 5 seconds.</div>
                     <table className="product-entry-spacing row-centered center-images">
                         <th className="center-header">Figure 1 (Front)</th>
                         <tr className="center-images"><img alt="figure1" className="product-images image-border" src={figure1}/></tr>
@@ -34,7 +34,7 @@ class MicroXCYPC extends Component {
                         <li>256GB SSD</li>
                         <li>10w Power Consumption</li>
                     </ul>
-                    <div className="description-text last-element">This MicroXCY-PC includes a 1 year warranty (Keyboard/Mouse/Monitor are not included).</div>
+                    <div className="description-text last-element">This Shuttle XCY PC includes a 3 years warranty (Keyboard/Mouse/Monitor are not included).</div>
                 </div>
                 <Footer/>
             </div>

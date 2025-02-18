@@ -51,7 +51,7 @@ class Accessories extends Component {
                         
                         <a href="/products/accessories/microXCYPC">
                             <img alt="MicroXCYPC" className="product-icon" src={MicroXCYPC}/>
-                            <div className="product-text">AGKSoft Micro XCY PC</div>
+                            <div className="product-text">AGKSoft Shuttle XCY PC</div>
                         </a>
 
                         <a href="/products/accessories/microPC">
