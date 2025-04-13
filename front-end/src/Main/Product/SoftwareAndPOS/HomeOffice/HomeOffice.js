@@ -7,9 +7,9 @@ import figure1 from "../../../../assets/HOS/HOSSetup.JPG";
 import figure1A from "../../../../assets/HOS/HOSSetupLocation.JPG";
 import figure2 from "../../../../assets/HOS/CashRegisterInterface.gif";
 import figure3 from "../../../../assets/HOS/HOSImport.gif";
-import figure4 from "../../../../assets/HOS/short.gif";
-import figure5 from "../../../../assets/HOS/ZoneSetup.gif";
-import figure6 from "../../../../assets/HOS/UploadZonegif.gif";
+import figure4 from "../../../../assets/HOS/ShortOver.GIF";
+import figure5 from "../../../../assets/SetupZones.GIF";
+import figure6 from "../../../../assets/UploadZone.GIF";
 class BackOffice extends Component {
     render() {
         return(

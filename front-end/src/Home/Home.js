@@ -25,10 +25,8 @@ class Home extends Component {
                 <div className="partners-background">
                     <div className="partners row-centered">
                         <a href="https://www.gilbarco.com/us/products/c-store-solution/point-sale-pos-systems/passport-point-sale"><img className="logos" src={gilbarco} alt="gilbarco"/></a>
-                        <a href="https://www.verifone.com/en/us/devices/petro-store-pos/ruby2"><img className="logos" src={verifone} alt="verifone"/></a>
-                        <a href="https://merchantpos.comdata.com/c-store-solutions"><img className="logos" src={comdata} alt="comdata"/></a>
-                        <a href="https://www.wayne.com/"><img className="logos" src={wayne} alt="wayne"/></a>
-                        <a href="https://www.dieboldnixdorf.com/en-us"><img className="logos" src={diebold} alt="diebold"/></a>
+                        <a href="https://www.verifone.com/en/global/payment-devices/integrated-pos/c18"><img className="logos" src={verifone} alt="verifone"/></a>
+                        <a href="https://comdatafuelsolutions.com/smartsolutions"><img className="logos" src={comdata} alt="comdata"/></a>                        
                     </div>
                 </div>
                 <div className="home">
@@ -73,7 +71,7 @@ class Home extends Component {
                             <a href="/scandata.html">
                                 <h3>Scan Data</h3>
                                 <img className="solution-image" src={scandata} alt="scandata"/>
-                                <p>Benefits of Scan Data and how to sign up for Altria/PM USA and RJR.</p>
+                                <p>Benefits of Scan Data and how to sign up for Altria/PM USA, RJR and ITG.</p>
                             </a>
                         </div>
                     </div>

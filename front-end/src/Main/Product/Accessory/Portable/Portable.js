@@ -5,9 +5,9 @@ import Footer from "../../../Shared/Footer/Footer";
 import Header from "../../../Shared/Header/Header";
 import figure1 from "../../../../assets/portable/firgure1.jpg";
 import figure2 from "../../../../assets/portable/figure2.jpg";
-import figure5 from "../../../../assets/portable/figure5.gif";
-import figure6 from "../../../../assets/portable/figure6.gif";
-import figure7 from "../../../../assets/portable/figure7.gif";
+import figure5 from "../../../../assets/portable/PPTInterface.GIF";
+import figure6 from "../../../../assets/portable/VendorInvoice.gif";
+import figure7 from "../../../../assets/portable/VendorMapping.gif";
 import trigger from "../../../../assets/portable/ppt88trigback.jpg";
 import ppt88complete from "../../../../assets/portable/PPT88xxWithTriggerAndBase.png";
 
