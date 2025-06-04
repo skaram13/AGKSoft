@@ -35,7 +35,6 @@ class Accessories extends Component {
                                 <div className="product-text">Age Scanners and USB Scanners</div>
                             </a>
                         </div>
-                    </div>
 
                     <div className="product-page-heading row-centered">PCs</div>
 
@@ -59,10 +58,8 @@ class Accessories extends Component {
                             <div className="product-text">AGKSoft Shuttle PC</div>
                         </a>
                     </div>
-
                 <Footer/>
             </div>
-
         );
     }
 }

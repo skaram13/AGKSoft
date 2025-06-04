@@ -36,8 +36,7 @@ class BackOffice extends Component {
                         <a href="/products/software/homeOffice"><li><b>Home Office Software (HOS)</b></li></a>
                         <li>Connected to a Gilbarco Passport</li>
                         <li>Connected to a Ruby VeriFone/Sapphire/Topaz/Site Controller/Commander/RubyCi/Ruby2</li>
-                        <li>Connected to a ComData</li>
-                        <li>Connected to a Wayne Nucleus/Wayne NAMOS/Beetle POS</li>
+                        <li>Connected to a ComData</li>                        
                     </ul>
 
                     <div className="sub-heading-product">Features:</div>
@@ -67,15 +66,15 @@ class BackOffice extends Component {
                     </div>
 
                     <div className="description-text">
-                        As a Gas Station owner, you need to know how much money your Gas Station is making,
+                        As a C-Store or Gas Station owner, you need to know how much money your Store is making,
                         what your profit is, who your clients are and how much money each client owes,
                         how to increase sales and pool margin, and much more.
-                        Our Gas Station Software will help you in many ways. This program is very easy to use,
+                        Our Software will help you in many ways. This program is very easy to use,
                         just click on the picture to get what you want.
                     </div>
 
                     <div className="description-text">
-                        Everything you can imagine is included in this Software to operate your Gas Station.
+                        Everything you can imagine is included in this Software to operate your Store.
                     </div>
 
                     <div className="description-text last-element">For more info please <a href="\contact"><b>contact us</b></a></div>
