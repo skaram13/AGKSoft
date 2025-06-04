@@ -30,10 +30,6 @@ class Accessories extends Component {
                                 <img alt="Portable" className="product-icon" src={PortableScanner}/>
                                 <div className="product-text">AGKSoft Portable Wireless Scanners</div>
                             </a>
-                            <a href="\products\accessories\registerScanner">
-                                <img alt="Scanner" className="product-icon" src={OrbitScanner}/>
-                                <div className="product-text">Metrologic/Honeywell Register Scanners</div>
-                            </a>
                             <a href="\products\accessories\usbScanner">
                                 <img alt="USBScanner" className="product-icon" src={USBScanner}/>
                                 <div className="product-text">Age Scanners and USB Scanners</div>

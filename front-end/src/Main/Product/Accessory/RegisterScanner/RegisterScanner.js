@@ -14,7 +14,7 @@ class RegisterScanner extends Component {
                 <div className="main-container">
                     <h1 className="heading-text">AGKSoft Register Scanners</h1>
                     <div className="description-text">The Honeywell/Metrologic Orbit Scanner can be used with any Point Of Sale system.
-                        The (RS232 style) can be used for the VeriFone Ruby, Gilbarco G-Site/Passport and Dresser Wayne Nucleus.
+                        The (RS232 style) can be used for the VeriFone Ruby or Gilbarco Passport.
                         The  (USB style) can be used for the AGKSoft Point Of Sale system.
                     </div>
                     <div className="description-text">This scanner scans automatically using a "20 scan line Omni directional pattern".</div>
@@ -88,8 +88,6 @@ class RegisterScanner extends Component {
                         <li>Manual UPC sales</li>
                         <li>PLU usage</li>
                     </ul>
-                    <div className="sub-heading-product">Before you install</div>
-
                 </div>
                 <Footer/>
             </div>

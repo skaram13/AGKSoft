@@ -83,6 +83,7 @@ class Portable extends Component {
                             <li className="link-text"><a href="/Training/Trigger/Trigger.html">How to Remove the Trigger</a></li>
                             <li className="link-text"><a href="/demos/PortableKeysColdstart/PortableKeysColdstart.html">Cold Start With Keys</a></li>
                             <li className="link-text"><a href="/demos/PortableNoKeysColdstart/PortableNoKeysColdstart.html">Cold Start NO Keys</a></li>
+                            <li className="link-text"><a href="/Training/PPT88xx/PPT88xx.html">How to Connect to PC</a></li>
                         </ul>
                     </div>
                 <Footer/>

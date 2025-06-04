@@ -12,9 +12,7 @@ import gilbarco from "../assets/gilbarco.jpg";
 import verifone from "../assets/verifone.png";
 import comdata from "../assets/comdata.png";
 import backoffice from "../assets/backoffice.png";
-import wayne from "../assets/wayne.png";
 import scandata from "../assets/scandata.png";
-import diebold from "../assets/Diebold.JPG";
 
 class Home extends Component {
     render() {
