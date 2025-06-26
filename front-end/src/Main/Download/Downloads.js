@@ -327,7 +327,11 @@ class Downloads extends Component {
                                     </tr>
 
                                     <tr>
-                                        <td><a href={baseUrl + "xp80.exe"}>POS ALL IN ONE (POS80 or XP80-C Driver)</a></td>
+                                        <td><a href={baseUrl + "xp80.exe"}>POS ALL IN ONE Printer Driver (POS80 or XP80-C)</a></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><a href={baseUrl + "sgt.exe"}>POS ALL IN ONE D2 Printer Driver (SGT)</a></td>
                                     </tr>
 
                                     <tr>
