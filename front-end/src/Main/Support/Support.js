@@ -14,21 +14,9 @@ class Support extends Component {
                     <div className="main-heading row-centered">Support</div>
                     <h3 className="row">REMOTE DESKTOP SUPPORT</h3>
                     <h5><a href={base_url + "AeroAdmin.exe"}>Aero Remote Support</a></h5>
-                    <h5><a href={base_url + "TeamViewerQS.exe"}>TeamViewer Quick Support</a></h5>
-                    <h5><a href={base_url + "TeamViewer11.exe"}>Download TeamViewer 11</a></h5>
-                    <table className="support-table">
-                        <th className="support-table" colspan="7">TeamViewer Web Support</th>
-                        <tr className="support-table">
-                            <td className="support-table"><a href="https://get.teamviewer.com/4dzs7n5">1</a></td>
-                            <td className="support-table"><a href="https://get.teamviewer.com/6hj3az7">3</a></td>
-                            <td className="support-table"><a href="https://get.teamviewer.com/4wgspxy">4</a></td>
-                            <td className="support-table"><a href="https://898.tv/pqf46hp">5</a></td>
-                            <td className="support-table"><a href="https://get.teamviewer.com/h37k9e8">7</a></td>
-                            <td className="support-table"><a href="https://get.teamviewer.com/9tb47uc">8</a></td>
-                            <td className="support-table"><a href="https://get.teamviewer.com/6ymm82c">9</a></td>
-                        </tr>
-                    </table>
-
+                    <h5><a href={base_url + "TeamViewerQS_x64.exe"}>TeamViewer Quick Support</a></h5>
+                    <h5><a href={base_url + "TeamViewer_Setup_x64.exe"}>Download TeamViewer</a></h5>
+                    
                     <h3 className="row">AGKSoft PC Boot Order and Recovery</h3>
                     <h5><a href={base_url + "AGKBootChange.mp4"}>AGKSoft Change PC Boot Order</a></h5>
                     <h5><a href={base_url + "AGKRecoverBackup.mp4"}>AGKSoft PC Recover Backup</a></h5>
