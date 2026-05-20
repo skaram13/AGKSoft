@@ -11,7 +11,8 @@ import barcode6 from "../../../../assets/BarcodePrinter/UPCCodeVS.gif";
 
 import DymoTwin  from "../../../../assets/BarcodePrinter/DymoTwin.jpg";
 import Seiko  from "../../../../assets/BarcodePrinter/Seiko.jpg";
-
+import SeikoPaper  from "../../../../assets/BarcodePrinter/SeikoPaper.jpg";
+import SeikoPaper2  from "../../../../assets/BarcodePrinter/SeikoPaper2.jpg";
 
 const baseUrl = "/images/";
 
@@ -60,6 +61,9 @@ class BarcodePrinter extends Component {
                         <tr className="center-images"><a href={baseUrl + "SlpSdkRuntime32.msi"}>Download Seiko 32-bit Runtime ONLY</a></tr>
 
                         <tr className="center-images"><img alt='Seiko Barcode Printer' className="product-images image-border" src={Seiko}/></tr>
+
+                        <tr className="center-images"><img alt='How to Load Paper' className="product-images image-border" src={SeikoPaper2}/></tr>
+                        <tr className="center-images"><img alt='How to Load Paper' className="product-images image-border" src={SeikoPaper}/></tr>                        
                     </table>
                 </div>
                 <Footer/>

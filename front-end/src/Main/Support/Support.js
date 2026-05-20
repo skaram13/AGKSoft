@@ -16,12 +16,7 @@ class Support extends Component {
                     <h5><a href={base_url + "AeroAdmin.exe"}>Aero Remote Support</a></h5>
                     <h5><a href={base_url + "TeamViewerQS_x64.exe"}>TeamViewer Quick Support</a></h5>
                     <h5><a href={base_url + "TeamViewer_Setup_x64.exe"}>Download TeamViewer</a></h5>
-                    
-                    <h3 className="row">AGKSoft PC Boot Order and Recovery</h3>
-                    <h5><a href={base_url + "AGKBootChange.mp4"}>AGKSoft Change PC Boot Order</a></h5>
-                    <h5><a href={base_url + "AGKRecoverBackup.mp4"}>AGKSoft PC Recover Backup</a></h5>
-                    <h5><a href={base_url + "AGKRestorePC.mp4"}>AGKSoft PC Restore</a></h5>
-
+                                        
                     <h3 className="row sub-heading">HELPFUL LINKS</h3>
                     <h5><a href={base_url + "ExcelViewer.exe"}>Excel Viewer</a></h5>
                     <h5><a href="https://www.whatsmyip.org/">What's my IP Address?</a></h5>
