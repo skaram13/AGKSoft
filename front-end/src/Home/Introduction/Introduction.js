@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './Introduction.css';
 import logo from '../../assets/AGKlogo.png';
 import edioffer from '../../assets/AGKEDISmall.png';
+import appoffer from '../../assets/AGKSoftAppMainLogo.jpg';
+import fuel from '../../assets/AGKSoftAppFuelSalesLogo.jpg';
 
 class Introduction extends Component {
     render() {
@@ -10,7 +12,7 @@ class Introduction extends Component {
                 <div className="home-container">
                     <table>
                         <td>
-                            <tr rowspan="3"><img className="home-logo" src={logo} alt="logo"/></tr>
+                            <tr rowspan="4"><img className="home-logo" src={logo} alt="logo"/></tr>
                         </td>
                         <td className="logo-spacing">
                             <tr><div className="home-heading-text">AGKSoft</div></tr>
@@ -22,6 +24,13 @@ class Introduction extends Component {
                             <tr align="left"><a href="/ediOffer.html"><img className="edi-offer" src={edioffer} alt="AGKSoft Unlimited EDI Offer"/></a></tr>
                         </td>
 
+                        <td className="logo-spacing">
+                            <tr align="left"><a href="/appOffer.html"><img className="app-offer" src={appoffer} alt="AGKSoft App Offer"/></a></tr>
+                        </td>
+
+                        <td className="logo-spacing">
+                            <tr align="left"><a href="/appOffer.html"><img className="fuel" src={fuel} alt="Fuel Sales"/></a></tr>
+                        </td>
                     </table>
                 </div>
             </div>

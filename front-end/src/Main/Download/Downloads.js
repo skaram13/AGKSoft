@@ -318,27 +318,19 @@ class Downloads extends Component {
                                     </tr>
                                     <tr>
                                         <td><a href={baseUrl + "fixOPOS.exe"}>Fix OPOS</a></td>
-                                    </tr>
+                                    </tr>                                    
                                     <tr>
-                                        <td><a href={baseUrl + "SNBC-BTP-R880-Win7.zip"}>SNBC BTP-R880 Win 7 Driver</a></td>
+                                        <td><a href={baseUrl + "SNBC-BTP-R880-Win10.zip"}>SNBC BTP-R880 Win 10/11 Driver</a></td>
                                     </tr>
-                                    <tr>
-                                        <td><a href={baseUrl + "SNBC-BTP-R880-Win10.zip"}>SNBC BTP-R880 Win 10 Driver</a></td>
-                                    </tr>
-
                                     <tr>
                                         <td><a href={baseUrl + "xp80.exe"}>POS ALL IN ONE Printer Driver (POS80 or XP80-C)</a></td>
                                     </tr>
-
                                     <tr>
                                         <td><a href={baseUrl + "sgt.exe"}>POS ALL IN ONE D2 Printer Driver (SGT)</a></td>
                                     </tr>
-
                                     <tr>
                                         <td><a href={baseUrl + "AGKSoft-OfficeLab-Sleep.pdf"}>AGKSoft OfficeLab Wireless Scanner Sleep Mode</a></td>
-                                    </tr>
-                                    
-
+                                    </tr>                                    
                                 </table>
                             </Panel.Body>
                         </Panel>
