@@ -19,7 +19,6 @@ class SoftwareProducts extends Component {
                     <div className="product-page-heading row-centered">Software</div>
 
                     <div className="solutions">
-                    
                         <div className="product-entry-software">
                             <a href="/products/software/backOffice">
                                 <h3>Back Office</h3>

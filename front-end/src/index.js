@@ -35,6 +35,7 @@ import USBScanner from './Main/Product/Accessory/USBScanner/USBScanner';
 import BarcodePrinter from './Main/Product/Accessory/BarcodePrinter/BarcodePrinter';
 import RegisterScanner from './Main/Product/Accessory/RegisterScanner/RegisterScanner';
 import POS from './Main/Product/SoftwareAndPOS/POS/POS';
+import AppOffer from './Main/Product/SoftwareAndPOS/AppOffer/AppOffer';
 import HomeOffice from './Main/Product/SoftwareAndPOS/HomeOffice/HomeOffice';
 import BackOffice from './Main/Product/SoftwareAndPOS/BackOffice/BackOffice';
 import GettingStarted from './Main/Product/SoftwareAndPOS/BackOffice/GettingStarted/GettingStarted';
@@ -53,6 +54,8 @@ ReactDOM.render((
             <Route exact path="/products/software/pos" component={POS}/>
             <Route exact path="/products/software/conversionTool" component={ConversionTool}/>
             <Route exact path="/products/software/homeOffice" component={HomeOffice}/>
+            <Route exact path="/products/software/appOffer" component={AppOffer}/>
+            <Route exact path="/appOffer.html" component={AppOffer}/>
             <Route exact path="/products/software/backOffice" component={BackOffice}/>
             <Route exact path="/products/software/backOffice/gettingStarted" component={GettingStarted}/>
             <Route exact path="/products/software/dataEntry" component={DataEntry}/>

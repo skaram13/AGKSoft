@@ -1,0 +1,21 @@
+
+> front-end@0.1.0 start
+> react-scripts start
+
+C:\website\AGKSoft\front-end\node_modules\raw-body\node_modules\http-errors\index.js:257
+  return str.split(' ').map(function (token) {
+             ^
+
+TypeError: Cannot read properties of undefined (reading 'split')
+    at toIdentifier (C:\website\AGKSoft\front-end\node_modules\raw-body\node_modules\http-errors\index.js:257:14)
+    at forEachCode (C:\website\AGKSoft\front-end\node_modules\raw-body\node_modules\http-errors\index.js:228:16)
+    at Array.forEach (<anonymous>)
+    at populateConstructorExports (C:\website\AGKSoft\front-end\node_modules\raw-body\node_modules\http-errors\index.js:226:9)
+    at Object.<anonymous> (C:\website\AGKSoft\front-end\node_modules\raw-body\node_modules\http-errors\index.js:29:1)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+
+Node.js v20.20.2

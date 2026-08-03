@@ -1,0 +1,29 @@
+.app-offer-page .slide-container {
+    height: 720px;
+}
+
+.app-offer-page .carousel-image {
+    width: auto;
+    height: auto;
+    max-width: 95%;
+    max-height: 620px;
+}
+
+.app-offer-page .caption-padding {
+    padding-top: 620px;
+}
+
+@media (min-width: 0px) and (max-width: 900px) {
+    .app-offer-page .slide-container {
+        height: 520px;
+    }
+
+    .app-offer-page .carousel-image {
+        max-width: 100%;
+        max-height: 430px;
+    }
+
+    .app-offer-page .caption-padding {
+        padding-top: 430px;
+    }
+}

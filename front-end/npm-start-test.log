@@ -1,0 +1,19 @@
+
+> front-end@0.1.0 start
+> react-scripts start
+
+(node:10004) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:10004) [DEP0111] DeprecationWarning: Access to process.binding('http_parser') is deprecated.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view front-end in the browser.
+
+  Local:            http://localhost:4176/
+  On Your Network:  http://192.168.1.21:4176/
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
