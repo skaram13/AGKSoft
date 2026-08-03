@@ -18,20 +18,30 @@
     margin-bottom: 20px;
 }
 .center-images{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Center legacy report images independently of their table wrapper. */
+.center-images img,
+img.center-images,
+.report-images,
+.image-resize,
+.table-img,
+.image-border{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .center-table{
-    display: block;
     margin-left: auto;
     margin-right: auto
 }
 
 .center-header{
     width: 100%;
-    display: block;
     text-align: center;
 }
 
@@ -62,7 +72,10 @@
 }
 
 .report-entry-spacing{
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .image-border{

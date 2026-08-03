@@ -21,49 +21,57 @@ class BarcodePrinter extends Component {
         return(
             <div>
                 <Header/>
-                <div className="main-container">
+                <div className="main-container barcode-printer-page">
                     <h1 className="heading-text">AGKSoft Barcode Printer</h1>
                     <div className="description-text">You can print on Very Small [1"X1.5"], Tiny [2"X0.75"], Small [3.5"X1.1"] or Large [4"X2.31"] labels.</div>
                     <div className="description-text">You can order any of these labels by contacting AGKSoft.</div>
 
                     <table className="product-entry-spacing row-centered center-block">
-                        <th className="center-header">Figure 1 - Very Small (1" X 1.5")</th>
-                        <tr className="center-images"><img alt='Figure 1 (1" X 1.5")' className="product-images image-border" src={barcode6}/></tr>
+                        <tbody>
+                            <tr><th className="center-header">Figure 1 - Very Small (1" X 1.5")</th></tr>
+                            <tr><td><img alt='Figure 1 (1" X 1.5")' className="product-images image-border" src={barcode6}/></td></tr>
+                        </tbody>
                     </table>
 
                     <table className="product-entry-spacing row-centered center-block">
-                        <th className="center-header">Figure 2 - Tiny (2" X 0.75")</th>
-                        <tr className="center-images"><img alt='Figure 2 (2" X 0.75")' className="product-images image-border" src={barcode4}/></tr>
+                        <tbody>
+                            <tr><th className="center-header">Figure 2 - Tiny (2" X 0.75")</th></tr>
+                            <tr><td><img alt='Figure 2 (2" X 0.75")' className="product-images image-border" src={barcode4}/></td></tr>
+                        </tbody>
                     </table>
 
                     <table className="product-entry-spacing row-centered center-block">
-                        <th className="center-header">Figure 3 - Small (3.5" X 1.1")</th>
-                        <tr className="center-images"><img alt='Figure 3 (3.5" X 1.1")' className="product-images image-border" src={barcode3}/></tr>
+                        <tbody>
+                            <tr><th className="center-header">Figure 3 - Small (3.5" X 1.1")</th></tr>
+                            <tr><td><img alt='Figure 3 (3.5" X 1.1")' className="product-images image-border" src={barcode3}/></td></tr>
+                        </tbody>
                     </table>
 
                     <table className="product-entry-spacing row-centered center-block">
-                        <th className="center-header">Figure 4 - Large (4" X 2.31")</th>
-                        <tr className="center-images"><img alt='Figure 4 (4" X 2.31")' className="product-images image-border" src={barcode1}/></tr>
+                        <tbody>
+                            <tr><th className="center-header">Figure 4 - Large (4" X 2.31")</th></tr>
+                            <tr><td><img alt='Figure 4 (4" X 2.31")' className="product-images image-border" src={barcode1}/></td></tr>
+                        </tbody>
                     </table>
 
                     <table className="product-entry-spacing row-centered center-block">
-                        <th className="center-header">Dymo Software Driver</th>
-                        <tr className="center-images"><a href={baseUrl + "DLS8Setup8.7.4.exe"}>Download Version 8.7.4</a></tr>
-                        <tr className="center-images"><a href={baseUrl + "DCDSetup1.3.2.18.exe"}>Download Version 1.3.2.18</a></tr>
-
-                        <tr className="center-images"><img alt='Dymo 450 Twin Turbo' className="product-images image-border" src={DymoTwin}/></tr>
-
+                        <tbody>
+                            <tr><th className="center-header">Dymo Software Driver</th></tr>
+                            <tr><td><a href={baseUrl + "DLS8Setup8.7.4.exe"}>Download Version 8.7.4</a></td></tr>
+                            <tr><td><a href={baseUrl + "DCDSetup1.3.2.18.exe"}>Download Version 1.3.2.18</a></td></tr>
+                            <tr><td><img alt='Dymo 450 Twin Turbo' className="product-images image-border" src={DymoTwin}/></td></tr>
+                        </tbody>
                     </table>
                     <table className="product-entry-spacing row-centered center-block">
-                        <th className="center-header">Seiko Smart Label Software</th>
-                        <tr className="center-images"><a href={baseUrl + "SmartLabelCreator_Ver1-2-3_EN.zip"}>Download Seiko Smart Label Software</a></tr>
-                        <tr className="center-images"><a href={baseUrl + "SlpSdkRuntime64.msi"}>Download Seiko 64-bit Runtime ONLY</a></tr>
-                        <tr className="center-images"><a href={baseUrl + "SlpSdkRuntime32.msi"}>Download Seiko 32-bit Runtime ONLY</a></tr>
-
-                        <tr className="center-images"><img alt='Seiko Barcode Printer' className="product-images image-border" src={Seiko}/></tr>
-
-                        <tr className="center-images"><img alt='How to Load Paper' className="product-images image-border" src={SeikoPaper2}/></tr>
-                        <tr className="center-images"><img alt='How to Load Paper' className="product-images image-border" src={SeikoPaper}/></tr>                        
+                        <tbody>
+                            <tr><th className="center-header">Seiko Smart Label Software</th></tr>
+                            <tr><td><a href={baseUrl + "SmartLabelCreator_Ver1-2-3_EN.zip"}>Download Seiko Smart Label Software</a></td></tr>
+                            <tr><td><a href={baseUrl + "SlpSdkRuntime64.msi"}>Download Seiko 64-bit Runtime ONLY</a></td></tr>
+                            <tr><td><a href={baseUrl + "SlpSdkRuntime32.msi"}>Download Seiko 32-bit Runtime ONLY</a></td></tr>
+                            <tr><td><img alt='Seiko Barcode Printer' className="product-images image-border" src={Seiko}/></td></tr>
+                            <tr><td><img alt='How to Load Paper' className="product-images image-border" src={SeikoPaper2}/></td></tr>
+                            <tr><td><img alt='How to Load Paper' className="product-images image-border" src={SeikoPaper}/></td></tr>
+                        </tbody>
                     </table>
                 </div>
                 <Footer/>

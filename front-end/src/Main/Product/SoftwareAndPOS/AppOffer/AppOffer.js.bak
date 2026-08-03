@@ -11,11 +11,11 @@ import productWizard from '../../../../assets/AGKSoftAppProductWizard.jpg';
 import shortOver from '../../../../assets/AGKSoftAppShortOver.jpg';
 import fuelSales from '../../../../assets/AGKSoftAppFuelSales.jpg';
 
-const photos = [createModify, fuelSales, mainScreen, productWizard, shortOver];
+const photos = [mainScreen, createModify, fuelSales, productWizard, shortOver];
 const photosCaptions = [
+    'AGKSoft App Main Screen',
     'Create or Modify Products',
     'Fuel Sales',
-    'AGKSoft App Main Screen',
     'Product Wizard',
     'Short/Over'
 ];
@@ -26,7 +26,7 @@ class AppOffer extends Component {
             <div>
                 <Header/>
                 <div className="main-container app-offer-page">
-                    <h1 className="heading-text">AGKSoft App Offer</h1>
+                    <h1 className="heading-text">AGKSoft App</h1>
                     <div className="description-text">
                         Use the AGKSoft App to access essential product, shift and fuel-sales features.
                     </div>

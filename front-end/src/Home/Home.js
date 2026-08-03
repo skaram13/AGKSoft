@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Row from "./Row/Row";
 import "./Home.css";
 import Introduction from "./Introduction/Introduction";
 import Footer from "../Main/Shared/Footer/Footer";
@@ -35,18 +34,9 @@ class Home extends Component {
             <div>
                 <Header/>
                 <Introduction/>
-                <div className="partners-background">
-                    <div className="partners row-centered">
-                        <a href="https://www.gilbarco.com/us/products/c-store-solution/point-sale-pos-systems/passport-point-sale"><img className="logos" src={gilbarco} alt="gilbarco"/></a>
-                        <a href="https://www.verifone.com/en/global/payment-devices/integrated-pos/c18"><img className="logos" src={verifone} alt="verifone"/></a>
-                        <a href="https://comdatafuelsolutions.com/smartsolutions"><img className="logos" src={comdata} alt="comdata"/></a>                        
-                    </div>
-                </div>
                 <div className="home">
-                    <Row title="OUR PRODUCTS"/>
                     <div className="app-offer-home">
-                        <h2>AGKSoft App</h2>
-                        <ProductCarousel photos={appPhotos} photosCaptions={appPhotoCaptions}/>
+                        <ProductCarousel photos={appPhotos} photosCaptions={appPhotoCaptions} imageLink="/appOffer.html"/>
                     </div>
                     <div className="solutions">
                         <div className="solution-large">
@@ -55,6 +45,11 @@ class Home extends Component {
                                 <img className="solution-image" src={backoffice} alt="backoffice"/>
                                 <p>Our Gas Station Software is a fully-featured Windows Accounting Software that works either in the back office as BOS (Back Office Software), in your Garage, as a Point Of Sale or all combinations with support for headquarter consolidation as well as dialing into multi-locations.</p>
                             </a>
+                            <div className="partners row-centered">
+                                <a href="https://www.invenco.com/us/en/product-listing-page/point-of-sale/passport-pos"><img className="logos" src={gilbarco} alt="Gilbarco Passport"/></a>
+                                <a href="https://www.verifone.com/en/global/payment-devices/integrated-pos/c18"><img className="logos" src={verifone} alt="Verifone"/></a>
+                                <a href="https://comdatafuelsolutions.com/smartsolutions"><img className="logos" src={comdata} alt="Comdata SmartSolutions"/></a>
+                            </div>
                         </div>
                         <div className="solution-large">
                             <a href="/products/software/pos">

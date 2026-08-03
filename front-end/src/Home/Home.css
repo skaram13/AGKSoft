@@ -61,7 +61,24 @@
 }
 
 .app-offer-home .caption-padding {
-    padding-top: 760px;
+    padding-top: 0;
+}
+
+.app-offer-home .carousel-caption {
+    top: auto;
+    bottom: 45px;
+    padding: 0;
+}
+
+.app-offer-home .carousel-indicators {
+    bottom: 8px;
+}
+
+.app-offer-home .carousel-indicators li,
+.app-offer-home .carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+    margin: 4px;
 }
 
 .partners-background{
@@ -113,7 +130,7 @@
     }
 
     .app-offer-home .caption-padding {
-        padding-top: 520px;
+        padding-top: 0;
     }
 
 }

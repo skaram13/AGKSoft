@@ -4,29 +4,20 @@
 }
 
 .center-images{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-/* Keep images centered even when older product markup is repaired by the browser. */
-.center-images img,
-img.center-images,
-.product-images,
-.table-img,
-.image-border{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .center-table{
+    display: block;
     margin-left: auto;
     margin-right: auto
 }
 
 .center-header{
     width: 100%;
+    display: block;
     text-align: center;
 }
 
@@ -63,31 +54,7 @@ img.center-images,
 }
 
 .product-entry-spacing{
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 50px;
-    text-align: center;
-}
-
-/* Barcode Printer figures and captions are centered against the page width. */
-.barcode-printer-page .product-entry-spacing,
-.barcode-printer-page .product-entry-spacing tbody,
-.barcode-printer-page .product-entry-spacing tr,
-.barcode-printer-page .product-entry-spacing th,
-.barcode-printer-page .product-entry-spacing td{
-    display: block;
-    width: 100%;
-}
-
-.barcode-printer-page .product-entry-spacing th,
-.barcode-printer-page .product-entry-spacing td{
-    width: 100%;
-    text-align: center;
-}
-
-.barcode-printer-page .product-images{
-    max-width: 100%;
-    height: auto;
 }
 
 .image-border{

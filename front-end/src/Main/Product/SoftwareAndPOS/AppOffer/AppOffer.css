@@ -11,7 +11,24 @@
 }
 
 .app-offer-page .caption-padding {
-    padding-top: 760px;
+    padding-top: 0;
+}
+
+.app-offer-page .carousel-caption {
+    top: auto;
+    bottom: 45px;
+    padding: 0;
+}
+
+.app-offer-page .carousel-indicators {
+    bottom: 8px;
+}
+
+.app-offer-page .carousel-indicators li,
+.app-offer-page .carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+    margin: 4px;
 }
 
 @media (min-width: 0px) and (max-width: 900px) {
@@ -26,6 +43,6 @@
     }
 
     .app-offer-page .caption-padding {
-        padding-top: 520px;
+        padding-top: 0;
     }
 }

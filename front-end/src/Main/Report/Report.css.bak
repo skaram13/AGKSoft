@@ -1,32 +1,37 @@
-.product-container{
+.report-container{
     margin-left: 100px;
     margin-right: 100px;
 }
 
-.center-images{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+.image-resize{
+    max-width:100%;
+    height: auto;
 }
 
-/* Keep images centered even when older product markup is repaired by the browser. */
-.center-images img,
-img.center-images,
-.product-images,
-.table-img,
-.image-border{
+.vendors-table{
+    margin-left: auto;
+    margin-right: auto;
+    alignment: center;
+    overflow: hidden;
+    table-layout: fixed;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.center-images{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
 .center-table{
+    display: block;
     margin-left: auto;
     margin-right: auto
 }
 
 .center-header{
     width: 100%;
+    display: block;
     text-align: center;
 }
 
@@ -36,7 +41,6 @@ img.center-images,
 
 }
 
-
 .sub-header{
     font-weight: bold;
     font-size: 20px;
@@ -44,6 +48,7 @@ img.center-images,
     float: top;
     margin-bottom: 10px;
 }
+
 .dividers{
     border-left:3px solid #000;
     padding-left: 10px;
@@ -56,38 +61,8 @@ img.center-images,
     padding-right: 10px;
 }
 
-
-.nano-image-size{
-    width: 400px;
-    height: 380px;
-}
-
-.product-entry-spacing{
-    margin-left: auto;
-    margin-right: auto;
+.report-entry-spacing{
     margin-bottom: 50px;
-    text-align: center;
-}
-
-/* Barcode Printer figures and captions are centered against the page width. */
-.barcode-printer-page .product-entry-spacing,
-.barcode-printer-page .product-entry-spacing tbody,
-.barcode-printer-page .product-entry-spacing tr,
-.barcode-printer-page .product-entry-spacing th,
-.barcode-printer-page .product-entry-spacing td{
-    display: block;
-    width: 100%;
-}
-
-.barcode-printer-page .product-entry-spacing th,
-.barcode-printer-page .product-entry-spacing td{
-    width: 100%;
-    text-align: center;
-}
-
-.barcode-printer-page .product-images{
-    max-width: 100%;
-    height: auto;
 }
 
 .image-border{
@@ -100,18 +75,12 @@ img.center-images,
     width: auto;
     height: 300px;
 }
-.portable-table{
-    font-size: medium;
-    padding: 20px;
-    align-content: center;
-    align-items: center;
-}
 
 td{
     text-align: center;
 }
 
-.sub-heading-product{
+.sub-heading-report{
     font-weight: bold;
     font-size: 20px;
     display: block;
@@ -132,17 +101,6 @@ td{
     list-style-type:none;
 }
 
-
-@media (min-width: 0px) and (max-width: 1275px) {
-    .portable-inline{
-        width: 100%;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 0px;
-        margin-bottom: 40px;
-    }
-}
-
 .red-text{
     color: red;
     display: inline;
@@ -154,7 +112,7 @@ td{
 }
 
 @media (min-width: 0px) and (max-width: 750px) {
-    .product-container {
+    .report-container {
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -168,22 +126,14 @@ td{
         margin-left: auto;
     }
 
-    .product-images{
+    .report-images{
         width: 100%;
         height: auto;
     }
 
-}
-
-
-@media (min-width: 0px) and (max-width: 380px) {
-    .product-container {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .nano-image-size{
+    .image-resize{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
+
 }

@@ -20,11 +20,11 @@ import appProductWizard from "../assets/AGKSoftAppProductWizard.jpg";
 import appShortOver from "../assets/AGKSoftAppShortOver.jpg";
 import appFuelSales from "../assets/AGKSoftAppFuelSales.jpg";
 
-const appPhotos = [appCreateModify, appFuelSales, appMain, appProductWizard, appShortOver];
+const appPhotos = [appMain, appCreateModify, appFuelSales, appProductWizard, appShortOver];
 const appPhotoCaptions = [
+    'AGKSoft App Main Screen',
     'Create or Modify Products',
     'Fuel Sales',
-    'AGKSoft App Main Screen',
     'Product Wizard',
     'Short/Over'
 ];
@@ -45,7 +45,7 @@ class Home extends Component {
                 <div className="home">
                     <Row title="OUR PRODUCTS"/>
                     <div className="app-offer-home">
-                        <h2>AGKSoft App Offer</h2>
+                        <h2>AGKSoft App</h2>
                         <ProductCarousel photos={appPhotos} photosCaptions={appPhotoCaptions}/>
                     </div>
                     <div className="solutions">

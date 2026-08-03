@@ -26,11 +26,10 @@ class AppOffer extends Component {
             <div>
                 <Header/>
                 <div className="main-container app-offer-page">
-                    <h1 className="heading-text">AGKSoft App</h1>
                     <div className="description-text">
                         Use the AGKSoft App to access essential product, shift and fuel-sales features.
                     </div>
-                    <ProductCarousel photos={photos} photosCaptions={photosCaptions}/>
+                    <ProductCarousel photos={photos} photosCaptions={photosCaptions} imageLink="/appOffer.html"/>
                     <div className="description-text last-element">
                         For more information, please <a href="/contact">contact us</a>.
                     </div>
