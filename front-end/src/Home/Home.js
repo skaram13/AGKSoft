@@ -10,6 +10,8 @@ import data from "../assets/data.png";
 import gilbarco from "../assets/gilbarco.jpg";
 import verifone from "../assets/verifone.png";
 import comdata from "../assets/comdata.png";
+import mm from "../assets/MarginMate.jpg";
+import qb from "../assets/QuickBooksLogo.jpg";
 import backoffice from "../assets/backoffice.png";
 import scandata from "../assets/scandata.png";
 import ProductCarousel from "../Main/Shared/ProductCarousel/ProductCarousel";
@@ -49,6 +51,8 @@ class Home extends Component {
                                 <a href="https://www.invenco.com/us/en/product-listing-page/point-of-sale/passport-pos"><img className="logos" src={gilbarco} alt="Gilbarco Passport"/></a>
                                 <a href="https://www.verifone.com/en/global/payment-devices/integrated-pos/c18"><img className="logos" src={verifone} alt="Verifone"/></a>
                                 <a href="https://comdatafuelsolutions.com/smartsolutions"><img className="logos" src={comdata} alt="Comdata SmartSolutions"/></a>
+                                <a href="https://quickbooks.intuit.com/"><img className="logos" src={qb} alt="QuickBooks"/></a>
+                                <a href="https://marginmate.com/"><img className="logos" src={mm} alt="Margin Mate"/></a>                                
                             </div>
                         </div>
                         <div className="solution-large">
