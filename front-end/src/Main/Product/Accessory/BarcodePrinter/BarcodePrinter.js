@@ -56,9 +56,12 @@ class BarcodePrinter extends Component {
 
                     <table className="product-entry-spacing row-centered center-block">
                         <tbody>
-                            <tr><th className="center-header">Dymo Software Driver</th></tr>
-                            <tr><td><a href={baseUrl + "DLS8Setup8.7.4.exe"}>Download Version 8.7.4</a></td></tr>
-                            <tr><td><a href={baseUrl + "DCDSetup1.3.2.18.exe"}>Download Version 1.3.2.18</a></td></tr>
+                            <tr><th className="center-header">Dymo Software</th></tr>
+
+                            <tr><td><a href={baseUrl + "windowsdesktop-runtime-8.0.31-win-x64.exe"}>Dymo Connect (Part 1 of 2)</a></td></tr>
+                            <tr><td><a href={baseUrl + "DCDSetup1.6.2.9-X64.exe"}>Dymo Connect (Part 2 of 2)</a></td></tr>
+
+                            <tr><td><a href={baseUrl + "DLS8Setup8.7.4.exe"}>Dymo Legacy v8</a></td></tr>                            
                             <tr><td><img alt='Dymo 450 Twin Turbo' className="product-images image-border" src={DymoTwin}/></td></tr>
                         </tbody>
                     </table>
