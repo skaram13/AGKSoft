@@ -41,10 +41,9 @@ import BackOffice from './Main/Product/SoftwareAndPOS/BackOffice/BackOffice';
 import GettingStarted from './Main/Product/SoftwareAndPOS/BackOffice/GettingStarted/GettingStarted';
 import DataEntry from './Main/Product/SoftwareAndPOS/DataEntry/DataEntry';
 import ConversionTool from './Main/Product/SoftwareAndPOS/ConversionTool/ConversionTool';
-import ScanData from './Main/Product/SoftwareAndPOS/ScanData/ScanData';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import { unregister } from './registerServiceWorker';
+import registerServiceWorker from './registerServiceWorker';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 ReactDOM.render((
@@ -60,7 +59,6 @@ ReactDOM.render((
             <Route exact path="/products/software/backOffice" component={BackOffice}/>
             <Route exact path="/products/software/backOffice/gettingStarted" component={GettingStarted}/>
             <Route exact path="/products/software/dataEntry" component={DataEntry}/>
-            <Route exact path="/products/software/scanData" component={ScanData}/>
             <Route exact path="/products/accessories/portable" component={Portable}/>
             <Route exact path="/products/accessories/miniPC" component={MiniPC}/>
             <Route exact path="/products/accessories/microPC" component={MicroPC}/>
@@ -95,8 +93,6 @@ ReactDOM.render((
         </Switch>
     </BrowserRouter>
 ),document.getElementById('root'));
-// 09/30/2026 - The old service worker kept serving visitors a cached copy of the site, so new pages/links
-//              never showed up for them. Remove it instead of registering it (see public/service-worker.js).
-unregister();
+registerServiceWorker();
 
 

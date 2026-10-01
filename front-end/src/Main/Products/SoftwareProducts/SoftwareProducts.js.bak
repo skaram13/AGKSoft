@@ -55,7 +55,7 @@ class SoftwareProducts extends Component {
                             </a>
                         </div>
                         <div className="product-entry-software">
-                            <a href="/products/software/scanData">
+                            <a href="/scandata.html">
                                 <h3>Scan Data</h3>
                                 <img className="solution-image" src={scandata} alt=""/>
                                 <p>Services for maintaining your price book or your complete Sales Download, Shift Balancing, Accounting and Inventory.</p>

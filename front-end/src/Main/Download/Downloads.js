@@ -126,11 +126,7 @@ class Downloads extends Component {
                                         <th/>
                                     </tr>
                                     <tr>
-                                        <td><a href={baseUrl + "java.exe"}>Java Runtime</a></td>
-                                        <td>Download to C:\TEMP and run it if you do not have Java already.</td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href={baseUrl + "msxml.msi"}>MSXML (WINHTTP5.DLL)</a></td>
+                                        <td><a href={baseUrl + "msxml.msi"}>Fix HTTPS - MSXML (WINHTTP5.DLL)</a></td>
                                         <td>Download to C:\TEMP only</td>
                                     </tr>
                                     <tr>

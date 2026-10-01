@@ -84,7 +84,7 @@ class Home extends Component {
                             </a>
                         </div>
                         <div className="solution-large">
-                            <a href="/scandata.html">
+                            <a href="/products/software/scandata">
                                 <h3>Scan Data</h3>
                                 <img className="solution-image" src={scandata} alt="scandata"/>
                                 <p>Benefits of Scan Data and how to sign up for Altria/PM USA, RJR and ITG.</p>

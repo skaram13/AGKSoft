@@ -12,16 +12,19 @@ class ScaData extends Component {
                 <div className="main-container">
                     <h1 className="heading-text">AGKSoft Scan Data</h1>
                     <div className="description-text">
-                        Scan Data Program is a Free Service for sending your Scan Data to PM USA and RJR.  
+                        Scan Data Program is a Free Service for sending your Scan Data to Altria, MSA (RJR/ITG), Circana (RJR), Circana (PMI).  
                         This program has the potential to increase your store Sales 10% to 25% on average plus you get paid $0.15 per Carton from RJR, $0.15 per roll from US Smokeless and $0.10 per Carton from PM USA.  
                     </div>
 
                     <div className="description-text">
                         <b>Pre-requisite:</b>
-                        The Scan Data Program is offered to you by Altria/PM USA, RJR and USSTC (US Smokeless Tobacco Company).
+                        The Scan Data Program is offered to you by Altria, RJR and USSTC (US Smokeless Tobacco Company) and Philip Morris International (PMI).
                     </div>
 
                     <div className="sub-heading-product">AGKSoft will automatically send the Scan Data for you on a weekly basis for free.</div>
+
+                    <a href="images/AltriaAPI.pdf">Altria provides a promotion API, click here for info how to to Sign Up.</a>
+
                     <div className="description-text">How does it work?</div>
                     <ul>
                         <li>Altria/PM USA, RJR and USSTC will ask you to create a promotion such as:</li>
@@ -51,13 +54,6 @@ class ScaData extends Component {
                         <li>The customer redeems the coupon the next time they come in.</li>
                         <li>AGKSoft sends the Loyalty and Coupon data to Altria/PM USA or RJR.</li>
                         <li>Altria/PM USA or RJR will pay you back the whole coupon value quarterly.</li>
-                    </ul>
-
-                    <div className="sub-heading-product">Sign up for a Scan Data Account with your Altria or RJR Sales Rep.</div>
-                    <div className="description-text">Sign up as follows:</div>
-                    <ul>
-                        <li>Email: SCANDATAHELPDESK@IRIworldwide.com</li>
-                        <li>Web: https://www.surveymonkey.com/r/Newscandata</li>
                     </ul>
                 </div>
                 <Footer/>
